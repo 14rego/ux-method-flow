@@ -1,0 +1,52 @@
+.method-container > .card {
+  margin-bottom: 1em;
+}
+.accordion .card .card-header {
+  padding: 0.5em 1em;
+}
+.accordion .card .card-header .btn {
+  padding: 0;
+}
+.card-method-steps {
+  margin: 0;
+  padding: 0;
+}
+.card-method-steps li {
+  display: inline-block;
+  margin: 0 0 0 0.5em;
+  padding: 0;
+}
+.rating .fas {
+  color: orange;
+}
+.rating .far {
+  color: #999;
+}
+a,
+button,
+.btn-link,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #940404;
+}
+a:focus,
+a:hover,
+a:active,
+button:focus,
+button:hover,
+button:active,
+.btn-link:focus,
+.btn-link:hover,
+.btn-link:active {
+  color: #f7941d;
+}

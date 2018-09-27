@@ -1,0 +1,2537 @@
+[
+  {
+    "id": 1,
+    "unique": "human-centered-design",
+    "title": "Human-Centered Design",
+    "description": "Human-Centered Design (HCD or Design Thinking) is the guiding framework of modern approach to design and innovation. Its core element is ruthless focus on the user above all else.",
+    "stages": { "explore": true, "imagine": true, "test": true },
+    "ratings": { "simplicity": 2, "effectiveness": 5 },
+    "time": "N/A",
+    "ms": 0,
+    "participants": ["User Experience", "Design"],
+    "basics": {
+      "whens": [
+        "As a guiding principle of your innovation efforts",
+        "To design products that users actually want",
+        "To create break-through innovations in traditional industries"
+      ],
+      "helps": [
+        "Who are our users and what do they really want?",
+        "What’s it like to be them? What are their lives like?",
+        "What solutions might help them?",
+        "What are important design considerations for our solution ideas?",
+        "Which of our solution ideas have the most potential and how sure are we about that?",
+        "How can we de-risk our innovation efforts quickly and cheaply?"
+      ],
+      "tips": [
+        "Due to stakeholders, there are usually few innovation projects that perfectly follow the HCD process. Don’t get discouraged!",
+        "Run a Design Thinking workshop with key stakeholders at the start of the project to ensure their support."
+      ],
+      "resources": [
+        "Read “The Art of Innovation” by Tom Kelley",
+        "And “Change by Design” by Tim Brown"
+      ]
+    },
+    "keywords": ["Design", "Concept"],
+    "instructions": [
+      {
+        "title": "Explore",
+        "description": "This is “the inspiration phase” where you dive deep into the topic of your research. Given your budget and timeline, you’re going to use one or more research methods. The goal is not just to understand the technical context of the problem, but most importantly - to develop true empathy for the user and their struggles. This empathy will give you knowledge, energy and motivation to use all your creative abilities to find the right solution."
+      },
+      {
+        "title": "Imagine",
+        "description": "Once you’ve immersed yourself into the design problem, you will inevitably discover a few key insights and some early solution ideas will start brewing up. At this phase you’re to syndicate all your knowledge and insights to generate as many solution ideas as possible. Don’t judge them yet - the best way to have a good idea is to have a lot of ideas!"
+      },
+      {
+        "title": "Test",
+        "description": "Now you’re to test your most promising ideas by creating prototypes of these ideas and showing them to users for feedback. Even once you’ve picked your idea for the development of Minimum Viable Product and launched it to the market - it will still be just a test. User’s feedback will be used for future learnings and iterations. Congrats, this is (almost) all there is to the world’s most powerful design framework!"
+      }
+    ],
+    "documents": [{ "title": "UX Plan", "url": "file.pdf" }]
+  },
+  {
+    "id": 2,
+    "unique": "jobs-to-be-done",
+    "title": "Jobs-to-be-Done",
+    "description": "The framework of JTBD allows thinking beyond products’ mere functional aspects. By considering the context of usage, as well as the customers’ social and emotional goals, it will force you to re-think your customers, your product and your markets. Extremely powerful.",
+    "stages": { "explore": true, "imagine": true, "test": false },
+    "ratings": { "simplicity": 3, "effectiveness": 5 },
+    "time": "N/A",
+    "ms": 0,
+    "participants": ["User Experience", "Design", "Leadership"],
+    "basics": {
+      "whens": [
+        "When planning or conducting any form of customer research",
+        "To drive product roadmap",
+        "For planning any marketing campaign",
+        "For planning customer support"
+      ],
+      "helps": [
+        "What is the main reason why customers buy our products?",
+        "What is the higher purpose that customers desire to be fulfilled?",
+        "What is the current market for that higher purpose?",
+        "Could there be new growth opportunities for us there?",
+        "What are our customers’ functional, emotional and social goals?"
+      ],
+      "tips": [
+        "Read “Competing Against Luck” by Clayton M. Christensen",
+        "Define your market and align your processes around the JTBD",
+        "Your customers’ JTBD has to be clear to everyone in the company",
+        "If you can, use JTBD instead of value proposition. Although it’s not yet widely used, it’s a much more customer-centric and effective way to understand what customers really need."
+      ],
+      "resources": []
+    },
+    "keywords": ["Strategy"],
+    "instructions": [
+      {
+        "title": "In-depth customer research",
+        "description": "To truly understand the functional, emotional and social needs of your users, you need to really get under their skin. The deeper forms of ethnographic research you use, the better your understanding will be."
+      },
+      {
+        "title": "Organize research findings",
+        "description": "Gather your research team to generate common themes (see Affinity Mapping) about your customers’ context and goals."
+      },
+      {
+        "title": "Identify JTBDs",
+        "description": "Use JTBD canvas to discuss and summarize findings of your research. Do the findings make sense? Are there any surprising discoveries?"
+      },
+      {
+        "title": "Share findings",
+        "description": "Set up a workshop with the leadership to share and discuss findings of your research. "
+      },
+      {
+        "title": "Discuss implications",
+        "description": "Discuss what impact your findings have on the strategy, marketing, customer support  and product roadmap? How do we organize the company and position our offering from here?"
+      }
+    ],
+    "documents": [{ "title": "JTBD", "url": "file.pdf" }]
+  },
+  {
+    "id": 3,
+    "unique": "hypotheses-driven-design",
+    "title": "Hypotheses-Driven Design",
+    "description": "Systematically defining and testing hypotheses (also sometimes called Lean UX) is at the heart of every design process. It’s important to be disciplined and methodical about it.",
+    "stages": { "explore": true, "imagine": true, "test": true },
+    "ratings": { "simplicity": 3, "effectiveness": 5 },
+    "time": "N/A",
+    "ms": 0,
+    "participants": ["User Experience", "Design"],
+    "basics": {
+      "whens": [
+        "To bring order, structure and clarity to your design efforts",
+        "To help select the right UX method",
+        "To help measure effectiveness of your UX efforts"
+      ],
+      "helps": [
+        "What are the most important things we have to figure out now?",
+        "What assumptions are we making in our design process?",
+        "What have we learned about our product and users over time?",
+        "Are we actually making progress with our UX efforts?"
+      ],
+      "tips": [
+        "Done right, this methodology would leave to massive time/cost savings for you and your team",
+        "Always start with addressing your most crucial foundational hypotheses about the problem you’re solving (e.g. “X is a big enough problem for user Y to pay Z”). Otherwise, you could be wasting your time designing a perfect solution for a problem that doesn’t exist",
+        "Be methodical and explicit about your assumptions",
+        "Hypothesis-Driven Design works very well in agile environments"
+      ],
+      "resources": []
+    },
+    "keywords": ["Design", "Concept"],
+    "instructions": [
+      {
+        "title": "Identify your key assumptions",
+        "description": "What are the most important things you need to know on which everything else depends on? In the beginning it’s usually assumptions about the problem you’re solving and the customers. Later it’s more about your solution, details of your solution, marketing, etc. Identify what is the most important assumption that you’re making today. Use UX Kanban board to guide you."
+      },
+      {
+        "title": "Test your assumptions",
+        "description": "Explicitly state your assumption (hypothesis) as well as how you will test it. Then go ahead and execute the test. What have you learned? Use the Hypothesis Testing canvas to guide you."
+      },
+      {
+        "title": "Integrate learnings and repeat",
+        "description": "Have you been able to properly test your hypothesis? What else have you learned? Reflect your learnings by rearranging the UX Kanban Board. Then repeat the process."
+      }
+    ],
+    "documents": [
+      { "title": "UX Kanban Board template", "url": "file.pdf" },
+      { "title": "Hypothesis Testing canvas", "url": "file.pdf" }
+    ]
+  },
+  {
+    "id": 4,
+    "unique": "desgin-space",
+    "title": "Design Space",
+    "description": "This method is about more than just creating a comfortable workspace for your design team. Done right, your design space can boost your creativity and be your best internal marketing and communication tool.",
+    "stages": { "explore": true, "imagine": true, "test": true },
+    "ratings": { "simplicity": 4, "effectiveness": 4 },
+    "time": "N/A",
+    "ms": 0,
+    "participants": ["User Experience", "Leadership"],
+    "basics": {
+      "whens": [
+        "From the very beginning of the project",
+        "If you’re the only designer or have a bigger design team",
+        "To build design culture within the company"
+      ],
+      "helps": [
+        "What is the design team working on right now?",
+        "How can we best share our insights and progress with the bigger team?",
+        "Who are we designing for? How our users look like?",
+        "What sort of design work has already been done?",
+        "What are all the insights that the design team has uncovered? "
+      ],
+      "tips": [
+        "Ideally pick a room with 4 empty walls of about 2m (6ft) each",
+        "You should be able to write on and attach things to each wall",
+        "Make sure that the room is highly visible from outside and is a part of the space where the rest of the product team is located",
+        "Print, print, print - whatever new learning, idea or piece of inspiration you’ve found - print it out and hang it on the wall; then don’t move it. It will reduce cognitive load for you as you won’t have to actually remember it then.",
+        "Once placed, do not change the location of your insights. Your room becomes your team’s “shared brain” where through spatial memory it becomes easy to draw connections."
+      ],
+      "resources": []
+    },
+    "keywords": ["Design", "Environment"],
+    "instructions": [
+      {
+        "title": "Allocate one wall to exploration",
+        "description": "One wall should be a place to capture all your learnings and inspiration. That’s where you’ll put results of your interviews, photos from contextual inquiry and cut-outs from your desk research."
+      },
+      {
+        "title": "Allocate one wall to ideation",
+        "description": "Your ideas wall will be across your exploration wall. That’s where you imagine new concepts and solutions. Together with your Exploration wall, it should be highly visible to people outside the room. The idea is that they can drop by at any moment just to have a look at what you’re working on. Photos, post-its and sketches attract a lot of attention."
+      },
+      {
+        "title": "Allocate one wall for your kanban board",
+        "description": "This is where you’ll keep track of what you need to do, as well as your hypotheses (see “Hypothesis-Driven Design” method)."
+      },
+      {
+        "title": "Keep one wall empty for discussions",
+        "description": "One wall should be empty for discussions. By spending enough time in the room with each other and surrounded by design artifacts, your team will start to develop a common spatial understanding of the design problem which can boost creativity."
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 5,
+    "unique": "stakeholder-mapping",
+    "title": "Stakeholder Mapping",
+    "description": "Larger projects typically have numerous stakeholders that all want to have a say in what your product should do. For the sake of harmony and your own mental sanity, it could be helpful to map these stakeholders to know how to manage them.",
+    "stages": { "explore": true, "imagine": true, "test": true },
+    "ratings": { "simplicity": 3, "effectiveness": 3 },
+    "time": "1-5 hours",
+    "ms": 10800000,
+    "participants": ["User Experience", "Product Owners"],
+    "basics": {
+      "whens": [
+        "On big complex projects at larger organizations",
+        "To stay sane as you’re dealing with conflicting requests",
+        "To ensure that your designs “meet expectations”",
+        "For overall feeling of zen, peace and love ON your project"
+      ],
+      "helps": [
+        "Who’s involved in this project?",
+        "Who’s opinion really matters on this project?",
+        "What are some of the key business, legal and compliance requirements our designs should consider?"
+      ],
+      "tips": [
+        "Unfortunately, due to the way most organizations manage risk, innovation projects attract a lot of attention.",
+        "“Stakeholders” are how this attention manifests itself. It’s just a crappy part of your job. Don’t take it personally.",
+        "Define when, how and where you will engage with your stakeholders. Don’t let them just walk up to you whenever they see something shiny on the screen. If you work in an agile setting, use the “Sprint Review” meeting for that."
+      ],
+      "resources": ["Post-its", "Sharpies"]
+    },
+    "keywords": ["Strategy"],
+    "instructions": [
+      {
+        "title": "Identify involved parties",
+        "description": "Survey your organization to identify all potential teams and individuals that could influence your work."
+      },
+      {
+        "title": "Understand their needs",
+        "description": "Plan interviews with all the parties to talk about the project and what they expect their role and involvement to be."
+      },
+      {
+        "title": "Map stakeholders",
+        "description": "Map your stakeholders on Stakeholder Map canvas by influence and involvement. This is best done with the project leadership team as a group exercise."
+      },
+      {
+        "title": "Engage them regularly",
+        "description": "Set expectations about when and how you will engage each group of stakeholders and get feedback. Control for random input."
+      },
+      {
+        "title": "Re-evaluate their role over time",
+        "description": "You’ll notice that over time the role of some stakeholders will change. Ensure that your Stakeholder Map is up-to-date and reflects this."
+      }
+    ],
+    "documents": [{ "title": "Stakeholder Map Canvas", "url": "file.pdf" }]
+  },
+  {
+    "id": 6,
+    "unique": "user-interview",
+    "title": "Individual User Interview",
+    "description": "Individual interviews can be useful for exploring attitudes, beliefs and past experiences of (potential) users during the exploration phase.",
+    "stages": { "explore": true, "imagine": false, "test": false },
+    "ratings": { "simplicity": 3, "effectiveness": 2 },
+    "time": "30-60 minutes",
+    "ms": 2700000,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": [
+        "At the beginning of a project as a part of initial research",
+        "When needing to clarify survey results"
+      ],
+      "helps": [
+        "Get qualitative feedback on your product or brand",
+        "Prepare for a survey"
+      ],
+      "tips": [
+        "Ask open questions (e.g. How? Why?)",
+        "Ask “why” five times to uncover deeper insights (yes, really)!",
+        "Ask questions in neutral, non-suggestive manner",
+        "Beware of memory biases and take answers with a grain of salt",
+        "Avoid stacked or “double” questions",
+        "Probe if the answer is not clear",
+        "Take notes of answers and any other (non-)verbal cues",
+        "Ask for examples of specific behaviors (e.g. “Describe what you did yesterday” instead of “What does your usual day look like?”)",
+        "Don’t be afraid of silence when waiting for the answer",
+        "Ideally interview “average” users, but also the extremes"
+      ],
+      "resources": []
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [
+      {
+        "title": "Make an interview plan",
+        "description": "Outline what you want to learn and start planning how you’re going to attract participants. Make your learning goals as specific as possible. Use the Interview Plan.  "
+      },
+      {
+        "title": "Prepare the script",
+        "description": "Make a draft of your questions with Interview Script Planner, using 1 sheet per question. Then test your draft with 3 colleagues, revising content and order after each round."
+      },
+      {
+        "title": "Recruit the interviewees",
+        "description": "Carefully consider interviewee profile and screening methods. Since interviews can be conducted in-person, by phone or using live video, consider remote recruiting options. "
+      },
+      {
+        "title": "Conduct the interviews",
+        "description": "Introduce yourself and explain the interview process as much as possible without biasing the interviewee. Then go through your tested interview script, listening carefully, probing and recording each answer."
+      },
+      {
+        "title": "Analyze and report findings",
+        "description": "Identify common themes between answers using an Affinity Map. For quantitative research you can use a variety of statistical methods. Analyze your findings with the team."
+      }
+    ],
+    "documents": [
+      { "title": "Digital Recording Release Form", "url": "file.pdf" },
+      { "title": "Interview Plan", "url": "file.pdf" },
+      { "title": "Interview Script Planner", "url": "file.pdf" }
+    ]
+  },
+  {
+    "id": 7,
+    "unique": "contextual-inquiry",
+    "title": "Contextual Inquiry",
+    "description": "Unobtrusively observe users in their own environments, occasionally asking clarifying questions. Use this method to discover how context influences users’ actual behaviors.",
+    "stages": { "explore": true, "imagine": false, "test": true },
+    "ratings": { "simplicity": 3, "effectiveness": 4 },
+    "time": "30-120 minutes",
+    "ms": 4500000,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": [
+        "When the user frequently interacts with equipment or other people",
+        "Early in the design process",
+        "As a part of Ethographic Study"
+      ],
+      "helps": [
+        "What is the user’s state-of-mind when doing X?",
+        "What tools and equipment are they using?",
+        "Do they interact with anyone? How? Why?",
+        "What is the set-up of their space? Why is it so?",
+        "What constraints are there for possible solutions?"
+      ],
+      "tips": [
+        "Observe and listen well and actively",
+        "Make detailed notes of verbal and non-verbal cues",
+        "Clarify, probe and ask “why” if something is not clear",
+        "Ask open questions (e.g. How? Why?)",
+        "Communicate to participants that you will not share results with their supervisors; encourage them to act naturally"
+      ],
+      "resources": []
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [
+      {
+        "title": "Make a detailed plan",
+        "description": "Outline what you want to learn in Contextual Inquiry Plan and start planning how, where and who you’re going to observe, as well as what permissions you might need."
+      },
+      {
+        "title": "Recruit and get approvals",
+        "description": "Get approvals from participants and (if needed) their managers to conduct the Contextual Inquiry. Clarify the expectations in advance."
+      },
+      {
+        "title": "Observe and take notes",
+        "description": "Observe the participants and take notes of interactions with other people, tools, equipment and space. Ask clarifying questions as long as they don’t obtrude the activity. Use Contextual Inquiry Report as template."
+      },
+      {
+        "title": "Check your findings",
+        "description": "At the end of the session, check your notes with participants by communicating to them what you’ve noticed and learned. Beware of discrepancies between your observations and their comments."
+      },
+      {
+        "title": "Analyze and report findings",
+        "description": "Summarize your findings in Contextual Inquiry Report immediately after the session. After finishing all sessions, discuss your findings with the team and summarize the conclusion in Contextual Inquiry Plan."
+      }
+    ],
+    "documents": [
+      { "title": "Contextual Inquiry Plan", "url": "file.pdf" },
+      { "title": "Contextual Inquiry Report", "url": "file.pdf" }
+    ]
+  },
+  {
+    "id": 8,
+    "unique": "mobile-diaries",
+    "title": "Mobile Diaries",
+    "description": "One of the more advanced methods for deeper user research, mobile diaries enable understanding of details about users’ daily lives and help to uncover insights that would not be available with other methods.",
+    "stages": { "explore": true, "imagine": false, "test": false },
+    "ratings": { "simplicity": 2, "effectiveness": 5 },
+    "time": "2-4 weeks",
+    "ms": 1814400050,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": [
+        "When you need to observe people’s context and actions over time (e.g. when researching music listening or recycling during the day)",
+        "When you can’t afford the recollection biases of interviews",
+        "When you have time and budget for deeper research"
+      ],
+      "helps": [
+        "How users behave in daily life and what influences them?",
+        "What triggers users’ interactions?",
+        "How users make decisions in their daily lives?",
+        "What people and system do they interact with?",
+        "What constraints are there for our solution to be successful?"
+      ],
+      "tips": [
+        "Over-recruit by 100% - often participants drop off during the study.",
+        "Don’t ask participants more than 5 questions. Keep it short.",
+        "Make sure the survey works on any small screen and outdated devices too.",
+        "Incentivize participants to record regularly through compensation."
+      ],
+      "resources": [
+        "Portable Digital Self-Reporting tool (e.g. Tumblr blog + Smartphone)"
+      ]
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [
+      {
+        "title": "Plan your study",
+        "description": "Fill out Mobile Diary Planning Canvas (Included) to decide on the goal, timelines, recruiting methods and methodology (mobile vs. paper diary)."
+      },
+      {
+        "title": "Create a list of questions",
+        "description": "Create a list of questions to ask participants by filling out the Mobile Diary Questionnaire. "
+      },
+      {
+        "title": "Recruit and brief the participants",
+        "description": "Recruit participants that maximally resemble your Personas. Then give detailed instructions to the participants. For mobile surveys - use Tumblr. For paper surveys - use mobile diary day report template."
+      },
+      {
+        "title": "Conduct the study",
+        "description": "Be available for any help or questions while participants are conducting the study. Monitor their reporting for early signs of disengagement or technical problems."
+      },
+      {
+        "title": "Summarize and find patterns",
+        "description": "Carefully analyze participants’ reports, making note of new findings on post-it notes. Then cluster the notes with photographs and other artifacts. Try Affinity Mapping technique."
+      }
+    ],
+    "documents": [
+      { "title": "Mobile Diary Planning Canvas", "url": "file.pdf" },
+      { "title": "Mobile Diary Questionnaire", "url": "file.pdf" },
+      { "title": "Mobile Diary Day Report", "url": "file.pdf" }
+    ]
+  },
+  {
+    "id": 9,
+    "unique": "desk-research",
+    "title": "Desk Research",
+    "description": "It may be essential for you to start your exploration with some reading and research to better understand the context of your design problem.",
+    "stages": { "explore": true, "imagine": false, "test": false },
+    "ratings": { "simplicity": 2, "effectiveness": 4 },
+    "time": "1-10 days",
+    "ms": 432000000,
+    "participants": ["User Experience"],
+    "basics": {
+      "whens": [
+        "When working with complex problems that require contextual knowledge",
+        "Early in the research phase to plan further research",
+        "When synthesizing research to better understand the insights"
+      ],
+      "helps": [
+        "What information is available about our design problem?",
+        "What solutions are currently available?",
+        "Why is it a problem?",
+        "For whom are we solving the problem?",
+        "What perspectives should we consider when designing a solution?"
+      ],
+      "tips": [
+        "Be critical of the sources of information you find. Make sure that the research is sound and is grounded in robust methodology.",
+        "Don’t just Google - go to the library and look for scientific papers in academic databases."
+      ],
+      "resources": [
+        "Scientific/academic journals",
+        "http: //scholar.google.com",
+        "Books",
+        "Expert interviews",
+        "Courses (offline and online)"
+      ]
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [
+      {
+        "title": "Identify your initial interest area",
+        "description": "Before you dive into the world of books and academic papers, gather what you already know and identify your knowledge gaps. Be as specific as possible (e.g. research “disposable income of millennials in New York City” vs. “money and young people”)."
+      },
+      {
+        "title": "Read all available information on this topic",
+        "description": "Information can be ranked by quality. Information of the highest quality can be found in peer-reviewed academic journals (search for those at your local library or at scholar.google.com). Information of the lowest quality can be found inside tabloid magazines and on random pages of the internet, or on resources of organizations with vested interest (e.g. lobby groups). Consider various perspectives."
+      },
+      {
+        "title": "Make note of common themes, insights and controversies",
+        "description": "Once you’ve done your research, have you been able to answer your original question? Do you now have any new questions that you need answered? Why not get experts to answer them (see Expert Interview)?"
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 10,
+    "unique": "expert-interview",
+    "title": "Expert Interview",
+    "description": "To better understand your research problem - especially if it’s a complex, nuanced and specialize one - it might help to talk to some of the experts in the field. ",
+    "stages": { "explore": true, "imagine": false, "test": false },
+    "ratings": { "simplicity": 2, "effectiveness": 3 },
+    "time": "30-60 minutes each",
+    "ms": 2700000,
+    "participants": ["User Experience", "Experts"],
+    "basics": {
+      "whens": [
+        "When working with complex problems that require contextual knowledge",
+        "Early in the research phase to plan further research",
+        "When synthesizing research to better understand the insights"
+      ],
+      "helps": [
+        "What are the key opinions on our research problem?",
+        "Who are the key stakeholders and what are their perspectives?",
+        "What solutions have been attempted in this field?",
+        "What is the broader, holistic view on this problem?"
+      ],
+      "tips": [
+        "Come prepared. Write down your questions and know the topic before the interview.",
+        "Involve experts if their endorsement may be needed later on.",
+        "To ensure holistic understanding of the problem, recruit experts with various perspectives.",
+        "For remote experts consider conducting the interview by phone/email.",
+        "Consider sending the list of questions to the expert in advance."
+      ],
+      "resources": [
+        "http://clarity.fm for reaching virtually any expert",
+        "For bootstrapped teams, read Tim Ferris’ “Guide to Interviewing Busy People”"
+      ]
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [
+      {
+        "title": "Do your homework - conduct initial desk research",
+        "description": "Experts are usually busy people and their time is highly valuable. Don’t waste it asking something you can read on the first page of Google. Come prepared and make sure your questions are smart and well-researched."
+      },
+      {
+        "title": "Plan expert interviews",
+        "description": "Reach out to the experts and ask them for their time. Provide them with brief background of your research and be specific about how much time you would like to request. You might need to follow-up a few times to reach them."
+      },
+      {
+        "title": "Conduct the interviews",
+        "description": "Be your best - listen, probe, ask why and take notes. Ideally, record the interview for future analysis. After all the interviews - what did you learn? What perspectives are out there? How can you use the results for your research?"
+      }
+    ],
+    "documents": [{ "title": "Expert Interview Canvas", "url": "file.pdf" }]
+  },
+  {
+    "id": 11,
+    "unique": "netnography",
+    "title": "Netnography",
+    "description": "Simple and effective research method that involves immersing yourself in online communities dedicated to the topic of choice.",
+    "stages": { "explore": true, "imagine": false, "test": true },
+    "ratings": { "simplicity": 5, "effectiveness": 2 },
+    "time": "3 days",
+    "ms": 259200000,
+    "participants": ["User Experience"],
+    "basics": {
+      "whens": [
+        "For capturing user attitudes to real-world topics",
+        "When researching “sensitive” subjects that require anonymity",
+        "When there’s no time/budget for deeper research methods",
+        "To learn about the problem in various geographies"
+      ],
+      "helps": [
+        "What attitudes people hold about our topic of interest?",
+        "What are the most hotly debated subjects in this field?",
+        "What are people’s honest opinions?"
+      ],
+      "tips": [
+        "Spend some time researching online communities to engage in",
+        "Consider Facebook groups, Reddit and Meetup.com groups",
+        "Try to blend into the conversation - promotional messages are usually not welcome in such groups"
+      ],
+      "resources": []
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [],
+    "documents": []
+  },
+  {
+    "id": 12,
+    "unique": "mystery-shopping",
+    "title": "Mystery Shopping",
+    "description": "An established tactic for evaluating service quality and learning about competing products. It can also be highly effective for creating empathy for the user.",
+    "stages": { "explore": true, "imagine": false, "test": true },
+    "ratings": { "simplicity": 3, "effectiveness": 4 },
+    "time": "N/A",
+    "ms": 0,
+    "participants": ["User Experience"],
+    "basics": {
+      "whens": [
+        "For getting a first-hand experience of the user journey",
+        "For evaluating existing (competing) solutions",
+        "For testing quality of implementation of our solution"
+      ],
+      "helps": [
+        "What is it like to actually use this product or service?",
+        "What is done well?",
+        "What are the pain points?",
+        "How well has our solution been implemented?"
+      ],
+      "tips": [
+        "Consider the goal of your mystery shopping assignment and try to quantify it (e.g. how high was my overall level of satisfaction with the service?)",
+        "Use quantitative data to complement your qualitative (emotional) perception of the experience - chart it on an Emotional Journey Map",
+        "Do not outsource this activity if it’s a part of a design research project "
+      ],
+      "resources": []
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [],
+    "documents": []
+  },
+  {
+    "id": 13,
+    "unique": "mood-boards",
+    "title": "Mood Boards",
+    "description": "In the early stages of design you can ask users to create and describe a mood board consisting of text, quotes, images etc. to describe their relationship to the topic at hand.",
+    "stages": { "explore": true, "imagine": false, "test": false },
+    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "time": "3-5 days",
+    "ms": 345600000,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": [
+        "In the very beginning of your research phase",
+        "This approach is especially useful for researching nebulous and abstract concepts (e.g. money or health)",
+        "To uncover initial insights about what’s important for our users"
+      ],
+      "helps": [
+        "How our users think about the problem at hand?",
+        "What’s important for them?",
+        "What are the visual, emotional and aspirational aspects of the problem?"
+      ],
+      "tips": [
+        "Give participants a few days to create their mood boards",
+        "Use a medium that accommodates for various types of media (audio, video, images, text)"
+      ],
+      "resources": [
+        "Tumblr or Pinterest",
+        "Scissors, glue and some base material (e.g. magazines)."
+      ]
+    },
+    "keywords": ["Design"],
+    "instructions": [
+      {
+        "title": "Ask participants to create a mood board",
+        "description": "Ask your participants to create a mood board for you which would describe a certain concept (e.g. money) and what it means to them. Encourage participants to include everything that directly or indirectly relates to that concept. Give them a fixed deadline and a medium of your choice (e.g. Pinterest)."
+      },
+      {
+        "title": "Ask participants to guide you through their mood boards",
+        "description": "When the mood boards are ready, ask the participants to explain them to you. As they explain, watch out for clues about hidden motivations and other insights. Probe and ask why over and over again!"
+      },
+      {
+        "title": "Summarize what you’ve learned",
+        "description": "After learning about the mood boards of all participants, are there any insights that stand out for you? Any common themes? Usually at this stage you’ll be full of ideas for further research. Make sure to save the mood boards for later."
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 14,
+    "unique": "card-sorting",
+    "title": "Card Sorting",
+    "description": "Use this fast and easy method of organizing cards to generate insights on what’s important to your users as well as how they think about the problem.",
+    "stages": { "explore": true, "imagine": false, "test": false },
+    "ratings": { "simplicity": 5, "effectiveness": 3 },
+    "time": "30 minutes",
+    "ms": 180000,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": [
+        "During research phase to generate insights about what’s important for the users and how they think about the problem",
+        "To organize information (e.g. should we organize our web shop by gender, garment or size?)"
+      ],
+      "helps": [
+        "What’s important for our users?",
+        "What factors and constraints should we consider in the design process?",
+        "How do users think about the problem at hand?",
+        "How should we organize information on our site/app?"
+      ],
+      "tips": [
+        "Make sure that the cards are very simple to understand and contain either just a word or an image of the concept",
+        "Either ask the respondent to rank the cards in the order of importance or to group them. Observe how they would group the cards as it might reveal their top-of-mind considerations"
+      ],
+      "resources": ["Post-Its", "Markers"]
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [
+      {
+        "title": "Create a deck of cards for sorting",
+        "description": "Create a deck of 10+ cards. Each should describe a concept or a theme in one word or a picture. The deck could work with specific, abstract or mixed concepts. "
+      },
+      {
+        "title": "Ask participants to rank and/or group the cards",
+        "description": "Now ask the participants to rank the cards on a certain parameter (e.g. attractiveness) or to group the cards as they see fit. After they’re finished, ask them to elaborate on their chosen ranking/grouping. Listen carefully for what considerations they mention. Those could reveal deeper insights about their hidden motivations."
+      },
+      {
+        "title": "Introduce different conditions",
+        "description": "Finally, you can ask the participants to rank/group the cards under different conditions (e.g. at work vs. at home) to discover deeper insights about them."
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 15,
+    "unique": "personas",
+    "title": "Personas",
+    "description": "Personas are representations of archetypes of users that share similar knowledge, goals and behaviors. Good Personas are a result of thorough user research and help to keep design process connected to real people.",
+    "stages": { "explore": true, "imagine": true, "test": true },
+    "ratings": { "simplicity": 3, "effectiveness": 4 },
+    "time": "3-8 hours",
+    "ms": 18000000,
+    "participants": ["User Experience", "Product Owners"],
+    "basics": {
+      "whens": [
+        "After user research to synthesize findings",
+        "Whenever having to make or defend a design decision",
+        "Throughout the entire design process to align the team"
+      ],
+      "helps": [
+        "Who are the users we’re designing for?",
+        "How big of a problem are we solving for them?",
+        "What design constraints do we have to consider?",
+        "How can we prioritize what to work on next?",
+        "How many user groups to we have and how distinct they are?",
+        "How can we simplify thinking about user groups?"
+      ],
+      "tips": [
+        "Involve Personas in design and product meetings",
+        "Personas are not the same as Market Segments",
+        "Include only relevant and actionable Persona info",
+        "Treat your Persona like an assumption",
+        "Update Personas frequently as new data emerges",
+        "Consider primary and secondary Personas"
+      ],
+      "resources": ["Prior user research"]
+    },
+    "keywords": ["Research", "Qualitative", "Design"],
+    "instructions": [
+      {
+        "title": "Collect existing research",
+        "description": "Start by gathering all relevant information about users from your own research and from around the company. Consider talking to marketing, customer service and analytics teams."
+      },
+      {
+        "title": "Plan a Persona workshop",
+        "description": "Invite 2-10 people for an hour-long workshop. Make sure to include team members, as well as people with direct customer knowledge. Ensure the room has space, markers and flipcharts."
+      },
+      {
+        "title": "Create a proto-Persona",
+        "description": "During the workshop, briefly explain the overall design challenge and the benefits of a Persona. Then split the group into pairs and ask them use their knowledge to create their own Personas by filling out the Persona Template."
+      },
+      {
+        "title": "Syndicate with prior research",
+        "description": "Find similarities between Personas from the Workshop and your previous user research. Then create a new Persona to summarize everything the team currently knows about the target user."
+      },
+      {
+        "title": "Share Persona Actively",
+        "description": "Make sure to make the Persona visible for the entire product team - especially in areas where product decisions are made. Be creative (e.g. consider cutting out full-height personas out of cardboard)!"
+      }
+    ],
+    "documents": [{ "title": "Persona template", "url": "file.pdf" }]
+  },
+  {
+    "id": 16,
+    "unique": "empathy-mapping",
+    "title": "Empathy Mapping",
+    "description": "Creation of an Empathy Map is a collaborative exercise that helps to enhance an emotional picture of your users, as well as to create a shared empathy for them among team members.",
+    "stages": { "explore": true, "imagine": false, "test": false },
+    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "time": "30-90 minutes",
+    "ms": 3600000,
+    "participants": ["User Experience", "Design"],
+    "basics": {
+      "whens": [
+        "Very early in design process, as a point of departure",
+        "When you need to align multiple stakeholders",
+        "When you don’t have time for proper researched personas",
+        "When you quickly need to get team members to think “user centricity”"
+      ],
+      "helps": [
+        "What’s the user’s inner state when using our service?",
+        "What are their expectations?",
+        "Are there any external influences we should consider?",
+        "What do our team members think of our users?",
+        "How aligned is the team on who the users are?"
+      ],
+      "tips": [
+        "Use an energizer to “warm up” participants before the workshop",
+        "Reduce pressure on participants - tell them it’s just a start",
+        "Follow-up on the exercise with actual user research",
+        "Combine with Personas and User Journey Maps for maximum insight",
+        "Make sure to actively share the results with the team"
+      ],
+      "resources": ["Post-its", "Sharpies"]
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [
+      {
+        "title": "Gather all existing user research",
+        "description": "Gather together all existing user research (if available). It could be a result of Individual Interviews, contextual inquiries or other UX research methods."
+      },
+      {
+        "title": "Organize a workshop",
+        "description": "Invite team members to attend a 30 minute workshop. Book a room with plenty of room and free wall space (we’ll need it to hang empathy maps during presentations later)."
+      },
+      {
+        "title": "Energizer and group work",
+        "description": "Present the goals of the workshop. Then run an energizer to get participants to start thinking as users. Finally, split the group into pairs or groups of 4 or less to create their own Empathy Maps."
+      },
+      {
+        "title": "Groups present findings",
+        "description": "After approximately 15 minutes, each group presents their canvas to the rest. Limit presentations to 2 minutes or less. Bonus: get participants to present from the first person, as if they’re talking about themselves."
+      },
+      {
+        "title": "Summarize and share",
+        "description": "After the workshop, find commonalities between groups’ Empathy Maps and create one common Map. Make sure to actively share the map everywhere where decisions about users are made."
+      }
+    ],
+    "documents": [{ "title": "Empathy Map Canvas", "url": "file.pdf" }]
+  },
+  {
+    "id": 17,
+    "unique": "emotional-journey-mapping",
+    "title": "Emotional Journey Mapping",
+    "description": "Visualization of the total experience, including actions, thoughts and feelings, that users have to go through to accomplish a particular goal.",
+    "stages": { "explore": true, "imagine": false, "test": false },
+    "ratings": { "simplicity": 3, "effectiveness": 5 },
+    "time": "3-8 hours",
+    "ms": 18000000,
+    "participants": [
+      "User Experience",
+      "Design",
+      "Stakeholders",
+      "Product Owners",
+      "Experts",
+      "Leadership",
+      "Users"
+    ],
+    "basics": {
+      "whens": [
+        "For creating empathy for the user inside the organization",
+        "After conducting user research to visualize insights",
+        "For exploring “the current state” before redesign",
+        "For checking user hand-over between channels"
+      ],
+      "helps": [
+        "What does it really take to accomplish a task?",
+        "What actions, thoughts and feelings the user goes through?",
+        "What channels are involved?",
+        "How smooth are hand-overs between the channels?",
+        "What parts of the experience are the most painful? Most enjoyable? "
+      ],
+      "tips": [
+        "Present an Emotional Journey Map as a story",
+        "Actively share this story with senior stakeholders",
+        "Create empathy - being fully factually correct is not the goal",
+        "Feel free to use emojis to communicate feelings and emotions"
+      ],
+      "resources": [
+        "Persona",
+        "Prior User Research",
+        "Storbyboarding Canvas",
+        "Sticky notes",
+        "Markers"
+      ]
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [
+      {
+        "title": "Conduct user research",
+        "description": "Emotional Journey Mapping and creation of Personas follow in-depth user research. They are then used to syndicate, visualize and communicate the findings."
+      },
+      {
+        "title": "Create a User Persona",
+        "description": "Each emotional journey map needs to correspond to a certain persona. The Journeys can look very differently for different Personas."
+      },
+      {
+        "title": "Document the Journey",
+        "description": "Create a draft visualization of your insights. Emotional Journey map template (included) will help you to    document Persona’s steps, actions, thoughts and feelings. You can also use Storyboarding Canvas."
+      },
+      {
+        "title": "Visualize the journey",
+        "description": "Group parts of the Journey into stages. Feel free to use graphics (tip: emojis) until a more visual picture of the total experience starts to emerge."
+      },
+      {
+        "title": "Share and collect feedback",
+        "description": "Since Emotional User Journeys frequently summarize preliminary user research, schedule 1 hour meeting to discuss your findings with the team. Ensure attendance of all relevant (especially senior) stakeholders."
+      }
+    ],
+    "documents": [
+      { "title": "Emptional Journey Map Template", "url": "file.pdf" }
+    ]
+  },
+  {
+    "id": 18,
+    "unique": "mind-mapping",
+    "title": "Mind Mapping",
+    "description": "Mind maps help to organize information by association and provide a bird's-eye view of the design problem.",
+    "stages": { "explore": true, "imagine": false, "test": false },
+    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "time": "1 hour",
+    "ms": 3600000,
+    "participants": ["User Experience", "Design"],
+    "basics": {
+      "whens": [
+        "To structure and organize our thinking",
+        "To showcase things we know and things we know we don’t know (which branches of your mind map have not yet been explored?)",
+        "To bring everyone on the product team together around the shared understanding of the entire problem",
+        "To avoid siloed thinking"
+      ],
+      "helps": [
+        "How is our problem organized? What’s involved?",
+        "Where are our knowledge gaps and what is it we know that we don’t know?",
+        "What is the overall hierarchy of information?"
+      ],
+      "tips": [
+        "Do not focus on what a feature does. Instead focus on user needs - what do they want to do?",
+        "When organizing your mind map, aim for making it “MECE” (Mutually Exclusive, Collectively Exhaustive). This means that information should be organized in such a way that there would be no overlaps of information between categories, while each category would contain all possible sub-points."
+      ],
+      "resources": []
+    },
+    "keywords": ["Research", "Qualitative", "Design"],
+    "instructions": [
+      {
+        "title": "Create the initial outline of your mind map",
+        "description": "Create the first version. Start with making the most important decision of the exercise - what’s in the center of your mind map? What’s the central concept that will connect your entire mind map together? Do not immediately write down the first thing that comes to your mind. What’s the goal?"
+      },
+      {
+        "title": "Iterate on your mind map until it’s very clear",
+        "description": "Break down your mind map into clear and mutually exclusive categories. There should be no overlaps. Keep on iterating on your mind map until you achieve that clear structure. The more clear your mind map - the better you’ll be able to think about the problem at hand."
+      },
+      {
+        "title": "Optional: Decorate and share your mind map",
+        "description": "What’s the use of keeping your mind map to yourself? Share it with your colleagues and get their input. Are we missing anything? If we are - add it to the mind map. It’s important to capture the whole picture, even if we’re not yet sure about some of the “branches”."
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 19,
+    "unique": "aeiou-framework",
+    "title": "A.E.I.O.U. Framework",
+    "description": "One of the popular frameworks to bring structure to field research by helping to organize the context of inquiry. AEIOU stands for Activities, Environments, Interactions, Objects and Users.",
+    "stages": { "explore": true, "imagine": false, "test": false },
+    "ratings": { "simplicity": 3, "effectiveness": 3 },
+    "time": "30-120 minutes",
+    "ms": 5400000,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": ["For structuring field research and contextual inquiry"],
+      "helps": [
+        "What is the physical environment of our research problem?",
+        "What actors and interactions are present?",
+        "How can we make sure we don’t miss anything during FIELD research?"
+      ],
+      "tips": [
+        "Use the method simply as a guidelines - it’s far more important to make sure you’ve properly immersed yourself in the environment of the problem, than to be rigorously organized about it",
+        "Consider using the framework for structuring and presenting results of the field research"
+      ],
+      "resources": [
+        "Ethnohub http: //help.ethnohub.com/guide/aeiou-framework",
+        "Robinson, Rick. “Building a Useful Research Tool: An Origin Story of AEIOU.” https: //www.epicpeople.org/building-a-useful-research-tool/"
+      ]
+    },
+    "keywords": ["Research", "Qualitative", "Framework"],
+    "instructions": [],
+    "documents": [{ "title": "AEIOU Worksheet", "url": "file.pdf" }]
+  },
+  {
+    "id": 20,
+    "unique": "poems-framework",
+    "title": "P.O.E.M.S. Framework",
+    "description": "One of the popular frameworks to bring structure to field research by helping to organize the context of inquiry. POEMS stands for People, Objects, Environments, Messages and Services.",
+    "stages": {
+      "explore": true,
+      "imagine": false,
+      "test": false
+    },
+    "ratings": {
+      "simplicity": 3,
+      "effectiveness": 3
+    },
+    "time": "30-120 minutes",
+    "ms": 5400000,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": ["For structuring field research and contextual inquiry"],
+      "helps": [
+        "What is the physical environment of our research problem?",
+        "What actors and interactions are present?",
+        "How can we make sure we don’t miss anything during FIELD research?"
+      ],
+      "tips": [
+        "Use the method simply as a guidelines - it’s far more important to make sure you’ve properly immersed yourself in the environment of the problem, than to be rigorously organized about it",
+        "Consider using the framework for structuring and presenting results of the field research"
+      ],
+      "resources": []
+    },
+    "keywords": ["Research", "Qualitative", "Framework"],
+    "instructions": [],
+    "documents": [
+      {
+        "title": "POEMS Worksheet",
+        "url": "file.pdf"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "unique": "content-audit",
+    "title": "Content Audit",
+    "description": "Content Audit is an exercise of making a big list of all available content and information on a site or in an application.",
+    "stages": { "explore": true, "imagine": false, "test": false },
+    "ratings": { "simplicity": 3, "effectiveness": 4 },
+    "time": "5-10 days",
+    "ms": 691200000,
+    "participants": ["User Experience"],
+    "basics": {
+      "whens": [
+        "As a first step to understand a content-heavy website",
+        "Mandatory for redesign projects"
+      ],
+      "helps": [
+        "What content does this site current have?",
+        "Are there any duplications of content on the site?",
+        "How are various parts of the content related?",
+        "What content would need to be replaced?"
+      ],
+      "tips": [
+        "Decide if you’re conducting audit of the whole site or its part",
+        "There’s no right or wrong way to do it",
+        "You will likely have to update your audit list a few times",
+        "Be patient, don’t rush the process and look at content carefully",
+        "You don’t actually need UX experience to conduct content audit",
+        "Consider using spreadsheets for Content Audit on large sites",
+        "After the audit, capture analytics of each page"
+      ],
+      "resources": []
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [
+      {
+        "title": "Map key navigation sections",
+        "description": "Start your audit by listing top-level parts of the site."
+      },
+      {
+        "title": "Dive into one section",
+        "description": "Then get deeper into each section. What are that section’s key sub-parts?"
+      },
+      {
+        "title": "Capture all content in the section",
+        "description": "Dive deep into each individual part filling out the content audit worksheet as you go. For complex projects it’s recommended to use a spreadsheet."
+      },
+      {
+        "title": "Explore other sections",
+        "description": "Now methodically repeat the process for each sub-part of the site. Be patient and make sure to properly capture all content and relationships."
+      },
+      {
+        "title": "Create an overall map of the site",
+        "description": "Create an overall visual representation of the site and share it with the design team. It will drive your future redesign work."
+      }
+    ],
+    "documents": [{ "title": "Content Audit Worksheet", "url": "file.pdf" }]
+  },
+  {
+    "id": 22,
+    "unique": "design-thinking-workshop",
+    "title": "Design Thinking Workshop",
+    "description": "Design Thinking Workshops are great for kick-starting projects and demonstrating to stakeholders how Human-Centered Design works.",
+    "stages": { "explore": true, "imagine": true, "test": false },
+    "ratings": { "simplicity": 3, "effectiveness": 3 },
+    "time": "4-16 hours",
+    "ms": 36000000,
+    "participants": ["User Experience", "Stakeholders"],
+    "basics": {
+      "whens": [
+        "To kick-start new design projects",
+        "To explain HCD methodology to stakeholders",
+        "To capture initial insights from the team"
+      ],
+      "helps": [
+        "Who’s on the team?",
+        "What process are we going to be following for design?",
+        "How does the team feel about the problem at hand?",
+        "How does the team think of the current User Journey?",
+        "What solution ideas might the team have?"
+      ],
+      "tips": [
+        "Conduct the workshop in a big room with lots of wall pace",
+        "If it’s your first Design Thinking Workshop, practice in advance",
+        "Invite the main project team and the key stakeholders",
+        "Keep the workshop motivational, easy and fun (use energizers)",
+        "Keep the process rooted in business objectives to get senior business stakeholder buy-in"
+      ],
+      "resources": [
+        "Design Thinking Presentation",
+        "Emotional Journey Map",
+        "Persona Canvas"
+      ]
+    },
+    "keywords": ["Brainstorming", "Workshop"],
+    "instructions": [
+      {
+        "title": "Set up a workshop",
+        "description": "It’s crucial to properly plan the workshop. Book a big room with lots of wall-space, invite stakeholders (use Stakeholder Map) and align on the preliminary problem statement."
+      },
+      {
+        "title": "Energize the group and present HCD",
+        "description": "Start with an energizer - get the group get familiar with each other. Then explain the HCD process and inspire them to believe in the power of Design Thinking. Tip: show a few trailers from “Disruptors” by InVision."
+      },
+      {
+        "title": "Co-create Personas and  Journey Maps",
+        "description": "Break the group into pairs  or groups of no more than four. Ask each group to create their own Persona (use Persona template) and to fill out the Emotional Journey Maps for the current state. The groups then make quick presentations."
+      },
+      {
+        "title": "Imagine future journeys",
+        "description": "Now that the group feels pains of the current process, ask them to imagine what an ideal future process could look like. Ask to fill out a new Emotional Journey Map. Keep all artifacts on the walls."
+      },
+      {
+        "title": "Prototype, vote and present",
+        "description": "Ask the group to sketch, act or otherwise prototype what their solution could look like. Afterwards ask each participant to vote for 2 solutions that they liked the most. Tip: “upgrade” and share the main prototypes after the workshop."
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 23,
+    "unique": "product-love-letters",
+    "title": "Product Love Letters",
+    "description": "A fun and exciting way to understand how users feel about the products they use, in which you simply ask them to write either  a love letter or a break-up letter to their product, listing all the reasons for doing so.",
+    "stages": { "explore": true, "imagine": false, "test": true },
+    "ratings": { "simplicity": 5, "effectiveness": 4 },
+    "time": "15-30 minutes each",
+    "ms": 1200000,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": [
+        "For understanding how users feel about the products they use",
+        "To let the users imagine what their dream product could do",
+        "To supplement Usability Testing"
+      ],
+      "helps": [
+        "How do the users feel about the product at hand?",
+        "What are the users’ rational and emotional needs?",
+        "How products fit with their image of themselves?",
+        "What could be a perfect product for this user?",
+        "How would it make them feel?",
+        "How could their relationship unfold over time?"
+      ],
+      "tips": [
+        "First, do an energizer to get the participants “in the mood”",
+        "To encourage ideas ask the participants more detailed questions about their “relationship” with the product",
+        "“How did you know it was the one?”",
+        "“Where did you meet?”",
+        "“Did your friends approve of it?”"
+      ],
+      "resources": []
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [],
+    "documents": []
+  },
+  {
+    "id": 24,
+    "unique": "task-analysis",
+    "title": "Task Analysis",
+    "description": "Analyzing key tasks that users are trying to accomplish with your system. Together with Analytics and Content Audit, it is a powerful and a necessary step for any site (re-)design projects.",
+    "stages": {
+      "explore": true,
+      "imagine": false,
+      "test": false
+    },
+    "ratings": {
+      "simplicity": 2,
+      "effectiveness": 4
+    },
+    "time": "N/A",
+    "ms": 0,
+    "participants": ["User Experience"],
+    "basics": {
+      "whens": [
+        "For understanding key most important tasks the user aims to accomplish with your system",
+        "For creating initial information architecture and wireframes"
+      ],
+      "helps": [
+        "What are the main tasks the user aims to complete with your tool?",
+        "What steps or sub-tasks that consists of?",
+        "What is the order and relationship between tasks?",
+        "How should we organize our content?",
+        "What are the key calls-to-action that we should emphasize?"
+      ],
+      "tips": [
+        "Task analysis usually consists of gathering input from several sources, e.g. business needs, JTBDs, web analytics",
+        "Consider combining task analysis with web analytics, content audit, customer research / JTBDs and SEQ to know how to structure and (re-) organize website’s content"
+      ],
+      "resources": []
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [],
+    "documents": []
+  },
+  {
+    "id": 25,
+    "unique": "web-analytics",
+    "title": "Web Analytics",
+    "description": "Looking at web analytics will give you lots of information on everything from underperforming pages to most popular sections. It’s especially valuable for funnel-based websites.",
+    "stages": {
+      "explore": false,
+      "imagine": false,
+      "test": true
+    },
+    "ratings": {
+      "simplicity": 2,
+      "effectiveness": 5
+    },
+    "time": "N/A",
+    "ms": 0,
+    "participants": [
+      "User Experience",
+      "Product Owners",
+      "Quality Assurance",
+      "Development"
+    ],
+    "basics": {
+      "whens": [
+        "When preparing a website redesign",
+        "To understand current performance metrics",
+        "To get an indication of the most sought-after content as well as any key problem areas"
+      ],
+      "helps": [
+        "What are our website’s most popular pages?",
+        "What pages are rarely visited?",
+        "Where do most of our users drop off?",
+        "How effective are our sales funnels?",
+        "How well is our current website performing?"
+      ],
+      "tips": [
+        "Established companies: consider using Google Analytics for more complex projects requiring deeper insights",
+        "Make sure to measure performance of your site before any redesign project to show the effect of that redesign initiative"
+      ],
+      "resources": [
+        "Read Dave McClure’s “Startup Metrics for Pirates” to learn how to think about metrics and funnel optimization",
+        "Startups, use analytics tools that you can use most easily",
+        "Try Heap Analytics, http://heapanalytics.com"
+      ]
+    },
+    "keywords": ["Research", "Quantitative"],
+    "instructions": [
+      {
+        "title": "Define your key success metrics and measure them",
+        "description": "Define what success looks like for your site. Is it the number of downloads? Sales? Returning visitors per month? Define your Key Performance Indicators (KPIs) and measure them religiously at equal intervals (e.g. every Friday). Make sure that your analytics tool enables you to easily measure your KPIs."
+      },
+      {
+        "title": "Consider what changes can result into improvements",
+        "description": "What can you do to affect your KPIs? At this point you probably want to think of all the steps that the user has to get there. Create a funnel and measure % of users that go through each step. Where do they fall off? What can you do to fix that? If you’re a designer, some of these changes will be outside your direct control (e.g. marketing), but whatever happens on the site - that’s on you!"
+      },
+      {
+        "title": "Implement changes and measure the effect",
+        "description": "Has your redesign resulted in any KPI improvements? If so - congratulations! What will you fix next? "
+      }
+    ],
+    "documents": [
+      {
+        "title": "KPI Tracker",
+        "url": "file.pdf"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "unique": "how-might-we",
+    "title": "“How might we…” Questions",
+    "description": "Insights generated during initial research are best summarized in the form of “How might we…”. It’s constructive, as it implies that there’s a solution without suggesting what the solution might be.",
+    "stages": {
+      "explore": true,
+      "imagine": true,
+      "test": false
+    },
+    "ratings": {
+      "simplicity": 5,
+      "effectiveness": 4
+    },
+    "time": "30 minutes",
+    "ms": 1800000,
+    "participants": ["User Experience", "Design"],
+    "basics": {
+      "whens": [
+        "When synthesizing results of the research phase to provide input for the ideation phase"
+      ],
+      "helps": ["What are the problems we want to solve?"],
+      "tips": [
+        "Make sure your questions are neither too broad (e.g. “How might we solve youth unemployment?”) nor too narrow (e.g. “How might we ensure all engineering graduates will get a high-paying high-satisfaction job within 3 months after graduating”)",
+        "Make sure your questions don’t suggest what the solution might be",
+        "The scope of your questions should reflect the key issues as well as the key constraints identified during the research phase",
+        "Depending on how you see the problem, you can have several “How might we…” questions per insight"
+      ],
+      "resources": ["Key research insights", "Post-its", "Sharpies"]
+    },
+    "keywords": ["Brainstorming"],
+    "instructions": [
+      {
+        "title": "Synthesize research insights",
+        "description": "Together with the design team look at all the insights, quotes, pictures, Personas and Emotional User Journeys that you’ve generated during the research phase. What do you see? What insights emerge?"
+      },
+      {
+        "title": "Rephrase insights into “How might we…” form",
+        "description": "Using “How Might We…” canvas, for each insight generate multiple versions of “How might we…” questions. This is the moment when you shift from Inspiration to Ideation (steps of Human-Centered Design framework)."
+      },
+      {
+        "title": "Iterate to inspire various design solutions",
+        "description": "Make sure that the questions are neither too narrow (as in they don’t suggest any solutions), nor too broad (where you don’t even know where to start). Best statements include other significant design considerations that you’ve identified during the research."
+      }
+    ],
+    "documents": [
+      {
+        "title": "How Might We Canvas",
+        "url": "file.pdf"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "unique": "crazy-8",
+    "title": "Crazy 8s",
+    "description": "Simple ideation method for capturing a wide range of diverse ideas. Could be done individually or in a group.",
+    "stages": { "explore": false, "imagine": true, "test": false },
+    "ratings": { "simplicity": 5, "effectiveness": 4 },
+    "time": "30 minutes",
+    "ms": 18000000,
+    "participants": [
+      "User Experience",
+      "Design",
+      "Stakeholders",
+      "Product Owners",
+      "Experts",
+      "Leadership",
+      "Users"
+    ],
+    "basics": {
+      "whens": [
+        "In the beginning of Ideation phase",
+        "To capture as many ideas as possible",
+        "To push the team beyond their initial ideas",
+        "To create a level playing field for all ideas - not just pet ideas of some powerful stakeholders"
+      ],
+      "helps": [
+        "What are the craziest solution ideas we can think of?",
+        "Which of these ideas the team likes the most?",
+        "Can we force ourselves to think beyond first ideas?",
+        "Are there any cool ways how we can combine the ideas?"
+      ],
+      "tips": [
+        "Force yourself to push beyond your first idea",
+        "Sketch 8 distinct ideas, not just 8 variations of your first idea",
+        "Reassure teammates not to be intimidated by sketching",
+        "Conquer the inner critic - all ideas are welcome"
+      ],
+      "resources": ["Thick markers", "Voting Dots"]
+    },
+    "keywords": ["Brainstorming"],
+    "instructions": [
+      {
+        "title": "Set up ideation workshop",
+        "description": "Prepare the problem statement in “How Might We…“ format. Decide which part of User Journey you’ll be focusing on. Then set up a 30 minute workshop with all key team members and project stakeholders. "
+      },
+      {
+        "title": "Define and present the problem",
+        "description": "At the beginning of the workshop,  present the problem statement, ensure that the problem is well-scoped and that all participants have the same understanding."
+      },
+      {
+        "title": "Sketch 8 ideas in 8 minutes",
+        "description": "Instruct participants to use the Crazy 8s Canvas to sketch out 8 different solution ideas in 8 minutes. Make sure they use thick markers (no fine tipped pens) and feel at ease sketching (tell them that anybody can sketch)."
+      },
+      {
+        "title": "Presenting ideas to the group",
+        "description": "Participants have 2 minutes each to present their 8 ideas to the rest of the team. Make sure to hard-stop participants at the end of 2 minutes."
+      },
+      {
+        "title": "Dot Voting for best ideas",
+        "description": "Team votes with voting dots (2 dots per participant) for their favorite ideas. Count the votes and make a summary of most promising ideas after the workshop."
+      }
+    ],
+    "documents": [{ "title": "Crazy 8s Canvas", "url": "file.pdf" }]
+  },
+  {
+    "id": 28,
+    "unique": "affinity-mapping",
+    "title": "Affinity Mapping",
+    "description": "One of the simplest and most universal techniques for generating and synthesizing ideas into common themes and insights. Affinity mapping is a collaborative brainstorming exercise.",
+    "stages": {
+      "explore": true,
+      "imagine": true,
+      "test": false
+    },
+    "ratings": {
+      "simplicity": 5,
+      "effectiveness": 4
+    },
+    "time": "15 minutes",
+    "ms": 900000,
+    "participants": ["User Experience"],
+    "basics": {
+      "whens": [
+        "When synthesizing research results",
+        "During ideation for generating solution ideas",
+        "To capture and organize feedback"
+      ],
+      "helps": [
+        "What ideas can we generate as a group?",
+        "How can we group ideas and insights around themes?",
+        "In what ways can we group our ideas and insights?",
+        "Are there any interesting overlaps or clusters of themes?"
+      ],
+      "tips": [
+        "Use an “energizer” to get the group to interact before brainstorming",
+        "Encourage all ideas, especially crazy and “dumb” ones",
+        "Make sure participants write ideas with thick markers for visibility",
+        "1 post-it note per idea",
+        "Print out brainstroming rules and make them visible during the workshop",
+        "Synthesize ideas into clusters together with the whole group"
+      ],
+      "resources": ["Post-its", "Sharpies", "Brainstorming Rules"]
+    },
+    "keywords": ["Brainstorming"],
+    "instructions": [
+      {
+        "title": "Know when to use the technique",
+        "description": "Brainstorming and Affinity Mapping can be used separately. Brainstorming is used for generation of ideas and Affinity Mapping helps to organize them into themes."
+      },
+      {
+        "title": "Rapid idea generation",
+        "description": "Ideas are best generated first in small groups of 2-4 people. Set as little time as possible to encourage creativity and discourage excessive discussion. Set a bottom limit (e.g. at least 8 ideas). One post-it note per idea."
+      },
+      {
+        "title": "Presentation of ideas to the group",
+        "description": "Each small group then presents ideas to the rest of the group, placing a post-it note with the idea on the wall as it’s being presented."
+      },
+      {
+        "title": "Cluster ideas into themes",
+        "description": "The group then tries to find commonalities between ideas and cluster them into common themes. Some themes will be immediately obvious. Give names to those themes. Consider grouping across various dimensions."
+      },
+      {
+        "title": "Share themes",
+        "description": "After the workshop, take pictures of the “idea wall” and send participants a summary with the key identified themes."
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 29,
+    "unique": "dot-voting",
+    "title": "Dot Voting",
+    "description": "Dead-simple and powerful technique for making decisions quickly and transparently without excessive discussions, politics and power struggles.",
+    "stages": { "explore": false, "imagine": true, "test": true },
+    "ratings": { "simplicity": 5, "effectiveness": 5 },
+    "time": "5 minutes",
+    "ms": 300000,
+    "participants": [
+      "User Experience",
+      "Design",
+      "Stakeholders",
+      "Product Owners",
+      "Experts",
+      "Leadership",
+      "Users"
+    ],
+    "basics": {
+      "whens": [
+        "When needing to make a group decision with little information",
+        "Most useful during client / stakeholder workshops",
+        "Great after ideation exercises (e.g. brainstorming)"
+      ],
+      "helps": [
+        "How does the group feel about available options?",
+        "Which of the ideas seem to resonate with the group the most?"
+      ],
+      "tips": [
+        "Consider discussing the approach with key stakeholders in advance. They might not be comfortable with collaborative decision-making process like this."
+      ],
+      "resources": ["Two voting dots per participant"]
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [
+      {
+        "title": "Have a number of options shared in a common space",
+        "description": "You need options before starting to make decisions about which ones make most sense. Thus Dot Voting is usually most effective after ideation exercises such as Brainstorming."
+      },
+      {
+        "title": "Each participant votes for their favorite option",
+        "description": "Give each participant 2 voting dots. Then ask the participants to place one dot on each of the ideas that they like the most. They can put both dots on one idea as well. Consider giving top stakeholders one extra dot."
+      },
+      {
+        "title": "Summarize which options received most votes",
+        "description": "The results will become obvious after the exercise, but it’s still a good idea to explicitly state which ideas got the most votes to summarize the group’s sentiment."
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 30,
+    "unique": "concept-monsters",
+    "title": "Concept Monsters",
+    "description": "Concept Monsters is a fun ideation exercise where you push yourself to think of radical new ideas by combining two or more concepts from unrelated fields (e.g. what could the LinkedIn of animals look like)?",
+    "stages": { "explore": false, "imagine": true, "test": false },
+    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "time": "30-60 minutes",
+    "ms": 2700000,
+    "participants": ["User Experience", "Design", "Product Owners"],
+    "basics": {
+      "whens": [
+        "To generate brave, new, disruptive ideas",
+        "To expand the ideation phase by including influences from outside our immediate industry"
+      ],
+      "helps": [
+        "What key quality do we want to have in our solution?",
+        "What are some real-world examples that embrace that quality?",
+        "What are some novel ideas that emerge if we combine these examples with our industry / situation?"
+      ],
+      "tips": [
+        "Before searching for external influences, the most important part is to single out the key desired quality you want to include",
+        "It’s best to do this exercise collaboratively with other designers or team members"
+      ],
+      "resources": [
+        "Inspiration sources: teammates, magazines, museums, Pinterest, concept stores, books, historical locations, architecture monuments, sports, famous digital services (e.g. Facebook)"
+      ]
+    },
+    "keywords": ["Brainstorming"],
+    "instructions": [
+      {
+        "title": "Define your solution’s key desired quality",
+        "description": "What is the key adjective or quality that your desired solution should have? Is it speed, convenience, low price? Agree on whatever it is with your team and write it down."
+      },
+      {
+        "title": "Ideate what other services embrace that quality",
+        "description": "With your team think of other services that embrace this quality (e.g. inspiring -> Pinterest, social -> Facebook, fast -> Ferrari etc.)"
+      },
+      {
+        "title": "Attempt combining those services to your industry",
+        "description": "Now try combining these unrelated services together to imagine novel solutions. E.g. what could be the Facebook of healthcare, “The Burning Man” of diabetics or “Planet Earth” of US Politics?"
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 31,
+    "unique": "sketching",
+    "title": "Sketching",
+    "description": "Sketches are easy to produce and allow for quick visualization, testing and de-risking of ideas with users and the team before development starts and resources are committed.",
+    "stages": { "explore": false, "imagine": true, "test": true },
+    "ratings": { "simplicity": 5, "effectiveness": 4 },
+    "time": "30 minutes",
+    "ms": 1800000,
+    "participants": ["User Experience", "Design", "Product Owners"],
+    "basics": {
+      "whens": [
+        "When exploring early ideas and concepts with your team",
+        "When communicating requirements to your development team",
+        "When preparing to test various options for Information Architecture, Navigation or Content with Usability Tests"
+      ],
+      "helps": [
+        "Are we on the same page when we discuss ideas?",
+        "How could this idea look like?",
+        "Which ideas have the most potential?",
+        "Which features are actually possible to build?"
+      ],
+      "tips": [
+        "To get conceptual feedback, prototype in low resolution",
+        "For feedback on details, prototype in high resolution",
+        "Start sketching early and iterate often",
+        "Sketch together in a group to capture more ideas",
+        "Anyone can sketch. It’s not the same as drawing",
+        "Use realistic content and placeholder images"
+      ],
+      "resources": [
+        "Plain Paper or Sketching Templates",
+        "Thick, low-resolution markers",
+        "Software for making paper prototypes interactive"
+      ]
+    },
+    "keywords": ["Design", "Brainstorming"],
+    "instructions": [
+      {
+        "title": "Prepare sketching materials",
+        "description": "Print out Sketching Templates and prepare thick markers (no fine tipped pens). Feel free to invite your team members to capture more ideas."
+      },
+      {
+        "title": "Rapidly sketch your ideas",
+        "description": "Quickly and rapidly capture the essential elements of your ideas without focusing too much on the details. Time box the sketching exercise."
+      },
+      {
+        "title": "Pick most promising ideas",
+        "description": "Select a few ideas that you find the most interesting. It may help to involve a technical member of the team to help with assessing feasibility."
+      },
+      {
+        "title": "Sketch several versions",
+        "description": "Force yourself to create 5-10 versions of your most promising ideas. This will ensure that you will cover many different approaches and don’t just settle on the first idea."
+      },
+      {
+        "title": "Get feedback",
+        "description": "Present your sketches to the rest of the team and/or users for early feedback. It may be necessary to go through several iterations to arrive at the feasible solution that users like. "
+      }
+    ],
+    "documents": [{ "title": "Sketching Canvases", "url": "file.pdf" }]
+  },
+  {
+    "id": 32,
+    "unique": "storyboarding",
+    "title": "Storyboarding",
+    "description": "Technique used by filmmakers to visualize the experience. Best used in combination with Emotional Journey Map to create empathy for the user, or as a prototype of a new service-based experience.",
+    "stages": { "explore": true, "imagine": true, "test": true },
+    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "time": "30-90 minutes",
+    "ms": 3600000,
+    "participants": ["User Experience", "Design", "Product Owners"],
+    "basics": {
+      "whens": [
+        "To visualize results of user research or after ideation",
+        "To visualize what the total future experience can look like",
+        "To understand how our prototype fits in the overall context",
+        "To align team members about the problem and solution"
+      ],
+      "helps": [
+        "What does the total user experience look like?",
+        "What is the context of our design problem?",
+        "How are we going to change the experience?",
+        "Which parts of the experience we’re prototyping?",
+        "Are there parts of the experience we can’t directly control?"
+      ],
+      "tips": [
+        "Be sure to include the context of use (e.g. in public transport)",
+        "Annotate each screen with user’s goals, thoughts and feelings",
+        "Storyboard has to be a shared vision, do it collaboratively",
+        "Control the scope of ideas and the discussion",
+        "Can be helpful for reminding the team that the full solution is broader than just the software"
+      ],
+      "resources": ["Whiteboard", "Pens", "Markers"]
+    },
+    "keywords": ["Brainstorming", "Design", "Strategy"],
+    "instructions": [
+      {
+        "title": "Pick an idea to visualize",
+        "description": "Use storyboard for visualization, alignment and understanding of details - not for ideation. Ideally, it would either follow user research phase or ideation exercise."
+      },
+      {
+        "title": "Do it solo or plan a workshop",
+        "description": "Although it’s important to capture ideas of as many team members as possible, to control the scope of the discussion, you might want to do this exercise with the design team or alone and communicate the output to the team afterwards."
+      },
+      {
+        "title": "Sketch the key screens",
+        "description": "Decide on a specific scenario - one scenario per Storyboard. Use Storyboarding Canvas or a whiteboard. Sketch only the relevant scenes - the more relevant the scene, the more detail it has to include."
+      },
+      {
+        "title": "Check your vision",
+        "description": "Gather feedback from the product team and the key stakeholders. Control the scope of the discussion and make sure that all team members have the same understanding."
+      },
+      {
+        "title": "Finalize and share",
+        "description": "If you plan to actively communicate the Storyboard outside of the product team, you might want to iterate on illustrations and annotations to make the Storyboard understandable for people unfamiliar with the context."
+      }
+    ],
+    "documents": [{ "title": "Storyboarding Canvas", "url": "file.pdf" }]
+  },
+  {
+    "id": 33,
+    "unique": "role-play",
+    "title": "Role-Play",
+    "description": "Through role-play, you can rapidly test ideas and interactions to get feedback. Just pretend what it would be like to interact with that branch employee or even that sign up form in real life!",
+    "stages": { "explore": false, "imagine": true, "test": false },
+    "ratings": { "simplicity": 4, "effectiveness": 2 },
+    "time": "10 minutes",
+    "ms": 600000,
+    "participants": ["User Experience", "Design"],
+    "basics": {
+      "whens": [
+        "To communicate what the current experience looks like",
+        "To get a deeper feeling for Personas",
+        "To test if your design / solution idea COULD resonate with a Persona"
+      ],
+      "helps": [
+        "How does the interaction actually look like right now?",
+        "How would a digital interaction look like if it was in real life?",
+        "How would a persona react in a certain situation?"
+      ],
+      "tips": [
+        "You can get initial feedback simply by doing a role play with your colleagues. It’d be more effective to involve users after that",
+        "Dressing up, costumes or other decorations can improve feedback quality (and are definitely fun)",
+        "Consider rapidly doing several variations of role-play to see which changes lead to better results."
+      ],
+      "resources": [
+        "Personas",
+        "Audience (colleagues from Design Team or users)",
+        "Optional: Costumes, Decorations"
+      ]
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [
+      {
+        "title": "Agree on personas and staged interactions",
+        "description": "First, you’re going to need a Persona. Then you’d need to decide which interactions you would like to test for that Persona and in which context."
+      },
+      {
+        "title": "Assign actors, prepare “scripts”, “costumes” and “decorations”",
+        "description": "Now the creative part - what could that interaction look like in real life? Are you that impatient stock broker who suddenly needs to update his system in the middle of trading hours? What would the system say? How would the stockbroker react?"
+      },
+      {
+        "title": "Act, get feedback and have fun!",
+        "description": "Now gather your audience (ideally start with just colleagues first) and play it out! What insights start to emerge? What should we consider when designing for the interaction in that context?"
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 34,
+    "unique": "future-trends-workshop",
+    "title": "Future Trends Workshop",
+    "description": "To ensure that you’re designing for the future, get together with your team and immediate stakeholders to identify key future trends that will be driving your industry.",
+    "stages": { "explore": false, "imagine": true, "test": false },
+    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "time": "60-90 minutes",
+    "ms": 4500000,
+    "participants": ["User Experience", "Product Owners", "Design"],
+    "basics": {
+      "whens": ["After initial research to set context for the ideation phase"],
+      "helps": [
+        "What business, technology and sociocultural trends will be predominant in our industry in the next 3-5 years?",
+        "How could these trends change our business in the future?",
+        "What should we consider to take advantage of these trends?",
+        "What threats to our business do these trends present?"
+      ],
+      "tips": [
+        "Ensure participation of a diverse group of stakeholders, as well as marketeers, technologists, evangelists and someone visionary from the leadership team",
+        "After the workshop, summarize your key trends on a poster and hang it on the ideation wall"
+      ],
+      "resources": ["Post-it notes", "Sharpies"]
+    },
+    "keywords": ["Research", "Qualitative", "Workshop"],
+    "instructions": [
+      {
+        "title": "Identify key trends as a group",
+        "description": "Set up a workshop with the wider product team including key stakeholders. Then in 3 rounds of 10 minutes each ask participants to ideate which key business (r1), technological (r2) and sociocultural (r3) trends will be dominant in your industry in the next 5 years."
+      },
+      {
+        "title": "Vote which trends seem most relevant",
+        "description": "After each round, ask the participants to present their ideas to the group. Ask the group to vote for the most relevant ideas. Each member has 2 voting dots that he/she has to place on the post-it notes with their ideas of choice."
+      },
+      {
+        "title": "Take a deeper look at those trends",
+        "description": "Now split the group in 3 smaller groups and ask each new group to pick one area of trends: business, sociocultural or technological. Using future trends worksheet, each group then takes a closer look at the “winning” trends. After 15 minutes, each group presents their worksheet."
+      },
+      {
+        "title": "Communicate and integrate results",
+        "description": "Gather the worksheets and put them into a one-pager. Send this one-pager around to the participants after the workshop, as well as hang it on the “insights” wall in your design space."
+      }
+    ],
+    "documents": [{ "title": "Future Trends Worksheet", "url": "file.pdf" }]
+  },
+  {
+    "id": 35,
+    "unique": "usability-testing",
+    "title": "Usability Testing",
+    "description": "Watch, listen and take notes as participants interact with your prototype, trying to complete typical tasks. Testing with just 5 users uncovers 80% of usability problems and it can be done quickly and easily with basic resources.",
+    "stages": { "explore": false, "imagine": false, "test": true },
+    "ratings": { "simplicity": 3, "effectiveness": 5 },
+    "time": "30-60 minutes",
+    "ms": 2700000,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": [
+        "As soon as the initial mock-ups are available",
+        "Throughout entire design process",
+        "Before redesign to act as benchmark for future solution",
+        "When testing competing products"
+      ],
+      "helps": [
+        "What are the most critical usability issues?",
+        "How pleasant is it to use this design?",
+        "How clear is the design for first-time users?",
+        "How long does it take to complete a certain task?",
+        "Why our users drop off on a certain page?"
+      ],
+      "tips": [
+        "Effective with both rough prototypes and working products",
+        "Recruit participants with similar skills and needs as end users",
+        "Broadcasting tests to the team increases support for usability",
+        "Maintain neutral expression",
+        "Resist temptation to assist the participant "
+      ],
+      "resources": ["Interactive prototype"]
+    },
+    "keywords": ["Research", "Qualitative", "Quantitative"],
+    "instructions": [
+      {
+        "title": "Plan and prepare for the test",
+        "description": "Use Usability Test Plan template to prepare for the interview. Particularly important are the task scenarios which users will be asked to complete. Test those with team members first."
+      },
+      {
+        "title": "Have something to test",
+        "description": "Fidelity of the prototype can range, but test participants should be able to use it independently. The functionality should reflect the specific core assumptions that you’re looking to test."
+      },
+      {
+        "title": "Recruit the participants",
+        "description": "Testing your designs with just 5 participants will uncover 80% of usability problems. Make sure that the participants reflect skills, knowledge and intentions of your target users as much as possible."
+      },
+      {
+        "title": "Conduct the test",
+        "description": "Make sure your prototype works and follow the script you made in Usability Test Plan. During the test, maintain neutral expression and resist temptation to help users if the seem stuck."
+      },
+      {
+        "title": "Summarize and report findings",
+        "description": "Use Usability Report Template to communicate the findings back to your team to inform and drive future product development. Tip: fix critical tasks ASAP and leave minor changes to the last sprint before the release."
+      }
+    ],
+    "documents": [
+      { "title": "Usability Test Plan", "url": "file.pdf" },
+      { "title": "Usability Report", "url": "file.pdf" }
+    ]
+  },
+  {
+    "id": 36,
+    "unique": "expert-usability-review",
+    "title": "Expert Usability Review",
+    "description": "An experienced UX practitioner evaluates usability of the product to quickly identify the biggest and most common usability issues.",
+    "stages": { "explore": false, "imagine": false, "test": true },
+    "ratings": { "simplicity": 3, "effectiveness": 3 },
+    "time": "30-90 minutes",
+    "ms": 3600000,
+    "participants": ["User Experience"],
+    "basics": {
+      "whens": [
+        "To quickly evaluate THE most common usability issues",
+        "To understand strengths, weaknesses and differentiation opportunities among several competing products",
+        "To compliment results of Usability Testing",
+        "To identify possible “low-hanging fruits” to take advantage of"
+      ],
+      "helps": [
+        "What could be the most critical issues with our solution?",
+        "What could be the easiest ways to improve usability?",
+        "Why our users could drop off on the payment page?",
+        "How usability of our design compares to competitors?"
+      ],
+      "tips": [
+        "Use this method in combination with Usability Testing",
+        "Conduct Expert Review with several UX experts",
+        "Ensure the evaluator is an experienced UX professional",
+        "Do not conduct Usability Review of products you’ve worked on yourself"
+      ],
+      "resources": [
+        "Prototype or working product",
+        "Competitors’ products (optional)"
+      ]
+    },
+    "keywords": ["Research", "Qualitative", "Quantitative"],
+    "instructions": [
+      {
+        "title": "Ensure access to UX practitioner",
+        "description": "You need at least one experienced UX practitioner  and a prototype or a part of a working product to test."
+      },
+      {
+        "title": "Conduct the  Review",
+        "description": "Conduct the review and fill out the Usability Report through the lens of Jakob Nielsen’s 10 Usability Heuristics. Assign severity to each discovered issue."
+      },
+      {
+        "title": "Compare to best practices",
+        "description": "Score performance of the reviewed designs on the Usability Review Scorecard to highlight relative strengths and weaknesses."
+      },
+      {
+        "title": "Discuss with the team",
+        "description": "Present the Usability Review Scorecard to the rest of your team. Discuss most significant improvements that can be achieved with minimum resources (“low-hanging fruits”)."
+      },
+      {
+        "title": "Review competing products",
+        "description": "To quickly understand the relative usability performance of your solution, consider conducTing Usability Review for competing products as well."
+      }
+    ],
+    "documents": [
+      { "title": "Usability Report", "url": "file.pdf" },
+      { "title": "Usability Review Scorecard", "url": "file.pdf" },
+      { "title": "Jakob Nielsen’s 10 Usability Heuristics", "url": "file.pdf" }
+    ]
+  },
+  {
+    "id": 37,
+    "unique": "concept-testing",
+    "title": "Concept Testing",
+    "description": "Get rapid feedback on various concept ideas by spontaneously finding potential users and presenting to them an approximation of essential features of the final solution.",
+    "stages": { "explore": false, "imagine": false, "test": true },
+    "ratings": { "simplicity": 3, "effectiveness": 3 },
+    "time": "30-90 minutes",
+    "ms": 3600000,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": [
+        "When working on a new, untested product",
+        "During early prototyping to test different concepts",
+        "To quickly eliminate bad ideas",
+        "When it’s necessary to get feedback quickly and cheaply",
+        "When not designing for highly specific target user"
+      ],
+      "helps": [
+        "Does this idea have potential?",
+        "What users like and dislike about this concept?",
+        "Do perceived benefits outweigh perceived user effort?",
+        "Should we invest in this concept further?"
+      ],
+      "tips": [
+        "Observe customers’ initial reactions to the concept",
+        "Look out for must-have and nice-to-have features",
+        "Involve development team to determine feasibility",
+        "Encourage participants to think aloud as they test",
+        "Beware of confirmation / desirability bias"
+      ],
+      "resources": [
+        "Prior User Research",
+        "Idea prototype",
+        "Recording equipment (optional)"
+      ]
+    },
+    "keywords": ["Research", "Qualitative"],
+    "instructions": [
+      {
+        "title": "Ensure you understand the problem",
+        "description": "Resist the temptation to conduct Concept Testing with a random idea you just came up with. Instead, make sure to spend time on in-depth user research to understand user needs and motivations beforehand."
+      },
+      {
+        "title": "Visualize the solution",
+        "description": "Develop rough prototypes containing just the essential features of the potential solution. At this stage, aim for low-fidelity, hand-drawn prototypes with realistic content."
+      },
+      {
+        "title": "Plan and prepare for the test",
+        "description": "Although Concept Testing may seem very improvised in terms of participants’ recruitment, fill out Concept Testing Plan to determine what you will test, where, with whom and how."
+      },
+      {
+        "title": "Conduct the test",
+        "description": "Approach potential participants when they could spare time to help you (e.g. bus stop, coffee shop, mall). Introduce yourself and give the participants a prototype and simple, clear instructions. Take notes."
+      },
+      {
+        "title": "Discuss the learnings",
+        "description": "Summarize your notes immediately after each participant and then again at the end of the test. Discuss common patterns and the next steps with your team."
+      }
+    ],
+    "documents": [{ "title": "Concept Testing Plan", "url": "file.pdf" }]
+  },
+  {
+    "id": 38,
+    "unique": "physical-prototyping",
+    "title": "Physical Prototyping",
+    "description": "There’s a range of prototyping tools available if you’re looking to create a mock-up of a physical product or environment.",
+    "stages": { "explore": false, "imagine": true, "test": true },
+    "ratings": { "simplicity": 2, "effectiveness": 4 },
+    "time": "15 minutes",
+    "ms": 900000,
+    "participants": ["User Experience", "Design", "Product Owners"],
+    "basics": {
+      "whens": [
+        "When you’re looking to test a hypotheses or ideate around a physical space or an object"
+      ],
+      "helps": [
+        "How could this space/object actually look?",
+        "How would it feel in proportion to us and other objects?",
+        "What are ergonomic considerations of this space/object?",
+        "What is the preliminary usability of this space/object and how well does it perform its function?"
+      ],
+      "tips": [
+        "As with digital design, in ideation stage use low-fidelity prototyping techniques for testing function and form factor",
+        "Experiment with a range of prototyping techniques - from quick and dirty (e.g. cardboard, sketching, role-play, Lego, play dough and others) to more technical and advanced (e.g. Virtual/Augmented Reality, 3D Printing and others)",
+        "Visit your local “Makerspace” for advise and access to prototyping equipment"
+      ],
+      "resources": [
+        "Prototyping materials (i.e. cardboard, tape, toys, fabric, wood, glue, play dough, Lego, toys, whatever you find)"
+      ]
+    },
+    "keywords": ["Design"],
+    "instructions": [
+      {
+        "title": "Have a hypothesis you want to test with the prototype",
+        "description": "Prototyping is just a way to get answers, but you have to ask a question first. What is the hypothesis that you’re looking to test? Is that about the rough concept of your solution or about it’s details? Use Hypothesis Testing canvas to plan your experiment."
+      },
+      {
+        "title": "Create the prototype in appropriate resolution",
+        "description": "Use quick and cheap low-resolution prototyping techniques for concept prototyping. Get more high-fidelity when you’re thinking about the details. Tip: don’t overthink it - use whatever materials you have and if you need something more technical - visit your local “maker space”."
+      },
+      {
+        "title": "Test your hypothesis and refine",
+        "description": "Consider methods like Concept Testing for testing your protoypes. What have you learned? What further hypotheses can you make?"
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 39,
+    "unique": "value-proposition",
+    "title": "Value Proposition",
+    "description": "Value Proposition is a simple statement that reflects the core reason why your customers should chose your product and how it’s different from competition.",
+    "stages": { "explore": false, "imagine": true, "test": false },
+    "ratings": { "simplicity": 3, "effectiveness": 5 },
+    "time": "N/A",
+    "ms": 0,
+    "participants": ["User Experience", "Design", "Leadership"],
+    "basics": {
+      "whens": [
+        "To bring clarity and alignment to the team",
+        "To help with generating the marketing message",
+        "To help with positioning our solution against competition",
+        "To focus our MVP around testing the key proposition to the user",
+        "To check whether the target user would resonate with our offering"
+      ],
+      "helps": [
+        "What is the main core value we’re providing to the user?",
+        "What problem are we trying to solve?",
+        "How are we different from other solutions?",
+        "Why would user value our service?",
+        "What is the end benefit that our solution enables?"
+      ],
+      "tips": [
+        "Words matter; be as short, clear and concise as possible",
+        "Hire a good copywriter to help you with defining your statement",
+        "Ensure involvement of the CEO and other leadership",
+        "A good value proposition reflects a vision grounded in research and is always user-centric"
+      ],
+      "resources": ["Post-its", "Sharpies"]
+    },
+    "keywords": ["Design", "Brainstorming"],
+    "instructions": [
+      {
+        "title": "Set up a workshop",
+        "description": "Align on the approach with the CEO and organize a 1h-long workshop with all key members of the leadership team, including the CEO and the copywriter."
+      },
+      {
+        "title": "Ideate and cluster ideas",
+        "description": "Ask them to fill in the blanks on the Value Proposition canvas. Each word/expression should be written on a separate post-it note. Then find common themes between words (see Affinity Mapping)."
+      },
+      {
+        "title": "Craft the wording",
+        "description": "After the workshop, go through numerous iterations to arrive at several versions of your value statement. The main goal is to make them short, simple and concise. If words are difficult for you - invite a professional copywriter to help you out."
+      },
+      {
+        "title": "Get feedback",
+        "description": "Get feedback on your Value Proposition statements from the leadership team. Bonus: also get feedback from the users. Then either let someone make the final decision or use the dot-voting approach to pick the winner."
+      },
+      {
+        "title": "Finalize and share",
+        "description": "Make your value proposition statement visible and share it with your customers. TIP: consider other ways to ensure that the Value Proposition is internalized by your company."
+      }
+    ],
+    "documents": [{ "title": "Value Proposition Template", "url": "file.pdf" }]
+  },
+  {
+    "id": 40,
+    "unique": "brand-pitch",
+    "title": "Brand Pitch",
+    "description": "If you truly want to stand out from the noise, it’s not enough to just have a good product and a delightful experience. You need to tell a story - it will become the foundation of your brand.",
+    "stages": { "explore": false, "imagine": false, "test": true },
+    "ratings": { "simplicity": 2, "effectiveness": 3 },
+    "time": "60 minutes",
+    "ms": 3600000,
+    "participants": [
+      "User Experience",
+      "Design",
+      "Product Owners",
+      "Leadership"
+    ],
+    "basics": {
+      "whens": [
+        "After you’ve truly and deeply understood the problem and the functional, social and emotional needs of users",
+        "When planning your go-to-market, marketing and communication strategies",
+        "To inspire a sense of purpose in your partners and employees",
+        "When needing to stand out in a crowded market"
+      ],
+      "helps": [
+        "What is the high-level vision behind our product?",
+        "Why should customers care?",
+        "How are we different from competition?",
+        "What is our long-term game?",
+        "What values should our brand reflect?",
+        "What story do we want to tell our customers?"
+      ],
+      "tips": [
+        "Get familiar with the concept of Jobs-To-Be-Done",
+        "For the best results the exercise should be initiated by the CEO"
+      ],
+      "resources": [
+        "Watch Simon Sinek’s TED talk “How Great Leaders Inspire Action”",
+        "Brand Pitch Worksheet"
+      ]
+    },
+    "keywords": ["Design", "Brainstorming"],
+    "instructions": [
+      {
+        "title": "Make sure you’ve done proper user research",
+        "description": "Spend time to really understand the problem and what it is that customers truly want. What’s their actual inner driver? What fears, hopes and aspirations are involved? The framework of Jobs-To-Be-Done can be helpful with highlighting the users’ functional, emotional and social needs. Also consider creating a marketing positioning map to highlight the niche your product will fit in and what competition is currently present."
+      },
+      {
+        "title": "Help the leadership to craft your company’s brand pitch",
+        "description": "Since they can drive your entire strategy and communications, Brand Pitch efforts require strong support from the CEO. He/she has to be truly onboard with the pitch and then learn it by heart to inspire customers and employees."
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 41,
+    "unique": "site-map",
+    "title": "Site Map",
+    "description": "Site maps are useful in demonstrating the overall structure of your site or app, as well as the intended user flows. It’s usually considered to be one of the key design artifacts and is used by business and development.",
+    "stages": { "explore": true, "imagine": true, "test": true },
+    "ratings": { "simplicity": 2, "effectiveness": 5 },
+    "time": "N/A",
+    "ms": 0,
+    "participants": [
+      "User Experience",
+      "Design",
+      "Stakeholders",
+      "Product Owners",
+      "Experts",
+      "Leadership",
+      "Users"
+    ],
+    "basics": {
+      "whens": [
+        "To communicate organization of information on your site",
+        "For “hand-over” to development",
+        "For ensuring that your site’s structure is flexible and can easily accommodate for additional information",
+        "Could be used together with the Content Audit method"
+      ],
+      "helps": [
+        "How well is our information structured?",
+        "How “deep” do users have to click to find relevant information?",
+        "How can we improve organization of information on this site?"
+      ],
+      "tips": [
+        "Although business stakeholders expect a site map as one of the design artifacts, first set a clear objective on what you aim to accomplish with a site map",
+        "Don’t create a site map too early when you’re still working on overall navigation. You will then most definitely have to change it",
+        "Always make a site map for re-design projects. It will help you to drive conversation about what information to keep/exclude in the new version. It will also help to ensure you don’t leave anything out"
+      ],
+      "resources": [
+        "Whiteboard and markers",
+        "notebook",
+        "Sketch, Lucid Charts or other visualization tool"
+      ]
+    },
+    "keywords": ["Strategy"],
+    "instructions": [
+      {
+        "title": "Map your site or service",
+        "description": "Create a site map - a diagram containing all your site’s screens and the interrelationships between them (i.e. if you click here, you will end up here)"
+      },
+      {
+        "title": "Analyze user flows, add analytics",
+        "description": "If necessary, add analytics to see which pages people use most often. Which ones have high drop-off rates? What’s wrong with them? How complicated are the user flows for key tasks?"
+      },
+      {
+        "title": "Identify issues and opportunities",
+        "description": "Discuss your findings with stakeholders. Make the issues apparent to secure buy-in for future redesign and to justify your design decisions."
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 42,
+    "unique": "eye-tracking",
+    "title": "Eye Tracking",
+    "description": "An advanced usability testing technique for identifying where on the page your users are looking while interacting with your service.",
+    "stages": { "explore": false, "imagine": false, "test": true },
+    "ratings": { "simplicity": 1, "effectiveness": 3 },
+    "time": "",
+    "ms": 0,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": [
+        "In later and more advanced usability testing sessions",
+        "After you’ve already done other forms of usability testing",
+        "If there’s a large available usability budget"
+      ],
+      "helps": [
+        "Where and for how long users are looking while on our site?",
+        "What grabs their attention and in which order?",
+        "What information do the miss?",
+        "Are they reading or merely scanning content?",
+        "Are they searching for something?"
+      ],
+      "tips": [
+        "You’d need to rent/buy some quite expensive equipment",
+        "Choose a room with good lighting",
+        "Test the equipment before conducting testing",
+        "Due to technical reasons, ideally avoid participants with glasses",
+        "Make sure the users can’t move much during the test (e.g. by asking them to sit on a stationary chair)"
+      ],
+      "resources": ["Read “How to Conduct Eyetracking Studies” by NN Group"]
+    },
+    "keywords": ["Research", "Qualitative", "Quantitative"],
+    "instructions": [],
+    "documents": []
+  },
+  {
+    "id": 43,
+    "unique": "net-promoter-score",
+    "title": "Net Promoter Score",
+    "description": "Net Promoter Score (NPS) is a widespread proxy metric for measuring how your customers feel about your product or service overall.",
+    "stages": { "explore": false, "imagine": false, "test": true },
+    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "time": "",
+    "ms": 0,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": [
+        "To measure how our customers feel about our products",
+        "To benchmark our products against competition"
+      ],
+      "helps": [
+        "How likely are our customers to recommend our product?",
+        "How do our customers feel about our product overall?",
+        "How are we doing vs. the competition?"
+      ],
+      "tips": [
+        "Due to its popularity, look up average NPS scores for your industry. Usually the leader has 2x higher score than average.",
+        "Don’t freak out - NPS scores are usually quite low (latest study found that the average across 400 companies was 16)",
+        "Consider interviewing your “Promoters” and “Detractors” - what is it that they like / don’t like about your services?"
+      ],
+      "resources": []
+    },
+    "keywords": ["Research", "Quantitative"],
+    "instructions": [
+      {
+        "title": "Distribute NPS survey",
+        "description": "NPS survey asks participants just one question like, “How likely are you to recommend our products and services to a friend or colleague?” See Questionnaire example."
+      },
+      {
+        "title": "Organize the answers",
+        "description": "Identify percentages of Detractors and Promoters."
+      },
+      {
+        "title": "Measure your NPS",
+        "description": "Then detract percentage of detractors from percentage of promoters. The resulting value (between -100 and 100) will be your NPS."
+      },
+      {
+        "title": "Compare yourself to industry",
+        "description": "Although NPS results do tell you something, they are usually quite low - even for the top-performing companies. It’s best to compare your NPS to your industry’s average and the one of your competitors."
+      },
+      {
+        "title": "Decide on implications",
+        "description": "Decide whether to look deeper into the data and try to better understand the reasoning behind Promoters and Detractors."
+      }
+    ],
+    "documents": [
+      { "title": "NPS questionnaire", "url": "file.pdf" },
+      { "title": "NPS Worksheet", "url": "file.pdf" }
+    ]
+  },
+  {
+    "id": 44,
+    "unique": "time-on-task",
+    "title": "Time On Task",
+    "description": "Understanding how long something takes is straightforward, which is why Time on Task is one of the core usability metrics.",
+    "stages": { "explore": false, "imagine": false, "test": true },
+    "ratings": { "simplicity": 2, "effectiveness": 4 },
+    "time": "15 minutes each",
+    "ms": 900000,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": [
+        "When assessing usability of our system",
+        "When measuring usability improvements over time",
+        "When comparing performance of our system to competition"
+      ],
+      "helps": [
+        "How long did it take to successfully accomplish a task?",
+        "How long users typically try before they give up a task?",
+        "How much time (and money) are we saving by making it faster to accomplish a task?"
+      ],
+      "tips": [
+        "Time on Task can be measured also during in-person Usability Tests",
+        "Consider what exactly you want to report:",
+        "1) Average task completion time (average of times for users that completed the task successfully)",
+        "2) Mean time to failure (average time it took participants until they abandoned the task)"
+      ],
+      "resources": [
+        "Since distribution of results is usually skewed, it’s best to use Geometric Mean Calculator"
+      ]
+    },
+    "keywords": ["Research", "Quantitative"],
+    "instructions": [],
+    "documents": []
+  },
+  {
+    "id": 45,
+    "unique": "ab-testing",
+    "title": "A/B Testing",
+    "description": "A technique for randomly splitting the traffic to your service and showing each stream a slightly different version to determine which one performs better.",
+    "stages": { "explore": false, "imagine": false, "test": true },
+    "ratings": { "simplicity": 2, "effectiveness": 3 },
+    "time": "",
+    "ms": 0,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": [
+        "When needing to compare two versions of the same variable",
+        "Purchase funnels are usually good candidates for A/B testing",
+        "With traffic of 10k+ visitors over the course of the test",
+        "When you need to prove the effectiveness of a redesign or improvement"
+      ],
+      "helps": [
+        "Which version of our site works better?",
+        "What is the quantitative impact of changes we want to implement? Which copy leads to a better conversion rate?"
+      ],
+      "tips": [
+        "Go for one of the existing A/B testing tools to simplify setup",
+        "Changes can be as small or as big as you want, but bigger changes make it difficult to isolate what specifically caused the difference in performance"
+      ],
+      "resources": ["A/B testing tool (e.g. Optimizely)"]
+    },
+    "keywords": ["Research", "Quantitative"],
+    "instructions": [
+      {
+        "title": "Plan your redesign",
+        "description": "Look at your web traffic to identify key pages. They could be either high-traffic or high-drop-off areas. Funnels are usually good candidates. Then define what constitutes a “success” on that page (e.g. click “buy”)."
+      },
+      {
+        "title": "Create variations",
+        "description": "Use one of the many A/B tools  to create variations of the page you’re looking to test. Simple changes like copy can be made without coding, but for larger redesigns you’d have to work with your developer."
+      },
+      {
+        "title": "Run the test",
+        "description": "Ensure that you get at least 10k visitors to the testing page during your study. Use one of the off-the-shelf tools to randomly reassign traffic."
+      },
+      {
+        "title": "Analyze results",
+        "description": "Your testing software will show the difference between the two  and whether it was statistically significant. If you’re doing the test manually, use the statistical method of “Two Sample Hypothesis Testing”."
+      },
+      {
+        "title": "Plan next steps",
+        "description": "If your A/B test resulted in a win - great! You can now implement it and run another test. Keep in mind that A/B testing measures incremental improvements and is generally used for optimization of working funnels."
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 46,
+    "unique": "user-stories",
+    "title": "User Stories",
+    "description": "De-facto format of communicating requirements within agile teams.",
+    "stages": { "explore": false, "imagine": false, "test": true },
+    "ratings": { "simplicity": 4, "effectiveness": 2 },
+    "time": "2-4 hours",
+    "ms": 10800000,
+    "participants": [
+      "User Experience",
+      "Product Owners",
+      "Stakeholders",
+      "Development",
+      "Project Management"
+    ],
+    "basics": {
+      "whens": [
+        "For Sprint Planning",
+        "For capturing and communicating requirements between teams",
+        "As testing scenarios for usability test"
+      ],
+      "helps": [
+        "What should be accomplished by this user story?",
+        "What tasks are necessary to accomplish a broader goal?"
+      ],
+      "tips": [
+        "The “how” is not a part of a user story - the method is up to designers / developers working on the story",
+        "User story is the de-facto standard of requirements’ communication in modern agile teams"
+      ],
+      "resources": []
+    },
+    "keywords": ["Strategy"],
+    "instructions": [],
+    "documents": [{ "title": "User Story Worksheet", "url": "file.pdf" }]
+  },
+  {
+    "id": 47,
+    "unique": "style-guide",
+    "title": "Style Guide and Design System",
+    "description": "Detailed descriptions of UI elements for alignment and consistency between product teams.",
+    "stages": { "explore": false, "imagine": true, "test": true },
+    "ratings": { "simplicity": 2, "effectiveness": 4 },
+    "time": "3-5 days",
+    "ms": 345600000,
+    "participants": ["User Experience", "Design", "Development"],
+    "basics": {
+      "whens": [
+        "When several design teams are working in parallel",
+        "To communicate requirements between design and development",
+        "To keep track of changes in design elements",
+        "To ensure overall visual consistency",
+        "To communicate guidelines to external teams (e.g. agencies)"
+      ],
+      "helps": [],
+      "tips": [
+        "Once your Style Guide is mature, consider tools like Zeplin to translate them into developer-friendly front-end code",
+        "Keep your Style Guide as a shared symbols library in design applications",
+        "Agree on the elements and components in advance and ensure teams work with the same elements"
+      ],
+      "resources": []
+    },
+    "keywords": ["Design"],
+    "instructions": [],
+    "documents": [{ "title": "Style Guide", "url": "file.pdf" }]
+  },
+  {
+    "id": 48,
+    "unique": "user-interface-design",
+    "title": "User Interface Design",
+    "description": "Use a tool like Sketch or Photoshop to create high quality “final” visual User Interface (UI) designs of your solution.",
+    "stages": { "explore": false, "imagine": true, "test": true },
+    "ratings": { "simplicity": 1, "effectiveness": 5 },
+    "time": "1-30 days",
+    "ms": 1296000000,
+    "participants": ["User Experience", "Design", "Product Owners"],
+    "basics": {
+      "whens": [
+        "To bring your designs to their “final” form",
+        "For handing over your designs to developers for coding",
+        "After you’ve done your research and tested numerous concepts"
+      ],
+      "helps": [],
+      "tips": [
+        "Look at other apps for inspiration. Consider communities like Dribbble, Pinterest and Behance.",
+        "Unless you’re designing something entirely new and different, use common UI patterns (e.g. back button on top-left).",
+        "Reference UI pattern libraries for more",
+        "UI Kits like Material Design can save you a lot of time - use them whenever possible unless you’re going for a highly unique visual design",
+        "Ensure that you’ve spent some time on your text and copy - it’s crucial to ensure that it is clear and understandable"
+      ],
+      "resources": [
+        "UI Pattern Libraries: http://ui-patterns.com/patterns",
+        "UI Inspiration: https: //dribbble.com/ & https://www.pinterest.com/"
+      ]
+    },
+    "keywords": ["Design"],
+    "instructions": [
+      {
+        "title": "Have the UX ready and tested",
+        "description": "Before starting with the UI, you need to get the UX part right. That means you need to have some wireframes and key content already in place. The UI phase will then make it visually appealing."
+      },
+      {
+        "title": "Get some inspiration",
+        "description": "Check out Dribbble, Behance and Pinterest for examples of products with similar screens (e.g. profile, payment checkout). Keep track of what you like and what you don’t."
+      },
+      {
+        "title": "Use a popular UI Kit",
+        "description": "For simplicity and speed (i.e. for MVP) it’s advisable to use one of the popular UI Kits out there (e.g. Material Design by Google or Twitter Bootstrap)."
+      },
+      {
+        "title": "Adjust and iterate",
+        "description": "It would take a lot of tweaking to now apply the UI Kit to your designs. You may decide to create a variation of the popular UI Kit or change it altogether. For many designers, this is the most fun part."
+      },
+      {
+        "title": "Check for coherency",
+        "description": "For consistency you should be using the same patterns throughout your product (e.g. back button always in top-left). Ensure that your designs are consistent."
+      }
+    ],
+    "documents": []
+  },
+  {
+    "id": 49,
+    "unique": "responsive-design",
+    "title": "Responsive Design",
+    "description": "In the age of device proliferation, it is imperative to consider the use-cases and the quality of experience on various devices. Responsive Design is the most common approach.",
+    "stages": { "explore": false, "imagine": false, "test": true },
+    "ratings": { "simplicity": 2, "effectiveness": 5 },
+    "time": "N/A",
+    "ms": 0,
+    "participants": ["User Experience", "Design"],
+    "basics": {
+      "whens": [
+        "For Usability Testing of the “final” concept to determine how the content should look like on various devices"
+      ],
+      "helps": [
+        "What content would be most appropriate for a smartphone user?",
+        "What should we emphasize on the desktop version?",
+        "How usable is our design on mobile/web/tablet versions?"
+      ],
+      "tips": [
+        "Although there are over 250 various screen resolutions, there are some commonalities between them.",
+        "Most common approach is to optimize for 4 widths - 360px (most mobile devices), 768px (tablet), 1024px (desktop) and 1440px (desktop HD)",
+        "If you want to focus on a specific audience (e.g. affluent iOS users), consider optimizing specifically for their devices and resolutions."
+      ],
+      "resources": []
+    },
+    "keywords": ["Design", "Concept"],
+    "instructions": [],
+    "documents": []
+  },
+  {
+    "id": 50,
+    "unique": "system-usability-scale",
+    "title": "System Usability Scale",
+    "description": "Industry standard for quickly and effectively measuring if a system is usable in a general sense.",
+    "stages": { "explore": false, "imagine": false, "test": true },
+    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "time": "15 minutes",
+    "ms": 900000,
+    "participants": ["User Experience", "Users"],
+    "basics": {
+      "whens": [
+        "For measuring and quantifying usability of your system",
+        "For quick judgement on whether a system is usable in broader terms"
+      ],
+      "helps": [
+        "How usable people perceive our system to be?",
+        "How urgently does it need to be redesigned?",
+        "What’s the initial benchmark (in case of redesigns)?"
+      ],
+      "tips": [
+        "SUS works well with even small sample sizes",
+        "When interpreting the overall score: >80.3 is an A - people love your system; around 68 is a C - you can improve; under 51 is an F - the usability is terrible"
+      ],
+      "resources": []
+    },
+    "keywords": ["Research", "Quantitative"],
+    "instructions": [
+      {
+        "title": "Participants fill out the SUS questionnaire",
+        "description": "Using SUS Test, ask the participants to answer 10 questions. The test would also work with small sample sizes of 5 - 10."
+      },
+      {
+        "title": "Process the SUS questionnaire results",
+        "description": "Gather the responses and process the answers using SUS Score analyzer. For each odd numbered question, subtract 1 from the score. For each even numbered question, subtract the answer from 5. Then add up all the values and multiply the result by 2.5."
+      },
+      {
+        "title": "Analyze the questionnaire results",
+        "description": "What does the final number mean? If the result is 80.3 or above, your system is doing really well! If it’s under 51, it’s awful. Everything in between is okay, but could be improved."
+      }
+    ],
+    "documents": [
+      { "title": "System Usability Scale Test Template", "url": "file.pdf" },
+      { "title": "System Usability Scale Score Analyzer", "url": "file.pdf" }
+    ]
+  }
+]
