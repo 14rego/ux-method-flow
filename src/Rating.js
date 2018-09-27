@@ -10,20 +10,24 @@ export class Rating extends Component {
       shape: this.props.shape
     };
   }
-  createStars() {
+  createStars = () => {
     let ratingObj = [];
     let stars = [];
 
     // Outer loop to create parent
     for (let i = 0; i < this.state.rating; i++) {
-      stars.push(<i className={`fas fa-fw fa-${this.state.shape}`} />);
+      stars.push(
+        <i key={i + 1} className={`fas fa-fw fa-${this.state.shape}`} />
+      );
     }
     for (let j = this.state.rating; j < this.state.total; j++) {
-      stars.push(<i className={`far fa-fw fa-${this.state.shape}`} />);
+      stars.push(
+        <i key={j + 1} className={`far fa-fw fa-${this.state.shape}`} />
+      );
     }
-    ratingObj.push(<span>{stars}</span>);
+    ratingObj.push(<span key="0">{stars}</span>);
     return ratingObj;
-  }
+  };
 
   render() {
     return <div className="rating">{this.createStars()}</div>;

@@ -25,8 +25,11 @@ class Header extends React.Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className={`nav-item ${active === "root" ? "active" : ""}`}>
-                <a className="nav-link" href="#handled">
-                  Home <span className="sr-only">(current)</span>
+                <a href="/" className="nav-link">
+                  Home
+                  {active === "root" ? (
+                    <span className="sr-only">(current)</span>
+                  ) : null}
                 </a>
               </li>
               <li className="nav-item dropdown">
@@ -39,13 +42,127 @@ class Header extends React.Component {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Role
+                  Keyword
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="/role/developer">
-                    Developer
+                  <a className="dropdown-item" href="/keyword/Brainstorming">
+                    Brainstorming
+                  </a>
+                  <a className="dropdown-item" href="/keyword/Concept">
+                    Concept
+                  </a>
+                  <a className="dropdown-item" href="/keyword/Design">
+                    Design
+                  </a>
+                  <a className="dropdown-item" href="/keyword/Framework">
+                    Framework
+                  </a>
+                  <a className="dropdown-item" href="/keyword/Environment">
+                    Environment
+                  </a>
+                  <a className="dropdown-item" href="/keyword/Qualitative">
+                    Qualitative
+                  </a>
+                  <a className="dropdown-item" href="/keyword/Quantitative">
+                    Quantitative
+                  </a>
+                  <a className="dropdown-item" href="/keyword/Research">
+                    Research
+                  </a>
+                  <a className="dropdown-item" href="/keyword/Strategy">
+                    Strategy
+                  </a>
+                  <a className="dropdown-item" href="/keyword/Workshop">
+                    Workshop
                   </a>
                 </div>
+              </li>{" "}
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#handled"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Participants
+                </a>
+                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a className="dropdown-item" href="/role/User-Experience">
+                    User Experience
+                  </a>
+                  <a className="dropdown-item" href="/role/Design">
+                    Design
+                  </a>
+                  <a className="dropdown-item" href="/role/Stakeholders">
+                    Stakeholders
+                  </a>
+                  <a className="dropdown-item" href="/role/Product-Owners">
+                    Product Owners
+                  </a>
+                  <a className="dropdown-item" href="/role/Experts">
+                    Experts
+                  </a>
+                  <a className="dropdown-item" href="/role/Leadership">
+                    Leadership
+                  </a>
+                  <a className="dropdown-item" href="/role/Users">
+                    Users
+                  </a>
+                  <a className="dropdown-item" href="/role/Project-Managers">
+                    Project Managers
+                  </a>
+                </div>
+              </li>
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#handled"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Stage
+                </a>
+                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a className="dropdown-item" href="/stage/Explore">
+                    Explore
+                  </a>
+                  <a className="dropdown-item" href="/stage/Imagine">
+                    Imagine
+                  </a>
+                  <a className="dropdown-item" href="/stage/Test">
+                    Test
+                  </a>
+                </div>
+              </li>
+              <li
+                className={`nav-item ${
+                  active === "effective" ? "active" : null
+                }`}
+              >
+                <a href="/effective/4" className="nav-link">
+                  Effective 4+
+                  {active === "effective" ? (
+                    <span className="sr-only">(current)</span>
+                  ) : null}
+                </a>
+              </li>
+              <li
+                className={`nav-item ${
+                  active === "simplicity" ? "active" : null
+                }`}
+              >
+                <a href="/simplicity/2" className="nav-link">
+                  Simplicity ≤2
+                  {active === "simplicity" ? (
+                    <span className="sr-only">(current)</span>
+                  ) : null}
+                </a>
               </li>
             </ul>
             <form className="form-inline my-2 my-lg-0">

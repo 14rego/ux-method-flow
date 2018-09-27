@@ -23,23 +23,27 @@ class MethodCard extends React.Component {
       <div id={unique} className={`method-container id${id}`}>
         <div className="card">
           <h2 className="card-header">
-            <a href={`/method/${unique}`}>{title}</a>
+            <a href={`/detail/${unique}`}>{title}</a>
           </h2>
           <div className="card-body">
             <div className="row">
-              <div className="col-md-5">
-                <p className="card-description">{description}</p>
+              <div className="col-md-4">
+                <div className="card bg-light border-warning">
+                  <div className="card-body">
+                    <p className="card-description">{description}</p>
+                  </div>
+                </div>
               </div>
-              <div className="col-md-7">
+              <div className="col-md-8">
                 <table className="table table-striped table-sm">
                   <tbody>
                     <tr>
                       <th scope="row">Steps</th>
                       <td className="text-right">
                         <ul className="card-method-steps">
-                          {stages.explore ? <li>explore</li> : null}
-                          {stages.imagine ? <li>imagine</li> : null}
-                          {stages.test ? <li>test</li> : null}
+                          {stages.Explore ? <li>Explore</li> : null}
+                          {stages.Imagine ? <li>Imagine</li> : null}
+                          {stages.Test ? <li>Test</li> : null}
                         </ul>
                       </td>
                     </tr>
@@ -81,40 +85,53 @@ class MethodCard extends React.Component {
             </div>
             <div className="row">
               <div className="col-12">
+                <br />
                 <div className="accordion">
                   <Accordion title="Basics" unique={`${unique}-basic`}>
                     <div className="card-method-basics-whens">
                       <h4>When to use:</h4>
                       <ul>
-                        {basics.whens.map(w => (
-                          <li key={w.index}>{w}</li>
+                        {basics.whens.map((w, index) => (
+                          <li key={index}>{w}</li>
                         ))}
                       </ul>
                     </div>
                     <div className="card-method-basics-helps">
                       <h4>Helps to answer:</h4>
                       <ul>
-                        {basics.helps.map(h => (
-                          <li key={h.index}>{h}</li>
+                        {basics.helps.map((h, index) => (
+                          <li key={index}>{h}</li>
                         ))}
                       </ul>
                     </div>
                     <div className="card-method-basics-tips">
                       <h4>Tips:</h4>
                       <ul>
-                        {basics.tips.map(t => (
-                          <li key={t.index}>{t}</li>
+                        {basics.tips.map((t, index) => (
+                          <li key={index}>{t}</li>
                         ))}
                       </ul>
                     </div>
                     <div className="card-method-basics-resources">
                       <h4>Resources:</h4>
                       <ul>
-                        {basics.resources.map(r => (
-                          <li key={r.index}>{r}</li>
+                        {basics.resources.map((r, index) => (
+                          <li key={index}>{r}</li>
                         ))}
-                        {documents.map(d => (
-                          <li key={d.index}>{d.url}</li>
+                        {documents.map((d, index) => (
+                          <li key={index}>
+                            <a
+                              href={
+                                d.url == "file.pdf"
+                                  ? null
+                                  : `/documents/${d.url}`
+                              }
+                              target="_blank"
+                              rel="noreferrer noopener"
+                            >
+                              {d.title}
+                            </a>
+                          </li>
                         ))}
                       </ul>
                     </div>
@@ -122,8 +139,8 @@ class MethodCard extends React.Component {
                   {instructions.length > 0 ? (
                     <Accordion title="Instructions" unique={`${unique}-ins`}>
                       <ol>
-                        {instructions.map(i => (
-                          <li key={i.index}>
+                        {instructions.map((i, index) => (
+                          <li key={index}>
                             <h4>{i.title}</h4>
                             <p>{i.description}</p>
                           </li>
