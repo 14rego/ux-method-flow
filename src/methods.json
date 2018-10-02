@@ -108,8 +108,8 @@
   },
   {
     "id": 3,
-    "unique": "hypotheses-driven-design",
-    "title": "Hypotheses-Driven Design",
+    "unique": "hypothesis-driven-design",
+    "title": "Hypothesis-Driven Design",
     "description": "Systematically defining and testing hypotheses (also sometimes called Lean UX) is at the heart of every design process. It’s important to be disciplined and methodical about it.",
     "stages": { "Explore": true, "Imagine": true, "Test": true },
     "ratings": { "simplicity": 3, "effectiveness": 5 },
@@ -158,7 +158,7 @@
   },
   {
     "id": 4,
-    "unique": "desgin-space",
+    "unique": "design-space",
     "title": "Design Space",
     "description": "This method is about more than just creating a comfortable workspace for your design team. Done right, your design space can boost your creativity and be your best internal marketing and communication tool.",
     "stages": { "Explore": true, "Imagine": true, "Test": true },
@@ -841,7 +841,7 @@
       "Experts",
       "Leadership",
       "Users",
-    "Project Managers"
+      "Project Managers"
     ],
     "basics": {
       "whens": [
@@ -1342,7 +1342,7 @@
       "Experts",
       "Leadership",
       "Users",
-    "Project Managers"
+      "Project Managers"
     ],
     "basics": {
       "whens": [
@@ -1471,7 +1471,7 @@
       "Experts",
       "Leadership",
       "Users",
-    "Project Managers"
+      "Project Managers"
     ],
     "basics": {
       "whens": [
@@ -1613,8 +1613,8 @@
   },
   {
     "id": 32,
-    "unique": "storyboarding",
-    "title": "Storyboarding",
+    "unique": "story-boarding",
+    "title": "Story Boarding",
     "description": "Technique used by filmmakers to visualize the experience. Best used in combination with Emotional Journey Map to create empathy for the user, or as a prototype of a new service-based experience.",
     "stages": { "Explore": true, "Imagine": true, "Test": true },
     "ratings": { "simplicity": 4, "effectiveness": 3 },

@@ -11,6 +11,7 @@ class MethodCardList extends React.Component {
       fRole: this.props.fRole,
       fSimple: this.props.fSimple,
       fStage: this.props.fStage,
+      fSuggest: this.props.fSuggest,
       fUnique: this.props.fUnique,
       theseCards: MethodList
     };
@@ -42,8 +43,18 @@ class MethodCardList extends React.Component {
       filtered = this.state.theseCards.filter(card => {
         return card.stages[this.state.fStage] === true;
       });
+    } else if (
+      this.state.fSuggest != undefined &&
+      this.state.fSuggest.length > 1
+    ) {
+      filtered = [];
+      this.state.theseCards.forEach((card, index) => {
+        if (this.state.fSuggest.indexOf(card.unique) !== -1) {
+          filtered.push(this.state.theseCards[index]);
+        }
+      });
     } else if (this.state.fUnique != undefined) {
-      filtered = this.state.theseCards.filter(function(card) {
+      filtered = this.state.theseCards.filter(card => {
         return card.unique === this.state.fUnique;
       });
     }
@@ -52,6 +63,7 @@ class MethodCardList extends React.Component {
   render() {
     return (
       <div className="method-list">
+        <br />
         {this.state.theseCards.length == 1 ? null : (
           <h1>{this.state.theseCards.length} Methods</h1>
         )}

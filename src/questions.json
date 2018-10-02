@@ -1,0 +1,178 @@
+[
+  {
+    "ID": "",
+    "Level": 0,
+    "Type": "Genesis",
+    "Que": "Is the product already on the market?"
+  },
+  {
+    "ID": "Y",
+    "Level": 1,
+    "Type": "Suggestion",
+    "Val": "Yes",
+    "Head": "Great, you’ve launched!",
+    "Description": "You're probably just wondering how well your product is doing. There's always room for improvement. Use these methods to find out where you can do better:",
+    "Suggest": [
+      "ab-testing",
+      "product-love-letters",
+      "web-analytics",
+      "content-audit",
+      "site-map",
+      "task-analysis",
+      "usability-testing",
+      "expert-usability-review",
+      "eye-tracking",
+      "system-usability-scale",
+      "time-on-task",
+      "net-promoter-score"
+    ]
+  },
+  {
+    "ID": "N",
+    "Level": 1,
+    "Type": "Question",
+    "Val": "No",
+    "Head": "A new product! Exciting!",
+    "Que": "Have you already spent time observing and talking to potential users to really understand your direction?"
+  },
+  {
+    "ID": "NN",
+    "Level": 2,
+    "Type": "Question",
+    "Val": "No",
+    "Head": "It looks like you've just begun.",
+    "Que": "Is the product or problem especially difficult to get a handle on, complex, or really technical?"
+  },
+  {
+    "ID": "NY",
+    "Level": 2,
+    "Type": "Question",
+    "Val": "Yes",
+    "Head": "Congratulations!",
+    "Que": "By now, you should've gathered a lot of interesting insights that can be used to come up with great ideas. Could we possibly convince you to generate a few more ideas? The more ideas, the better!"
+  },
+  {
+    "ID": "NNY",
+    "Level": 3,
+    "Type": "Suggestion",
+    "Val": "Yes",
+    "Head": "Roll Up Your Sleeves",
+    "Description": "It seems like you’re working on a research problem that first needs to be thoroughly understood. Dig deep:",
+    "Suggest": [
+      "design-space",
+      "stakeholder-mapping",
+      "jobs-to-be-done",
+      "human-centered-design",
+      "hypothesis-driven-design",
+      "personas",
+      "emotional-journey-mapping",
+      "desk-research",
+      "mood-boards",
+      "netnography",
+      "empathy-mapping",
+      "mind-mapping",
+      "aeiou-framework",
+      "user-interview",
+      "contextual-inquiry",
+      "mobile-diaries",
+      "expert-interview",
+      "mystery-shopping",
+      "product-love-letters",
+      "future-trends-workshop",
+      "poems-framework"
+    ]
+  },
+  {
+    "ID": "NNN",
+    "Level": 3,
+    "Type": "Suggestion",
+    "Val": "No",
+    "Head": "It sounds like your product or problem is relatively simple.",
+    "Description": "Your research can be pretty light, but these methods should get you started:",
+    "Suggest": [
+      "design-space",
+      "stakeholder-mapping",
+      "jobs-to-be-done",
+      "human-centered-design",
+      "hypothesis-driven-design",
+      "personas",
+      "emotional-journey-mapping",
+      "empathy-mapping",
+      "user-interview",
+      "mind-mapping"
+    ]
+  },
+  {
+    "ID": "NYN",
+    "Level": 3,
+    "Type": "Suggestion",
+    "Val": "No",
+    "Head": "Ideas, ideas, ideas!",
+    "Description": "Use your research so far to come up with as many solutions and ideas as possible. No idea is too crazy! Go for quantity - you can vote out the crazy ones later.",
+    "Suggest": [
+      "how-might-we",
+      "crazy-8",
+      "design-thinking-workshop",
+      "concept-monsters",
+      "affinity-mapping",
+      "dot-voting"
+    ]
+  },
+  {
+    "ID": "NYY",
+    "Level": 3,
+    "Type": "Question",
+    "Val": "Yes",
+    "Head": "Let's turn all of those ideas into solutions!",
+    "Que": "Have you talked to your users to get feedback about which ideas they think have the most potential?"
+  },
+  {
+    "ID": "NYYN",
+    "Level": 4,
+    "Type": "Suggestion",
+    "Val": "No",
+    "Head": "Without your users, what's the point?!",
+    "Description": "Prototype or demonstrate your ideas to find out which ones appeal to your users the most.",
+    "Suggest": [
+      "sketching",
+      "story-boarding",
+      "role-play",
+      "concept-testing",
+      "physical-prototyping"
+    ]
+  },
+
+  {
+    "ID": "NYYY",
+    "Level": 4,
+    "Type": "Question",
+    "Val": "Yes",
+    "Head": "Great!",
+    "Que": "You're probably almost ready to launch. It's very important to test your ideas even before they launch to be sure that they turned out how the users expected. Have you conducted any usability tests yet?"
+  },
+  {
+    "ID": "NYYYN",
+    "Level": 5,
+    "Type": "Suggestion",
+    "Val": "No",
+    "Head": "Testing is key!",
+    "Description": "Once you have a prototype, sketches, wireframes or any other type of product demonstration, put it through the paces. It'll be much more economical to make updates before you actually start building or designing it, so let's find out now if changes need to be made.",
+    "Suggest": ["expert-usability-review", "usability-testing"]
+  },
+  {
+    "ID": "NYYYY",
+    "Level": 5,
+    "Type": "Suggestion",
+    "Val": "Yes",
+    "Head": "Your solution is ready - congratulations on your accomplishment.",
+    "Description": "It seems you know exactly what you're going to build. Now all you need to do is consider how you want it to look, how it should be presented to the market, and what story it should tell. Don't forget to communicate these things to your other teams.",
+    "Suggest": [
+      "responsive-design",
+      "user-interface-design",
+      "style-guide",
+      "user-stories",
+      "value-proposition",
+      "brand-pitch"
+    ]
+  }
+]
