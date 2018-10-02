@@ -51,7 +51,6 @@ class QuestionFlow extends React.Component {
   buildSelectionArray = (ans, val) => {
     let selectionArr = this.state.selections;
     selectionArr[ans] = val;
-    console.log(selectionArr);
     this.setState({ selections: selectionArr });
   };
   buildSelectionString = () => {
@@ -59,7 +58,6 @@ class QuestionFlow extends React.Component {
     this.state.selections.forEach(function(sel) {
       selectionStr += sel.substring(0, 1);
     });
-    console.log(selectionStr);
     this.setState({ selectionString: selectionStr });
   };
   filterByID = arr => {
