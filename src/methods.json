@@ -8,7 +8,7 @@
     "ratings": { "simplicity": 2, "effectiveness": 5 },
     "time": "N/A",
     "ms": 0,
-    "participants": ["User Experience", "Design"],
+    "participants": ["User Exp.", "Design"],
     "basics": {
       "whens": [
         "As a guiding principle of your innovation efforts",
@@ -58,7 +58,7 @@
     "ratings": { "simplicity": 3, "effectiveness": 5 },
     "time": "N/A",
     "ms": 0,
-    "participants": ["User Experience", "Design", "Leadership"],
+    "participants": ["User Exp.", "Design", "Leadership"],
     "basics": {
       "whens": [
         "When planning or conducting any form of customer research",
@@ -115,7 +115,7 @@
     "ratings": { "simplicity": 3, "effectiveness": 5 },
     "time": "N/A",
     "ms": 0,
-    "participants": ["User Experience", "Design"],
+    "participants": ["User Exp.", "Design"],
     "basics": {
       "whens": [
         "To bring order, structure and clarity to your design efforts",
@@ -165,7 +165,7 @@
     "ratings": { "simplicity": 4, "effectiveness": 4 },
     "time": "N/A",
     "ms": 0,
-    "participants": ["User Experience", "Leadership"],
+    "participants": ["User Exp.", "Leadership"],
     "basics": {
       "whens": [
         "From the very beginning of the project",
@@ -218,7 +218,7 @@
     "ratings": { "simplicity": 3, "effectiveness": 3 },
     "time": "1-5 hours",
     "ms": 10800000,
-    "participants": ["User Experience", "Product Owners"],
+    "participants": ["User Exp.", "Product Owners"],
     "basics": {
       "whens": [
         "On big complex projects at larger organizations",
@@ -272,7 +272,7 @@
     "ratings": { "simplicity": 3, "effectiveness": 2 },
     "time": "30-60 minutes",
     "ms": 2700000,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": [
         "At the beginning of a project as a part of initial research",
@@ -334,7 +334,7 @@
     "ratings": { "simplicity": 3, "effectiveness": 4 },
     "time": "30-120 minutes",
     "ms": 4500000,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": [
         "When the user frequently interacts with equipment or other people",
@@ -394,7 +394,7 @@
     "ratings": { "simplicity": 2, "effectiveness": 5 },
     "time": "2-4 weeks",
     "ms": 1814400050,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": [
         "When you need to observe people’s context and actions over time (e.g. when researching music listening or recycling during the day)",
@@ -456,7 +456,7 @@
     "ratings": { "simplicity": 2, "effectiveness": 4 },
     "time": "1-10 days",
     "ms": 432000000,
-    "participants": ["User Experience"],
+    "participants": ["User Exp."],
     "basics": {
       "whens": [
         "When working with complex problems that require contextual knowledge",
@@ -508,7 +508,7 @@
     "ratings": { "simplicity": 2, "effectiveness": 3 },
     "time": "30-60 minutes each",
     "ms": 2700000,
-    "participants": ["User Experience", "Experts"],
+    "participants": ["User Exp.", "Experts"],
     "basics": {
       "whens": [
         "When working with complex problems that require contextual knowledge",
@@ -559,7 +559,7 @@
     "ratings": { "simplicity": 5, "effectiveness": 2 },
     "time": "3 days",
     "ms": 259200000,
-    "participants": ["User Experience"],
+    "participants": ["User Exp."],
     "basics": {
       "whens": [
         "For capturing user attitudes to real-world topics",
@@ -592,7 +592,7 @@
     "ratings": { "simplicity": 3, "effectiveness": 4 },
     "time": "N/A",
     "ms": 0,
-    "participants": ["User Experience"],
+    "participants": ["User Exp."],
     "basics": {
       "whens": [
         "For getting a first-hand experience of the user journey",
@@ -625,7 +625,7 @@
     "ratings": { "simplicity": 4, "effectiveness": 3 },
     "time": "3-5 days",
     "ms": 345600000,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": [
         "In the very beginning of your research phase",
@@ -672,7 +672,7 @@
     "ratings": { "simplicity": 5, "effectiveness": 3 },
     "time": "30 minutes",
     "ms": 180000,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": [
         "During research phase to generate insights about what’s important for the users and how they think about the problem",
@@ -716,7 +716,7 @@
     "ratings": { "simplicity": 3, "effectiveness": 4 },
     "time": "3-8 hours",
     "ms": 18000000,
-    "participants": ["User Experience", "Product Owners"],
+    "participants": ["User Exp.", "Product Owners"],
     "basics": {
       "whens": [
         "After user research to synthesize findings",
@@ -775,7 +775,7 @@
     "ratings": { "simplicity": 4, "effectiveness": 3 },
     "time": "30-90 minutes",
     "ms": 3600000,
-    "participants": ["User Experience", "Design"],
+    "participants": ["User Exp.", "Design"],
     "basics": {
       "whens": [
         "Very early in design process, as a point of departure",
@@ -834,14 +834,14 @@
     "time": "3-8 hours",
     "ms": 18000000,
     "participants": [
-      "User Experience",
+      "User Exp.",
       "Design",
       "Stakeholders",
       "Product Owners",
       "Experts",
       "Leadership",
       "Users",
-      "Project Managers"
+      "Project Mgmt."
     ],
     "basics": {
       "whens": [
@@ -907,7 +907,7 @@
     "ratings": { "simplicity": 4, "effectiveness": 3 },
     "time": "1 hour",
     "ms": 3600000,
-    "participants": ["User Experience", "Design"],
+    "participants": ["User Exp.", "Design"],
     "basics": {
       "whens": [
         "To structure and organize our thinking",
@@ -952,7 +952,7 @@
     "ratings": { "simplicity": 3, "effectiveness": 3 },
     "time": "30-120 minutes",
     "ms": 5400000,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": ["For structuring field research and contextual inquiry"],
       "helps": [
@@ -989,7 +989,7 @@
     },
     "time": "30-120 minutes",
     "ms": 5400000,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": ["For structuring field research and contextual inquiry"],
       "helps": [
@@ -1021,7 +1021,7 @@
     "ratings": { "simplicity": 3, "effectiveness": 4 },
     "time": "5-10 days",
     "ms": 691200000,
-    "participants": ["User Experience"],
+    "participants": ["User Exp."],
     "basics": {
       "whens": [
         "As a first step to understand a content-heavy website",
@@ -1078,7 +1078,7 @@
     "ratings": { "simplicity": 3, "effectiveness": 3 },
     "time": "4-16 hours",
     "ms": 36000000,
-    "participants": ["User Experience", "Stakeholders"],
+    "participants": ["User Exp.", "Stakeholders"],
     "basics": {
       "whens": [
         "To kick-start new design projects",
@@ -1139,7 +1139,7 @@
     "ratings": { "simplicity": 5, "effectiveness": 4 },
     "time": "15-30 minutes each",
     "ms": 1200000,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": [
         "For understanding how users feel about the products they use",
@@ -1183,7 +1183,7 @@
     },
     "time": "N/A",
     "ms": 0,
-    "participants": ["User Experience"],
+    "participants": ["User Exp."],
     "basics": {
       "whens": [
         "For understanding key most important tasks the user aims to accomplish with your system",
@@ -1223,7 +1223,7 @@
     "time": "N/A",
     "ms": 0,
     "participants": [
-      "User Experience",
+      "User Exp.",
       "Product Owners",
       "Quality Assurance",
       "Development"
@@ -1289,7 +1289,7 @@
     },
     "time": "30 minutes",
     "ms": 1800000,
-    "participants": ["User Experience", "Design"],
+    "participants": ["User Exp.", "Design"],
     "basics": {
       "whens": [
         "When synthesizing results of the research phase to provide input for the ideation phase"
@@ -1335,14 +1335,14 @@
     "time": "30 minutes",
     "ms": 18000000,
     "participants": [
-      "User Experience",
+      "User Exp.",
       "Design",
       "Stakeholders",
       "Product Owners",
       "Experts",
       "Leadership",
       "Users",
-      "Project Managers"
+      "Project Mgmt."
     ],
     "basics": {
       "whens": [
@@ -1406,7 +1406,7 @@
     },
     "time": "15 minutes",
     "ms": 900000,
-    "participants": ["User Experience"],
+    "participants": ["User Exp."],
     "basics": {
       "whens": [
         "When synthesizing research results",
@@ -1464,14 +1464,14 @@
     "time": "5 minutes",
     "ms": 300000,
     "participants": [
-      "User Experience",
+      "User Exp.",
       "Design",
       "Stakeholders",
       "Product Owners",
       "Experts",
       "Leadership",
       "Users",
-      "Project Managers"
+      "Project Mgmt."
     ],
     "basics": {
       "whens": [
@@ -1514,7 +1514,7 @@
     "ratings": { "simplicity": 4, "effectiveness": 3 },
     "time": "30-60 minutes",
     "ms": 2700000,
-    "participants": ["User Experience", "Design", "Product Owners"],
+    "participants": ["User Exp.", "Design", "Product Owners"],
     "basics": {
       "whens": [
         "To generate brave, new, disruptive ideas",
@@ -1559,7 +1559,7 @@
     "ratings": { "simplicity": 5, "effectiveness": 4 },
     "time": "30 minutes",
     "ms": 1800000,
-    "participants": ["User Experience", "Design", "Product Owners"],
+    "participants": ["User Exp.", "Design", "Product Owners"],
     "basics": {
       "whens": [
         "When exploring early ideas and concepts with your team",
@@ -1620,7 +1620,7 @@
     "ratings": { "simplicity": 4, "effectiveness": 3 },
     "time": "30-90 minutes",
     "ms": 3600000,
-    "participants": ["User Experience", "Design", "Product Owners"],
+    "participants": ["User Exp.", "Design", "Product Owners"],
     "basics": {
       "whens": [
         "To visualize results of user research or after ideation",
@@ -1678,7 +1678,7 @@
     "ratings": { "simplicity": 4, "effectiveness": 2 },
     "time": "10 minutes",
     "ms": 600000,
-    "participants": ["User Experience", "Design"],
+    "participants": ["User Exp.", "Design"],
     "basics": {
       "whens": [
         "To communicate what the current experience looks like",
@@ -1727,7 +1727,7 @@
     "ratings": { "simplicity": 4, "effectiveness": 3 },
     "time": "60-90 minutes",
     "ms": 4500000,
-    "participants": ["User Experience", "Product Owners", "Design"],
+    "participants": ["User Exp.", "Product Owners", "Design"],
     "basics": {
       "whens": ["After initial research to set context for the ideation phase"],
       "helps": [
@@ -1772,7 +1772,7 @@
     "ratings": { "simplicity": 3, "effectiveness": 5 },
     "time": "30-60 minutes",
     "ms": 2700000,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": [
         "As soon as the initial mock-ups are available",
@@ -1833,7 +1833,7 @@
     "ratings": { "simplicity": 3, "effectiveness": 3 },
     "time": "30-90 minutes",
     "ms": 3600000,
-    "participants": ["User Experience"],
+    "participants": ["User Exp."],
     "basics": {
       "whens": [
         "To quickly evaluate THE most common usability issues",
@@ -1896,7 +1896,7 @@
     "ratings": { "simplicity": 3, "effectiveness": 3 },
     "time": "30-90 minutes",
     "ms": 3600000,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": [
         "When working on a new, untested product",
@@ -1958,7 +1958,7 @@
     "ratings": { "simplicity": 2, "effectiveness": 4 },
     "time": "15 minutes",
     "ms": 900000,
-    "participants": ["User Experience", "Design", "Product Owners"],
+    "participants": ["User Exp.", "Design", "Product Owners"],
     "basics": {
       "whens": [
         "When you’re looking to test a hypotheses or ideate around a physical space or an object"
@@ -2004,7 +2004,7 @@
     "ratings": { "simplicity": 3, "effectiveness": 5 },
     "time": "N/A",
     "ms": 0,
-    "participants": ["User Experience", "Design", "Leadership"],
+    "participants": ["User Exp.", "Design", "Leadership"],
     "basics": {
       "whens": [
         "To bring clarity and alignment to the team",
@@ -2062,12 +2062,7 @@
     "ratings": { "simplicity": 2, "effectiveness": 3 },
     "time": "60 minutes",
     "ms": 3600000,
-    "participants": [
-      "User Experience",
-      "Design",
-      "Product Owners",
-      "Leadership"
-    ],
+    "participants": ["User Exp.", "Design", "Product Owners", "Leadership"],
     "basics": {
       "whens": [
         "After you’ve truly and deeply understood the problem and the functional, social and emotional needs of users",
@@ -2115,14 +2110,14 @@
     "time": "N/A",
     "ms": 0,
     "participants": [
-      "User Experience",
+      "User Exp.",
       "Design",
       "Stakeholders",
       "Product Owners",
       "Experts",
       "Leadership",
       "Users",
-      "Project Managers"
+      "Project Mgmt."
     ],
     "basics": {
       "whens": [
@@ -2173,7 +2168,7 @@
     "ratings": { "simplicity": 1, "effectiveness": 3 },
     "time": "",
     "ms": 0,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": [
         "In later and more advanced usability testing sessions",
@@ -2209,7 +2204,7 @@
     "ratings": { "simplicity": 4, "effectiveness": 3 },
     "time": "",
     "ms": 0,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": [
         "To measure how our customers feel about our products",
@@ -2264,7 +2259,7 @@
     "ratings": { "simplicity": 2, "effectiveness": 4 },
     "time": "15 minutes each",
     "ms": 900000,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": [
         "When assessing usability of our system",
@@ -2299,7 +2294,7 @@
     "ratings": { "simplicity": 2, "effectiveness": 3 },
     "time": "",
     "ms": 0,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": [
         "When needing to compare two versions of the same variable",
@@ -2352,7 +2347,7 @@
     "time": "2-4 hours",
     "ms": 10800000,
     "participants": [
-      "User Experience",
+      "User Exp.",
       "Product Owners",
       "Stakeholders",
       "Development",
@@ -2387,7 +2382,7 @@
     "ratings": { "simplicity": 2, "effectiveness": 4 },
     "time": "3-5 days",
     "ms": 345600000,
-    "participants": ["User Experience", "Design", "Development"],
+    "participants": ["User Exp.", "Design", "Development"],
     "basics": {
       "whens": [
         "When several design teams are working in parallel",
@@ -2417,7 +2412,7 @@
     "ratings": { "simplicity": 1, "effectiveness": 5 },
     "time": "1-30 days",
     "ms": 1296000000,
-    "participants": ["User Experience", "Design", "Product Owners"],
+    "participants": ["User Exp.", "Design", "Product Owners"],
     "basics": {
       "whens": [
         "To bring your designs to their “final” form",
@@ -2471,7 +2466,7 @@
     "ratings": { "simplicity": 2, "effectiveness": 5 },
     "time": "N/A",
     "ms": 0,
-    "participants": ["User Experience", "Design"],
+    "participants": ["User Exp.", "Design"],
     "basics": {
       "whens": [
         "For Usability Testing of the “final” concept to determine how the content should look like on various devices"
@@ -2501,7 +2496,7 @@
     "ratings": { "simplicity": 4, "effectiveness": 3 },
     "time": "15 minutes",
     "ms": 900000,
-    "participants": ["User Experience", "Users"],
+    "participants": ["User Exp.", "Users"],
     "basics": {
       "whens": [
         "For measuring and quantifying usability of your system",

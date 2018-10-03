@@ -68,14 +68,31 @@ class QuestionFlow extends React.Component {
   render() {
     return (
       <div>
-        <p className="text-right">
-          <button
-            className="btn btn-outline-danger pull-right"
-            onClick={this.resetQuestions}
-          >
-            Start Over
-          </button>
-        </p>
+        <div className="row">
+          <div className="col-sm-10">
+            <p>
+              Below are 50 user experience and design methods (in no particular
+              order) explained in detail from effectiveness to step-by-step
+              instructions and resources. It can be intimidating and difficult
+              to know where to start. By answering some quick questions, we can
+              determine which stage of the user experience research and
+              development process your product is in. We can then suggest some
+              great methods for your particular situation. If you&rsquo;re still
+              not sure, feel free to just start reading them from the top.
+            </p>
+          </div>
+          <div className="col-sm-2">
+            {" "}
+            <p className="text-right">
+              <button
+                className="btn btn-outline-danger pull-right"
+                onClick={this.resetQuestions}
+              >
+                Start Over
+              </button>
+            </p>
+          </div>
+        </div>
         {/* Previously answered questions: old && Val = selected Val at appropriate Level */}
         {this.state.qs
           .filter(pq => pq.Level < this.state.currentQuestion)

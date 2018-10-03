@@ -27,26 +27,18 @@ class MethodCard extends React.Component {
           </h2>
           <div className="card-body">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-12">
                 <div className="card bg-light border-warning">
                   <div className="card-body">
                     <p className="card-description">{description}</p>
                   </div>
                 </div>
               </div>
-              <div className="col-md-8">
-                <table className="table table-striped table-sm">
+            </div>
+            <div className="row">
+              <div className="col-md-6">
+                <table className="table table-sm">
                   <tbody>
-                    <tr>
-                      <th scope="row">Steps</th>
-                      <td className="text-right">
-                        <ul className="card-method-steps">
-                          {stages.Explore ? <li>Explore</li> : null}
-                          {stages.Imagine ? <li>Imagine</li> : null}
-                          {stages.Test ? <li>Test</li> : null}
-                        </ul>
-                      </td>
-                    </tr>
                     <tr>
                       <th scope="row">Simplicity</th>
                       <td className="text-right">
@@ -70,6 +62,22 @@ class MethodCard extends React.Component {
                     <tr>
                       <th scope="row">Time</th>
                       <td className="text-right">{time}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div className="col-md-6">
+                <table className="table table-sm">
+                  <tbody>
+                    <tr>
+                      <th scope="row">Steps</th>
+                      <td className="text-right">
+                        <ul className="card-method-steps">
+                          {stages.Explore ? <li>Explore</li> : null}
+                          {stages.Imagine ? <li>Imagine</li> : null}
+                          {stages.Test ? <li>Test</li> : null}
+                        </ul>
+                      </td>
                     </tr>
                     <tr>
                       <th scope="row">Participants</th>

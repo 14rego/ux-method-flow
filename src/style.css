@@ -16,6 +16,15 @@
   margin: 0 0 0 0.5em;
   padding: 0;
 }
+.card.bg-light.border-warning {
+  margin-bottom: 25px;
+}
+.card-description {
+  margin: 0;
+}
+.card .table.table-sm {
+  margin-bottom: 0;
+}
 .rating .fas {
   color: orange;
 }

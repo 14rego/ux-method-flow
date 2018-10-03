@@ -19,6 +19,16 @@ class MethodCardList extends React.Component {
   componentDidMount = () => {
     this.filterCards();
   };
+  shuffleCards = arr => {
+    var i, j, temp;
+    for (i = arr.length - 1; i > 0; i--) {
+      j = Math.floor(Math.random() * (i + 1));
+      temp = arr[i];
+      arr[i] = arr[j];
+      arr[j] = temp;
+    }
+    return arr;
+  };
   filterCards = () => {
     this.setState({ theseCards: MethodList });
     let filtered = this.state.theseCards;
@@ -58,6 +68,7 @@ class MethodCardList extends React.Component {
         return card.unique === this.state.fUnique;
       });
     }
+    filtered = this.shuffleCards(filtered);
     this.setState({ theseCards: filtered });
   };
   render() {
