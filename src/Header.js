@@ -1,9 +1,22 @@
 import React from "react";
+import { navigate } from "@reach/router";
 
 class Header extends React.Component {
-  render() {
-    const { active } = this.props;
+  constructor(props) {
+    super(props);
 
+    this.state = {
+      term: this.props.term
+    };
+  }
+  handleSearchChange = event => {
+    this.setState({ term: event.target.value });
+  };
+  handleSearchSubmit = event => {
+    event.preventDefault();
+    navigate(`/search/${this.state.term}`);
+  };
+  render() {
     return (
       <header>
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -24,12 +37,9 @@ class Header extends React.Component {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
-              <li className={`nav-item ${active === "root" ? "active" : ""}`}>
+              <li className="nav-item">
                 <a href="/" className="nav-link">
                   Home
-                  {active === "root" ? (
-                    <span className="sr-only">(current)</span>
-                  ) : null}
                 </a>
               </li>
               <li className="nav-item dropdown">
@@ -140,37 +150,28 @@ class Header extends React.Component {
                   </a>
                 </div>
               </li>
-              <li
-                className={`nav-item ${
-                  active === "effective" ? "active" : null
-                }`}
-              >
+              <li className="nav-item">
                 <a href="/effective/4" className="nav-link">
                   Effective 4+
-                  {active === "effective" ? (
-                    <span className="sr-only">(current)</span>
-                  ) : null}
                 </a>
               </li>
-              <li
-                className={`nav-item ${
-                  active === "simplicity" ? "active" : null
-                }`}
-              >
+              <li className="nav-item">
                 <a href="/simplicity/2" className="nav-link">
                   Simplicity ≤2
-                  {active === "simplicity" ? (
-                    <span className="sr-only">(current)</span>
-                  ) : null}
                 </a>
               </li>
             </ul>
-            <form className="form-inline my-2 my-lg-0">
+            <form
+              className="form-inline my-2 my-lg-0"
+              onSubmit={this.handleSearchSubmit}
+            >
               <input
                 className="form-control mr-sm-2"
                 type="search"
+                value={this.state.term}
                 placeholder="Search"
                 aria-label="Search"
+                onChange={this.handleSearchChange}
               />
               <button
                 className="btn btn-outline-info my-2 my-sm-0"

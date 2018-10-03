@@ -97,7 +97,7 @@ class MethodCard extends React.Component {
                 <div className="accordion">
                   <Accordion title="Basics" unique={`${unique}-basic`}>
                     <div className="card-method-basics-whens">
-                      <h4>When to use:</h4>
+                      <h5>When to use:</h5>
                       <ul>
                         {basics.whens.map((w, index) => (
                           <li key={index}>{w}</li>
@@ -105,7 +105,7 @@ class MethodCard extends React.Component {
                       </ul>
                     </div>
                     <div className="card-method-basics-helps">
-                      <h4>Helps to answer:</h4>
+                      <h5>Helps to answer:</h5>
                       <ul>
                         {basics.helps.map((h, index) => (
                           <li key={index}>{h}</li>
@@ -113,7 +113,7 @@ class MethodCard extends React.Component {
                       </ul>
                     </div>
                     <div className="card-method-basics-tips">
-                      <h4>Tips:</h4>
+                      <h5>Tips:</h5>
                       <ul>
                         {basics.tips.map((t, index) => (
                           <li key={index}>{t}</li>
@@ -121,7 +121,7 @@ class MethodCard extends React.Component {
                       </ul>
                     </div>
                     <div className="card-method-basics-resources">
-                      <h4>Resources:</h4>
+                      <h5>Resources:</h5>
                       <ul>
                         {basics.resources.map((r, index) => (
                           <li key={index}>{r}</li>
@@ -149,7 +149,7 @@ class MethodCard extends React.Component {
                       <ol>
                         {instructions.map((i, index) => (
                           <li key={index}>
-                            <h4>{i.title}</h4>
+                            <h5>{i.title}</h5>
                             <p>{i.description}</p>
                           </li>
                         ))}

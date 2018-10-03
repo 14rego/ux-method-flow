@@ -9,6 +9,7 @@ class MethodCardList extends React.Component {
       fEffective: this.props.fEffective,
       fKey: this.props.fKey,
       fRole: this.props.fRole,
+      fSearch: this.props.fSearch,
       fSimple: this.props.fSimple,
       fStage: this.props.fStage,
       fSuggest: this.props.fSuggest,
@@ -44,6 +45,19 @@ class MethodCardList extends React.Component {
       filtered = this.state.theseCards.filter(card => {
         let replaced = this.state.fRole.replace("-", " ");
         return card.participants.indexOf(replaced) >= 0;
+      });
+    } else if (this.state.fSearch != undefined) {
+      filtered = this.state.theseCards.filter(card => {
+        let flag = false,
+          title = card.title.toLowerCase(),
+          desc = card.description.toLowerCase(),
+          term = this.state.fSearch.toLowerCase();
+        if (title.indexOf(term) > -1) {
+          flag = true;
+        } else if (desc.indexOf(term) > -1) {
+          flag = true;
+        }
+        return flag;
       });
     } else if (this.state.fSimple != undefined) {
       filtered = this.state.theseCards.filter(card => {

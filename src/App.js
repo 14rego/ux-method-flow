@@ -11,13 +11,12 @@ class App extends React.Component {
 
     this.state = {
       loading: true,
-      activePage: "root"
+      term: this.props.search
     };
   }
   componentDidMount = () => {
     this.setState({
-      loading: false,
-      activePage: "root"
+      loading: false
     });
   };
   render() {
@@ -31,7 +30,10 @@ class App extends React.Component {
     );
     return (
       <div className={`loading-${this.state.loading} container`}>
-        <Header active={this.state.activePage} />
+        <Router>
+          <Header path="/*" />
+          <Header path="/search/:term" />
+        </Router>
         <div className="row">
           <div className="col-12">
             <br />
@@ -46,6 +48,7 @@ class App extends React.Component {
               <MethodCardList path="/role/:fRole" />
               <MethodCardList path="/simplicity/:fSimple" />
               <MethodCardList path="/stage/:fStage" />
+              <MethodCardList path="/search/:fSearch" />
             </Router>
           </div>
         </div>
