@@ -136,17 +136,20 @@ class Header extends React.Component {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Stage
+                  Category
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="/stage/Explore">
-                    Explore
-                  </a>
-                  <a className="dropdown-item" href="/stage/Imagine">
+                  <a className="dropdown-item" href="/category/Imagine">
                     Imagine
                   </a>
-                  <a className="dropdown-item" href="/stage/Test">
-                    Test
+                  <a className="dropdown-item" href="/category/Explore">
+                    Explore
+                  </a>
+                  <a className="dropdown-item" href="/category/Design">
+                    Design
+                  </a>
+                  <a className="dropdown-item" href="/category/Evaluate">
+                    Evaluate
                   </a>
                 </div>
               </li>

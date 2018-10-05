@@ -43,11 +43,11 @@ class App extends React.Component {
               <NotFound default />
               <QuestionFlow path="/" />
               <MethodCardList path="/detail/:fUnique" />
+              <MethodCardList path="/category/:fCat" />
               <MethodCardList path="/effective/:fEffective" />
               <MethodCardList path="/keyword/:fKey" />
               <MethodCardList path="/role/:fRole" />
               <MethodCardList path="/simplicity/:fSimple" />
-              <MethodCardList path="/stage/:fStage" />
               <MethodCardList path="/search/:fSearch" />
             </Router>
           </div>

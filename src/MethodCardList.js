@@ -6,12 +6,12 @@ class MethodCardList extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      fCat: this.props.fCat,
       fEffective: this.props.fEffective,
       fKey: this.props.fKey,
       fRole: this.props.fRole,
       fSearch: this.props.fSearch,
       fSimple: this.props.fSimple,
-      fStage: this.props.fStage,
       fSuggest: this.props.fSuggest,
       fUnique: this.props.fUnique,
       theseCards: MethodList
@@ -63,9 +63,9 @@ class MethodCardList extends React.Component {
       filtered = this.state.theseCards.filter(card => {
         return card.ratings.simplicity <= this.state.fSimple;
       });
-    } else if (this.state.fStage != undefined) {
+    } else if (this.state.fCat != undefined) {
       filtered = this.state.theseCards.filter(card => {
-        return card.stages[this.state.fStage] === true;
+        return card.category === this.state.fCat;
       });
     } else if (
       this.state.fSuggest != undefined &&
@@ -104,7 +104,7 @@ class MethodCardList extends React.Component {
               unique={uxm.unique}
               title={uxm.title}
               description={uxm.description}
-              stages={uxm.stages}
+              category={uxm.category}
               ratings={uxm.ratings}
               time={uxm.time}
               ms={uxm.ms}

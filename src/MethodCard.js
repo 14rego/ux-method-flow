@@ -9,7 +9,7 @@ class MethodCard extends React.Component {
       unique,
       title,
       description,
-      stages,
+      category,
       ratings,
       time,
       participants,
@@ -70,14 +70,8 @@ class MethodCard extends React.Component {
                 <table className="table table-sm">
                   <tbody>
                     <tr>
-                      <th scope="row">Steps</th>
-                      <td className="text-right">
-                        <ul className="card-method-steps">
-                          {stages.Explore ? <li>Explore</li> : null}
-                          {stages.Imagine ? <li>Imagine</li> : null}
-                          {stages.Test ? <li>Test</li> : null}
-                        </ul>
-                      </td>
+                      <th scope="row">Category</th>
+                      <td className="text-right">{category}</td>
                     </tr>
                     <tr>
                       <th scope="row">Participants</th>
