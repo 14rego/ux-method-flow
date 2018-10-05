@@ -47,7 +47,13 @@
         "description": "Now you’re to test your most promising ideas by creating prototypes of these ideas and showing them to users for feedback. Even once you’ve picked your idea for the development of Minimum Viable Product and launched it to the market - it will still be just a test. User’s feedback will be used for future learnings and iterations. Congrats, this is (almost) all there is to the world’s most powerful design framework!"
       }
     ],
-    "documents": [{ "title": "UX Plan", "url": "file.pdf" }]
+    "documents": [
+      { "title": "UX Plan #1", "url": "user-experience-plan_1.pdf" },
+      {
+        "title": "UX Plan #2",
+        "url": "user-experience-plan_2.pdf"
+      }
+    ]
   },
   {
     "id": 2,
@@ -104,7 +110,7 @@
         "description": "Discuss what impact your findings have on the strategy, marketing, customer support  and product roadmap? How do we organize the company and position our offering from here?"
       }
     ],
-    "documents": [{ "title": "JTBD", "url": "file.pdf" }]
+    "documents": [{ "title": "JTBD Worksheet", "url": "jobs-to-be-done.pdf" }]
   },
   {
     "id": 3,
@@ -152,8 +158,18 @@
       }
     ],
     "documents": [
-      { "title": "UX Kanban Board template", "url": "file.pdf" },
-      { "title": "Hypothesis Testing canvas", "url": "file.pdf" }
+      {
+        "title": "UX Plan #1",
+        "url": "user-experience-plan_1.pdf"
+      },
+      {
+        "title": "UX Plan #2",
+        "url": "user-experience-plan_2.pdf"
+      },
+      {
+        "title": "Hypothesis Testing canvas",
+        "url": "hypothesis-test-plan.pdf"
+      }
     ]
   },
   {
@@ -261,7 +277,7 @@
         "description": "You’ll notice that over time the role of some stakeholders will change. Ensure that your Stakeholder Map is up-to-date and reflects this."
       }
     ],
-    "documents": [{ "title": "Stakeholder Map Canvas", "url": "file.pdf" }]
+    "documents": [{ "title": "Stakeholder Map", "url": "stakeholder-map.pdf" }]
   },
   {
     "id": 6,
@@ -320,9 +336,12 @@
       }
     ],
     "documents": [
-      { "title": "Digital Recording Release Form", "url": "file.pdf" },
-      { "title": "Interview Plan", "url": "file.pdf" },
-      { "title": "Interview Script Planner", "url": "file.pdf" }
+      {
+        "title": "Recording Release Form",
+        "url": "recording-release-form.pdf"
+      },
+      { "title": "Interview Plan", "url": "user-interview-plan.pdf" },
+      { "title": "Interview Script", "url": "user-interview-script.pdf" }
     ]
   },
   {
@@ -381,8 +400,14 @@
       }
     ],
     "documents": [
-      { "title": "Contextual Inquiry Plan", "url": "file.pdf" },
-      { "title": "Contextual Inquiry Report", "url": "file.pdf" }
+      {
+        "title": "Contextual Inquiry Plan",
+        "url": "contextual-inquiry-plan.pdf"
+      },
+      {
+        "title": "Contextual Inquiry Report",
+        "url": "contextual-inquiry-report.pdf"
+      }
     ]
   },
   {
@@ -442,9 +467,15 @@
       }
     ],
     "documents": [
-      { "title": "Mobile Diary Planning Canvas", "url": "file.pdf" },
-      { "title": "Mobile Diary Questionnaire", "url": "file.pdf" },
-      { "title": "Mobile Diary Day Report", "url": "file.pdf" }
+      { "title": "Mobile Diary Plan", "url": "mobile-diary-plan.pdf" },
+      {
+        "title": "Mobile Diary Questionnaire",
+        "url": "mobile-diary-questionnaire.pdf"
+      },
+      {
+        "title": "Mobile Diary Daily Report",
+        "url": "mobile-diary-daily-report.pdf"
+      }
     ]
   },
   {
@@ -548,7 +579,12 @@
         "description": "Be your best - listen, probe, ask why and take notes. Ideally, record the interview for future analysis. After all the interviews - what did you learn? What perspectives are out there? How can you use the results for your research?"
       }
     ],
-    "documents": [{ "title": "Expert Interview Canvas", "url": "file.pdf" }]
+    "documents": [
+      {
+        "title": "Expert Interview Canvas",
+        "url": "expert-interview-canvas.pdf"
+      }
+    ]
   },
   {
     "id": 11,
@@ -764,7 +800,9 @@
         "description": "Make sure to make the Persona visible for the entire product team - especially in areas where product decisions are made. Be creative (e.g. consider cutting out full-height personas out of cardboard)!"
       }
     ],
-    "documents": [{ "title": "Persona template", "url": "file.pdf" }]
+    "documents": [
+      { "title": "Persona Template", "url": "persona-template.pdf" }
+    ]
   },
   {
     "id": 16,
@@ -822,7 +860,7 @@
         "description": "After the workshop, find commonalities between groups’ Empathy Maps and create one common Map. Make sure to actively share the map everywhere where decisions about users are made."
       }
     ],
-    "documents": [{ "title": "Empathy Map Canvas", "url": "file.pdf" }]
+    "documents": [{ "title": "Empathy Map", "url": "empathy-map.pdf" }]
   },
   {
     "id": 17,
@@ -895,7 +933,10 @@
       }
     ],
     "documents": [
-      { "title": "Emptional Journey Map Template", "url": "file.pdf" }
+      {
+        "title": "Emptional Journey Map Template",
+        "url": "emotional-journey-map.pdf"
+      }
     ]
   },
   {
@@ -971,7 +1012,7 @@
     },
     "keywords": ["Research", "Qualitative", "Framework", "Empathy"],
     "instructions": [],
-    "documents": [{ "title": "AEIOU Worksheet", "url": "file.pdf" }]
+    "documents": [{ "title": "AEIOU Worksheet", "url": "aeiou-worksheet.pdf" }]
   },
   {
     "id": 20,
@@ -1004,7 +1045,7 @@
     "documents": [
       {
         "title": "POEMS Worksheet",
-        "url": "file.pdf"
+        "url": "poems-worksheet.pdf"
       }
     ]
   },
@@ -1063,7 +1104,12 @@
         "description": "Create an overall visual representation of the site and share it with the design team. It will drive your future redesign work."
       }
     ],
-    "documents": [{ "title": "Content Audit Worksheet", "url": "file.pdf" }]
+    "documents": [
+      {
+        "title": "Content Audit Worksheet",
+        "url": "content-audit-worksheet.pdf"
+      }
+    ]
   },
   {
     "id": 22,
@@ -1257,7 +1303,7 @@
     "documents": [
       {
         "title": "KPI Tracker",
-        "url": "file.pdf"
+        "url": "kpi-tracker.pdf"
       }
     ]
   },
@@ -1305,7 +1351,7 @@
     "documents": [
       {
         "title": "How Might We Canvas",
-        "url": "file.pdf"
+        "url": "how-might-we-canvas.pdf"
       }
     ]
   },
@@ -1372,7 +1418,7 @@
         "description": "Team votes with voting dots (2 dots per participant) for their favorite ideas. Count the votes and make a summary of most promising ideas after the workshop."
       }
     ],
-    "documents": [{ "title": "Crazy 8s Canvas", "url": "file.pdf" }]
+    "documents": [{ "title": "Crazy 8s Canvas", "url": "crazy-8s-canvas.pdf" }]
   },
   {
     "id": 28,
@@ -1432,7 +1478,9 @@
         "description": "After the workshop, take pictures of the “idea wall” and send participants a summary with the key identified themes."
       }
     ],
-    "documents": []
+    "documents": [
+      { "title": "Brainstorming Rules", "url": "brainstorming-rules.pdf" }
+    ]
   },
   {
     "id": 29,
@@ -1647,7 +1695,9 @@
         "description": "If you plan to actively communicate the Storyboard outside of the product team, you might want to iterate on illustrations and annotations to make the Storyboard understandable for people unfamiliar with the context."
       }
     ],
-    "documents": [{ "title": "Storyboarding Canvas", "url": "file.pdf" }]
+    "documents": [
+      { "title": "Storyboarding Canvas", "url": "storyboarding-canvas.pdf" }
+    ]
   },
   {
     "id": 33,
@@ -1741,7 +1791,12 @@
         "description": "Gather the worksheets and put them into a one-pager. Send this one-pager around to the participants after the workshop, as well as hang it on the “insights” wall in your design space."
       }
     ],
-    "documents": [{ "title": "Future Trends Worksheet", "url": "file.pdf" }]
+    "documents": [
+      {
+        "title": "Future Trends Worksheet",
+        "url": "future-trends-worksheet.pdf"
+      }
+    ]
   },
   {
     "id": 35,
@@ -1800,8 +1855,16 @@
       }
     ],
     "documents": [
-      { "title": "Usability Test Plan", "url": "file.pdf" },
-      { "title": "Usability Report", "url": "file.pdf" }
+      {
+        "title": "10 Usability Principals",
+        "url": "10-usability-principles.pdf"
+      },
+      { "title": "Usability Test Plan", "url": "usability-test-plan.pdf" },
+      { "title": "Usability Report", "url": "usability-report.pdf" },
+      {
+        "title": "Usability Review Scorecard",
+        "url": "usability-scorecard.pdf"
+      }
     ]
   },
   {
@@ -1862,9 +1925,14 @@
       }
     ],
     "documents": [
-      { "title": "Usability Report", "url": "file.pdf" },
-      { "title": "Usability Review Scorecard", "url": "file.pdf" },
-      { "title": "Jakob Nielsen’s 10 Usability Heuristics", "url": "file.pdf" }
+      {
+        "title": "Usability Scorecard",
+        "url": "usability-scorecard.pdf"
+      },
+      {
+        "title": "10 Usability Principals",
+        "url": "10-usability-principles.pdf"
+      }
     ]
   },
   {
@@ -1927,7 +1995,9 @@
         "description": "Summarize your notes immediately after each participant and then again at the end of the test. Discuss common patterns and the next steps with your team."
       }
     ],
-    "documents": [{ "title": "Concept Testing Plan", "url": "file.pdf" }]
+    "documents": [
+      { "title": "Concept Testing Plan", "url": "concept-testing-plan.pdf" }
+    ]
   },
   {
     "id": 38,
@@ -2031,7 +2101,12 @@
         "description": "Make your value proposition statement visible and share it with your customers. TIP: consider other ways to ensure that the Value Proposition is internalized by your company."
       }
     ],
-    "documents": [{ "title": "Value Proposition Template", "url": "file.pdf" }]
+    "documents": [
+      {
+        "title": "Value Proposition Canvas",
+        "url": "value-proposition-canvas.pdf"
+      }
+    ]
   },
   {
     "id": 40,
@@ -2063,8 +2138,7 @@
         "For the best results the exercise should be initiated by the CEO"
       ],
       "resources": [
-        "Watch Simon Sinek’s TED talk “How Great Leaders Inspire Action”",
-        "Brand Pitch Worksheet"
+        "Watch Simon Sinek’s TED talk “How Great Leaders Inspire Action”"
       ]
     },
     "keywords": ["Design", "Brainstorming"],
@@ -2078,7 +2152,9 @@
         "description": "Since they can drive your entire strategy and communications, Brand Pitch efforts require strong support from the CEO. He/she has to be truly onboard with the pitch and then learn it by heart to inspire customers and employees."
       }
     ],
-    "documents": []
+    "documents": [
+      { "title": "Brand Pitch Worksheet", "url": "brand-pitch-worksheet.pdf" }
+    ]
   },
   {
     "id": 41,
@@ -2226,8 +2302,8 @@
       }
     ],
     "documents": [
-      { "title": "NPS questionnaire", "url": "file.pdf" },
-      { "title": "NPS Worksheet", "url": "file.pdf" }
+      { "title": "NPS Questionnaire", "url": "nps-questionnaire.pdf" },
+      { "title": "NPS Worksheet", "url": "nps-worksheet.pdf" }
     ]
   },
   {
@@ -2351,7 +2427,7 @@
     },
     "keywords": ["Strategy"],
     "instructions": [],
-    "documents": [{ "title": "User Story Worksheet", "url": "file.pdf" }]
+    "documents": [{ "title": "User Story Worksheet", "url": "user-story-worksheet.pdf" }]
   },
   {
     "id": 47,
@@ -2509,8 +2585,8 @@
       }
     ],
     "documents": [
-      { "title": "System Usability Scale Test Template", "url": "file.pdf" },
-      { "title": "System Usability Scale Score Analyzer", "url": "file.pdf" }
+      { "title": "System Usability Scale Test Template", "url": "system-usability-scale-test.pdf" },
+      { "title": "System Usability Scale Score Analyzer", "url": "system-usability-scale-score-analyzer.pdf" }
     ]
   }
 ]
