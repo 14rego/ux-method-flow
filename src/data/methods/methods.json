@@ -1,14 +1,14 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "unique": "human-centered-design",
     "title": "Human-Centered Design",
     "description": "Human-Centered Design (HCD or Design Thinking) is the guiding framework of modern approach to design and innovation. Its core element is ruthless focus on the user above all else.",
     "category": "Design",
-    "ratings": { "simplicity": 2, "effectiveness": 5 },
+    "ratings": { "simplicity": "2", "effectiveness": "5" },
     "time": "N/A",
-    "ms": 0,
-    "participants": ["User Exp.", "Design"],
+    "ms": "0",
+    "participants": ["User Exp", "Design"],
     "basics": {
       "whens": [
         "As a guiding principle of your innovation efforts",
@@ -56,15 +56,15 @@
     ]
   },
   {
-    "id": 2,
+    "id": "2",
     "unique": "jobs-to-be-done",
     "title": "Jobs-to-be-Done",
     "description": "The framework of JTBD allows thinking beyond products’ mere functional aspects. By considering the context of usage, as well as the customers’ social and emotional goals, it will force you to re-think your customers, your product and your markets. Extremely powerful.",
     "category": "Explore",
-    "ratings": { "simplicity": 3, "effectiveness": 5 },
+    "ratings": { "simplicity": "3", "effectiveness": "5" },
     "time": "N/A",
-    "ms": 0,
-    "participants": ["User Exp.", "Design", "Leadership"],
+    "ms": "0",
+    "participants": ["User Exp", "Design", "Leadership"],
     "basics": {
       "whens": [
         "When planning or conducting any form of customer research",
@@ -113,15 +113,15 @@
     "documents": [{ "title": "JTBD Worksheet", "url": "jobs-to-be-done.pdf" }]
   },
   {
-    "id": 3,
+    "id": "3",
     "unique": "hypothesis-driven-design",
     "title": "Hypothesis-Driven Design",
     "description": "Systematically defining and testing hypotheses (also sometimes called Lean UX) is at the heart of every design process. It’s important to be disciplined and methodical about it.",
     "category": "Design",
-    "ratings": { "simplicity": 3, "effectiveness": 5 },
+    "ratings": { "simplicity": "3", "effectiveness": "5" },
     "time": "N/A",
-    "ms": 0,
-    "participants": ["User Exp.", "Design"],
+    "ms": "0",
+    "participants": ["User Exp", "Design"],
     "basics": {
       "whens": [
         "To bring order, structure and clarity to your design efforts",
@@ -173,15 +173,15 @@
     ]
   },
   {
-    "id": 4,
+    "id": "4",
     "unique": "design-space",
     "title": "Design Space",
     "description": "This method is about more than just creating a comfortable workspace for your design team. Done right, your design space can boost your creativity and be your best internal marketing and communication tool.",
     "category": "Design",
-    "ratings": { "simplicity": 4, "effectiveness": 4 },
+    "ratings": { "simplicity": "4", "effectiveness": "4" },
     "time": "N/A",
-    "ms": 0,
-    "participants": ["User Exp.", "Leadership"],
+    "ms": "0",
+    "participants": ["User Exp", "Leadership"],
     "basics": {
       "whens": [
         "From the very beginning of the project",
@@ -226,15 +226,15 @@
     "documents": []
   },
   {
-    "id": 5,
+    "id": "5",
     "unique": "stakeholder-mapping",
     "title": "Stakeholder Mapping",
     "description": "Larger projects typically have numerous stakeholders that all want to have a say in what your product should do. For the sake of harmony and your own mental sanity, it could be helpful to map these stakeholders to know how to manage them.",
     "category": "Imagine",
-    "ratings": { "simplicity": 3, "effectiveness": 3 },
+    "ratings": { "simplicity": "3", "effectiveness": "3" },
     "time": "1-5 hours",
-    "ms": 10800000,
-    "participants": ["User Exp.", "Product Owners"],
+    "ms": "10800000",
+    "participants": ["User Exp", "Product Owners"],
     "basics": {
       "whens": [
         "On big complex projects at larger organizations",
@@ -280,15 +280,15 @@
     "documents": [{ "title": "Stakeholder Map", "url": "stakeholder-map.pdf" }]
   },
   {
-    "id": 6,
+    "id": "6",
     "unique": "user-interview",
     "title": "Individual User Interview",
     "description": "Individual interviews can be useful for exploring attitudes, beliefs and past experiences of (potential) users during the exploration phase.",
     "category": "Evaluate",
-    "ratings": { "simplicity": 3, "effectiveness": 2 },
+    "ratings": { "simplicity": "3", "effectiveness": "2" },
     "time": "30-60 minutes",
-    "ms": 2700000,
-    "participants": ["User Exp.", "Users"],
+    "ms": "2700000",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": [
         "At the beginning of a project as a part of initial research",
@@ -345,15 +345,15 @@
     ]
   },
   {
-    "id": 7,
+    "id": "7",
     "unique": "contextual-inquiry",
     "title": "Contextual Inquiry",
     "description": "Unobtrusively observe users in their own environments, occasionally asking clarifying questions. Use this method to discover how context influences users’ actual behaviors.",
     "category": "Evaluate",
-    "ratings": { "simplicity": 3, "effectiveness": 4 },
+    "ratings": { "simplicity": "3", "effectiveness": "4" },
     "time": "30-120 minutes",
-    "ms": 4500000,
-    "participants": ["User Exp.", "Users"],
+    "ms": "4500000",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": [
         "When the user frequently interacts with equipment or other people",
@@ -411,15 +411,15 @@
     ]
   },
   {
-    "id": 8,
+    "id": "8",
     "unique": "mobile-diaries",
     "title": "Mobile Diaries",
     "description": "One of the more advanced methods for deeper user research, mobile diaries enable understanding of details about users’ daily lives and help to uncover insights that would not be available with other methods.",
     "category": "Evaluate",
-    "ratings": { "simplicity": 2, "effectiveness": 5 },
+    "ratings": { "simplicity": "2", "effectiveness": "5" },
     "time": "2-4 weeks",
-    "ms": 1814400050,
-    "participants": ["User Exp.", "Users"],
+    "ms": "1814400050",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": [
         "When you need to observe people’s context and actions over time (e.g. when researching music listening or recycling during the day)",
@@ -479,15 +479,15 @@
     ]
   },
   {
-    "id": 9,
+    "id": "9",
     "unique": "desk-research",
     "title": "Desk Research",
     "description": "It may be essential for you to start your exploration with some reading and research to better understand the context of your design problem.",
     "category": "Evaluate",
-    "ratings": { "simplicity": 2, "effectiveness": 4 },
+    "ratings": { "simplicity": "2", "effectiveness": "4" },
     "time": "1-10 days",
-    "ms": 432000000,
-    "participants": ["User Exp."],
+    "ms": "432000000",
+    "participants": ["User Exp"],
     "basics": {
       "whens": [
         "When working with complex problems that require contextual knowledge",
@@ -531,15 +531,15 @@
     "documents": []
   },
   {
-    "id": 10,
+    "id": "10",
     "unique": "expert-interview",
     "title": "Expert Interview",
     "description": "To better understand your research problem - especially if it’s a complex, nuanced and specialize one - it might help to talk to some of the experts in the field. ",
     "category": "Evaluate",
-    "ratings": { "simplicity": 2, "effectiveness": 3 },
+    "ratings": { "simplicity": "2", "effectiveness": "3" },
     "time": "30-60 minutes each",
-    "ms": 2700000,
-    "participants": ["User Exp.", "Experts"],
+    "ms": "2700000",
+    "participants": ["User Exp", "Experts"],
     "basics": {
       "whens": [
         "When working with complex problems that require contextual knowledge",
@@ -587,15 +587,15 @@
     ]
   },
   {
-    "id": 11,
+    "id": "11",
     "unique": "netnography",
     "title": "Netnography",
     "description": "Simple and effective research method that involves immersing yourself in online communities dedicated to the topic of choice.",
     "category": "Evaluate",
-    "ratings": { "simplicity": 5, "effectiveness": 2 },
+    "ratings": { "simplicity": "5", "effectiveness": "2" },
     "time": "3 days",
-    "ms": 259200000,
-    "participants": ["User Exp."],
+    "ms": "259200000",
+    "participants": ["User Exp"],
     "basics": {
       "whens": [
         "For capturing user attitudes to real-world topics",
@@ -620,15 +620,15 @@
     "documents": []
   },
   {
-    "id": 12,
+    "id": "12",
     "unique": "mystery-shopping",
     "title": "Mystery Shopping",
     "description": "An established tactic for evaluating service quality and learning about competing products. It can also be highly effective for creating empathy for the user.",
     "category": "Evaluate",
-    "ratings": { "simplicity": 3, "effectiveness": 4 },
+    "ratings": { "simplicity": "3", "effectiveness": "4" },
     "time": "N/A",
-    "ms": 0,
-    "participants": ["User Exp."],
+    "ms": "0",
+    "participants": ["User Exp"],
     "basics": {
       "whens": [
         "For getting a first-hand experience of the user journey",
@@ -653,15 +653,15 @@
     "documents": []
   },
   {
-    "id": 13,
+    "id": "13",
     "unique": "mood-boards",
     "title": "Mood Boards",
     "description": "In the early stages of design you can ask users to create and describe a mood board consisting of text, quotes, images etc. to describe their relationship to the topic at hand.",
     "category": "Design",
-    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "ratings": { "simplicity": "4", "effectiveness": "3" },
     "time": "3-5 days",
-    "ms": 345600000,
-    "participants": ["User Exp.", "Users"],
+    "ms": "345600000",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": [
         "In the very beginning of your research phase",
@@ -700,15 +700,15 @@
     "documents": []
   },
   {
-    "id": 14,
+    "id": "14",
     "unique": "card-sorting",
     "title": "Card Sorting",
     "description": "Use this fast and easy method of organizing cards to generate insights on what’s important to your users as well as how they think about the problem.",
     "category": "Explore",
-    "ratings": { "simplicity": 5, "effectiveness": 3 },
+    "ratings": { "simplicity": "5", "effectiveness": "3" },
     "time": "30 minutes",
-    "ms": 180000,
-    "participants": ["User Exp.", "Users"],
+    "ms": "180000",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": [
         "During research phase to generate insights about what’s important for the users and how they think about the problem",
@@ -744,15 +744,15 @@
     "documents": []
   },
   {
-    "id": 15,
+    "id": "15",
     "unique": "personas",
     "title": "Personas",
     "description": "Personas are representations of archetypes of users that share similar knowledge, goals and behaviors. Good Personas are a result of thorough user research and help to keep design process connected to real people.",
     "category": "Explore",
-    "ratings": { "simplicity": 3, "effectiveness": 4 },
+    "ratings": { "simplicity": "3", "effectiveness": "4" },
     "time": "3-8 hours",
-    "ms": 18000000,
-    "participants": ["User Exp.", "Product Owners"],
+    "ms": "18000000",
+    "participants": ["User Exp", "Product Owners"],
     "basics": {
       "whens": [
         "After user research to synthesize findings",
@@ -805,15 +805,15 @@
     ]
   },
   {
-    "id": 16,
+    "id": "16",
     "unique": "empathy-mapping",
     "title": "Empathy Mapping",
     "description": "Creation of an Empathy Map is a collaborative exercise that helps to enhance an emotional picture of your users, as well as to create a shared empathy for them among team members.",
     "category": "Explore",
-    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "ratings": { "simplicity": "4", "effectiveness": "3" },
     "time": "30-90 minutes",
-    "ms": 3600000,
-    "participants": ["User Exp.", "Design"],
+    "ms": "3600000",
+    "participants": ["User Exp", "Design"],
     "basics": {
       "whens": [
         "Very early in design process, as a point of departure",
@@ -863,16 +863,16 @@
     "documents": [{ "title": "Empathy Map", "url": "empathy-map.pdf" }]
   },
   {
-    "id": 17,
+    "id": "17",
     "unique": "emotional-journey-mapping",
     "title": "Emotional Journey Mapping",
     "description": "Visualization of the total experience, including actions, thoughts and feelings, that users have to go through to accomplish a particular goal.",
     "category": "Explore",
-    "ratings": { "simplicity": 3, "effectiveness": 5 },
+    "ratings": { "simplicity": "3", "effectiveness": "5" },
     "time": "3-8 hours",
-    "ms": 18000000,
+    "ms": "18000000",
     "participants": [
-      "User Exp.",
+      "User Exp",
       "Design",
       "Stakeholders",
       "Product Owners",
@@ -940,15 +940,15 @@
     ]
   },
   {
-    "id": 18,
+    "id": "18",
     "unique": "mind-mapping",
     "title": "Mind Mapping",
     "description": "Mind maps help to organize information by association and provide a bird's-eye view of the design problem.",
     "category": "Imagine",
-    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "ratings": { "simplicity": "4", "effectiveness": "3" },
     "time": "1 hour",
-    "ms": 3600000,
-    "participants": ["User Exp.", "Design"],
+    "ms": "3600000",
+    "participants": ["User Exp", "Design"],
     "basics": {
       "whens": [
         "To structure and organize our thinking",
@@ -985,15 +985,15 @@
     "documents": []
   },
   {
-    "id": 19,
+    "id": "19",
     "unique": "aeiou-framework",
     "title": "A.E.I.O.U. Framework",
     "description": "One of the popular frameworks to bring structure to field research by helping to organize the context of inquiry. AEIOU stands for Activities, Environments, Interactions, Objects and Users.",
     "category": "Explore",
-    "ratings": { "simplicity": 3, "effectiveness": 3 },
+    "ratings": { "simplicity": "3", "effectiveness": "3" },
     "time": "30-120 minutes",
-    "ms": 5400000,
-    "participants": ["User Exp.", "Users"],
+    "ms": "5400000",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": ["For structuring field research and contextual inquiry"],
       "helps": [
@@ -1015,18 +1015,18 @@
     "documents": [{ "title": "AEIOU Worksheet", "url": "aeiou-worksheet.pdf" }]
   },
   {
-    "id": 20,
+    "id": "20",
     "unique": "poems-framework",
     "title": "P.O.E.M.S. Framework",
     "description": "One of the popular frameworks to bring structure to field research by helping to organize the context of inquiry. POEMS stands for People, Objects, Environments, Messages and Services.",
     "category": "Explore",
     "ratings": {
-      "simplicity": 3,
-      "effectiveness": 3
+      "simplicity": "3",
+      "effectiveness": "3"
     },
     "time": "30-120 minutes",
-    "ms": 5400000,
-    "participants": ["User Exp.", "Users"],
+    "ms": "5400000",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": ["For structuring field research and contextual inquiry"],
       "helps": [
@@ -1050,15 +1050,15 @@
     ]
   },
   {
-    "id": 21,
+    "id": "21",
     "unique": "content-audit",
     "title": "Content Audit",
     "description": "Content Audit is an exercise of making a big list of all available content and information on a site or in an application.",
     "category": "Explore",
-    "ratings": { "simplicity": 3, "effectiveness": 4 },
+    "ratings": { "simplicity": "3", "effectiveness": "4" },
     "time": "5-10 days",
-    "ms": 691200000,
-    "participants": ["User Exp."],
+    "ms": "691200000",
+    "participants": ["User Exp"],
     "basics": {
       "whens": [
         "As a first step to understand a content-heavy website",
@@ -1112,15 +1112,15 @@
     ]
   },
   {
-    "id": 22,
+    "id": "22",
     "unique": "design-thinking-workshop",
     "title": "Design Thinking Workshop",
     "description": "Design Thinking Workshops are great for kick-starting projects and demonstrating to stakeholders how Human-Centered Design works.",
     "category": "Imagine",
-    "ratings": { "simplicity": 3, "effectiveness": 3 },
+    "ratings": { "simplicity": "3", "effectiveness": "3" },
     "time": "4-16 hours",
-    "ms": 36000000,
-    "participants": ["User Exp.", "Stakeholders"],
+    "ms": "36000000",
+    "participants": ["User Exp", "Stakeholders"],
     "basics": {
       "whens": [
         "To kick-start new design projects",
@@ -1173,15 +1173,15 @@
     "documents": []
   },
   {
-    "id": 23,
+    "id": "23",
     "unique": "product-love-letters",
     "title": "Product Love Letters",
     "description": "A fun and exciting way to understand how users feel about the products they use, in which you simply ask them to write either  a love letter or a break-up letter to their product, listing all the reasons for doing so.",
     "category": "Evaluate",
-    "ratings": { "simplicity": 5, "effectiveness": 4 },
+    "ratings": { "simplicity": "5", "effectiveness": "4" },
     "time": "15-30 minutes each",
-    "ms": 1200000,
-    "participants": ["User Exp.", "Users"],
+    "ms": "1200000",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": [
         "For understanding how users feel about the products they use",
@@ -1210,18 +1210,18 @@
     "documents": []
   },
   {
-    "id": 24,
+    "id": "24",
     "unique": "task-analysis",
     "title": "Task Analysis",
     "description": "Analyzing key tasks that users are trying to accomplish with your system. Together with Analytics and Content Audit, it is a powerful and a necessary step for any site (re-)design projects.",
     "category": "Evaluate",
     "ratings": {
-      "simplicity": 2,
-      "effectiveness": 4
+      "simplicity": "2",
+      "effectiveness": "4"
     },
     "time": "N/A",
-    "ms": 0,
-    "participants": ["User Exp."],
+    "ms": "0",
+    "participants": ["User Exp"],
     "basics": {
       "whens": [
         "For understanding key most important tasks the user aims to accomplish with your system",
@@ -1245,19 +1245,19 @@
     "documents": []
   },
   {
-    "id": 25,
+    "id": "25",
     "unique": "web-analytics",
     "title": "Web Analytics",
     "description": "Looking at web analytics will give you lots of information on everything from underperforming pages to most popular sections. It’s especially valuable for funnel-based websites.",
     "category": "Evaluate",
     "ratings": {
-      "simplicity": 2,
-      "effectiveness": 5
+      "simplicity": "2",
+      "effectiveness": "5"
     },
     "time": "N/A",
-    "ms": 0,
+    "ms": "0",
     "participants": [
-      "User Exp.",
+      "User Exp",
       "Product Owners",
       "Quality Assurance",
       "Development"
@@ -1308,18 +1308,18 @@
     ]
   },
   {
-    "id": 26,
+    "id": "26",
     "unique": "how-might-we",
     "title": "“How might we…” Questions",
     "description": "Insights generated during initial research are best summarized in the form of “How might we…”. It’s constructive, as it implies that there’s a solution without suggesting what the solution might be.",
     "category": "Imagine",
     "ratings": {
-      "simplicity": 5,
-      "effectiveness": 4
+      "simplicity": "5",
+      "effectiveness": "4"
     },
     "time": "30 minutes",
-    "ms": 1800000,
-    "participants": ["User Exp.", "Design"],
+    "ms": "1800000",
+    "participants": ["User Exp", "Design"],
     "basics": {
       "whens": [
         "When synthesizing results of the research phase to provide input for the ideation phase"
@@ -1356,16 +1356,16 @@
     ]
   },
   {
-    "id": 27,
+    "id": "27",
     "unique": "crazy-8",
     "title": "Crazy 8s",
     "description": "Simple ideation method for capturing a wide range of diverse ideas. Could be done individually or in a group.",
     "category": "Imagine",
-    "ratings": { "simplicity": 5, "effectiveness": 4 },
+    "ratings": { "simplicity": "5", "effectiveness": "4" },
     "time": "30 minutes",
-    "ms": 18000000,
+    "ms": "18000000",
     "participants": [
-      "User Exp.",
+      "User Exp",
       "Design",
       "Stakeholders",
       "Product Owners",
@@ -1421,18 +1421,18 @@
     "documents": [{ "title": "Crazy 8s Canvas", "url": "crazy-8s-canvas.pdf" }]
   },
   {
-    "id": 28,
+    "id": "28",
     "unique": "affinity-mapping",
     "title": "Affinity Mapping",
     "description": "One of the simplest and most universal techniques for generating and synthesizing ideas into common themes and insights. Affinity mapping is a collaborative brainstorming exercise.",
     "category": "Imagine",
     "ratings": {
-      "simplicity": 5,
-      "effectiveness": 4
+      "simplicity": "5",
+      "effectiveness": "4"
     },
     "time": "15 minutes",
-    "ms": 900000,
-    "participants": ["User Exp."],
+    "ms": "900000",
+    "participants": ["User Exp"],
     "basics": {
       "whens": [
         "When synthesizing research results",
@@ -1483,16 +1483,16 @@
     ]
   },
   {
-    "id": 29,
+    "id": "29",
     "unique": "dot-voting",
     "title": "Dot Voting",
     "description": "Dead-simple and powerful technique for making decisions quickly and transparently without excessive discussions, politics and power struggles.",
     "category": "Explore",
-    "ratings": { "simplicity": 5, "effectiveness": 5 },
+    "ratings": { "simplicity": "5", "effectiveness": "5" },
     "time": "5 minutes",
-    "ms": 300000,
+    "ms": "300000",
     "participants": [
-      "User Exp.",
+      "User Exp",
       "Design",
       "Stakeholders",
       "Product Owners",
@@ -1534,15 +1534,15 @@
     "documents": []
   },
   {
-    "id": 30,
+    "id": "30",
     "unique": "concept-monsters",
     "title": "Concept Monsters",
     "description": "Concept Monsters is a fun ideation exercise where you push yourself to think of radical new ideas by combining two or more concepts from unrelated fields (e.g. what could the LinkedIn of animals look like)?",
     "category": "Imagine",
-    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "ratings": { "simplicity": "4", "effectiveness": "3" },
     "time": "30-60 minutes",
-    "ms": 2700000,
-    "participants": ["User Exp.", "Design", "Product Owners"],
+    "ms": "2700000",
+    "participants": ["User Exp", "Design", "Product Owners"],
     "basics": {
       "whens": [
         "To generate brave, new, disruptive ideas",
@@ -1579,15 +1579,15 @@
     "documents": []
   },
   {
-    "id": 31,
+    "id": "31",
     "unique": "sketching",
     "title": "Sketching",
     "description": "Sketches are easy to produce and allow for quick visualization, testing and de-risking of ideas with users and the team before development starts and resources are committed.",
     "category": "Explore",
-    "ratings": { "simplicity": 5, "effectiveness": 4 },
+    "ratings": { "simplicity": "5", "effectiveness": "4" },
     "time": "30 minutes",
-    "ms": 1800000,
-    "participants": ["User Exp.", "Design", "Product Owners"],
+    "ms": "1800000",
+    "participants": ["User Exp", "Design", "Product Owners"],
     "basics": {
       "whens": [
         "When exploring early ideas and concepts with your team",
@@ -1640,15 +1640,15 @@
     "documents": [{ "title": "Sketching Canvases", "url": "file.pdf" }]
   },
   {
-    "id": 32,
+    "id": "32",
     "unique": "story-boarding",
     "title": "Story Boarding",
     "description": "Technique used by filmmakers to visualize the experience. Best used in combination with Emotional Journey Map to create empathy for the user, or as a prototype of a new service-based experience.",
     "category": "Explore",
-    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "ratings": { "simplicity": "4", "effectiveness": "3" },
     "time": "30-90 minutes",
-    "ms": 3600000,
-    "participants": ["User Exp.", "Design", "Product Owners"],
+    "ms": "3600000",
+    "participants": ["User Exp", "Design", "Product Owners"],
     "basics": {
       "whens": [
         "To visualize results of user research or after ideation",
@@ -1700,15 +1700,15 @@
     ]
   },
   {
-    "id": 33,
+    "id": "33",
     "unique": "role-play",
     "title": "Role-Play",
     "description": "Through role-play, you can rapidly test ideas and interactions to get feedback. Just pretend what it would be like to interact with that branch employee or even that sign up form in real life!",
     "category": "Explore",
-    "ratings": { "simplicity": 4, "effectiveness": 2 },
+    "ratings": { "simplicity": "4", "effectiveness": "2" },
     "time": "10 minutes",
-    "ms": 600000,
-    "participants": ["User Exp.", "Design"],
+    "ms": "600000",
+    "participants": ["User Exp", "Design"],
     "basics": {
       "whens": [
         "To communicate what the current experience looks like",
@@ -1749,15 +1749,15 @@
     "documents": []
   },
   {
-    "id": 34,
+    "id": "34",
     "unique": "future-trends-workshop",
     "title": "Future Trends Workshop",
     "description": "To ensure that you’re designing for the future, get together with your team and immediate stakeholders to identify key future trends that will be driving your industry.",
     "category": "Imagine",
-    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "ratings": { "simplicity": "4", "effectiveness": "3" },
     "time": "60-90 minutes",
-    "ms": 4500000,
-    "participants": ["User Exp.", "Product Owners", "Design"],
+    "ms": "4500000",
+    "participants": ["User Exp", "Product Owners", "Design"],
     "basics": {
       "whens": ["After initial research to set context for the ideation phase"],
       "helps": [
@@ -1799,15 +1799,15 @@
     ]
   },
   {
-    "id": 35,
+    "id": "35",
     "unique": "usability-testing",
     "title": "Usability Testing",
     "description": "Watch, listen and take notes as participants interact with your prototype, trying to complete typical tasks. Testing with just 5 users uncovers 80% of usability problems and it can be done quickly and easily with basic resources.",
     "category": "Evaluate",
-    "ratings": { "simplicity": 3, "effectiveness": 5 },
+    "ratings": { "simplicity": "3", "effectiveness": "5" },
     "time": "30-60 minutes",
-    "ms": 2700000,
-    "participants": ["User Exp.", "Users"],
+    "ms": "2700000",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": [
         "As soon as the initial mock-ups are available",
@@ -1868,15 +1868,15 @@
     ]
   },
   {
-    "id": 36,
+    "id": "36",
     "unique": "expert-usability-review",
     "title": "Expert Usability Review",
     "description": "An experienced UX practitioner evaluates usability of the product to quickly identify the biggest and most common usability issues.",
     "category": "Evaluate",
-    "ratings": { "simplicity": 3, "effectiveness": 3 },
+    "ratings": { "simplicity": "3", "effectiveness": "3" },
     "time": "30-90 minutes",
-    "ms": 3600000,
-    "participants": ["User Exp."],
+    "ms": "3600000",
+    "participants": ["User Exp"],
     "basics": {
       "whens": [
         "To quickly evaluate THE most common usability issues",
@@ -1936,15 +1936,15 @@
     ]
   },
   {
-    "id": 37,
+    "id": "37",
     "unique": "concept-testing",
     "title": "Concept Testing",
     "description": "Get rapid feedback on various concept ideas by spontaneously finding potential users and presenting to them an approximation of essential features of the final solution.",
     "category": "Explore",
-    "ratings": { "simplicity": 3, "effectiveness": 3 },
+    "ratings": { "simplicity": "3", "effectiveness": "3" },
     "time": "30-90 minutes",
-    "ms": 3600000,
-    "participants": ["User Exp.", "Users"],
+    "ms": "3600000",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": [
         "When working on a new, untested product",
@@ -2000,15 +2000,15 @@
     ]
   },
   {
-    "id": 38,
+    "id": "38",
     "unique": "physical-prototyping",
     "title": "Physical Prototyping",
     "description": "There’s a range of prototyping tools available if you’re looking to create a mock-up of a physical product or environment.",
     "category": "Explore",
-    "ratings": { "simplicity": 2, "effectiveness": 4 },
+    "ratings": { "simplicity": "2", "effectiveness": "4" },
     "time": "15 minutes",
-    "ms": 900000,
-    "participants": ["User Exp.", "Design", "Product Owners"],
+    "ms": "900000",
+    "participants": ["User Exp", "Design", "Product Owners"],
     "basics": {
       "whens": [
         "When you’re looking to test a hypotheses or ideate around a physical space or an object"
@@ -2046,15 +2046,15 @@
     "documents": []
   },
   {
-    "id": 39,
+    "id": "39",
     "unique": "value-proposition",
     "title": "Value Proposition",
     "description": "Value Proposition is a simple statement that reflects the core reason why your customers should chose your product and how it’s different from competition.",
     "category": "Design",
-    "ratings": { "simplicity": 3, "effectiveness": 5 },
+    "ratings": { "simplicity": "3", "effectiveness": "5" },
     "time": "N/A",
-    "ms": 0,
-    "participants": ["User Exp.", "Design", "Leadership"],
+    "ms": "0",
+    "participants": ["User Exp", "Design", "Leadership"],
     "basics": {
       "whens": [
         "To bring clarity and alignment to the team",
@@ -2109,15 +2109,15 @@
     ]
   },
   {
-    "id": 40,
+    "id": "40",
     "unique": "brand-pitch",
     "title": "Brand Pitch",
     "description": "If you truly want to stand out from the noise, it’s not enough to just have a good product and a delightful experience. You need to tell a story - it will become the foundation of your brand.",
     "category": "Design",
-    "ratings": { "simplicity": 2, "effectiveness": 3 },
+    "ratings": { "simplicity": "2", "effectiveness": "3" },
     "time": "60 minutes",
-    "ms": 3600000,
-    "participants": ["User Exp.", "Design", "Product Owners", "Leadership"],
+    "ms": "3600000",
+    "participants": ["User Exp", "Design", "Product Owners", "Leadership"],
     "basics": {
       "whens": [
         "After you’ve truly and deeply understood the problem and the functional, social and emotional needs of users",
@@ -2157,16 +2157,16 @@
     ]
   },
   {
-    "id": 41,
+    "id": "41",
     "unique": "site-map",
     "title": "Site Map",
     "description": "Site maps are useful in demonstrating the overall structure of your site or app, as well as the intended user flows. It’s usually considered to be one of the key design artifacts and is used by business and development.",
     "category": "Explore",
-    "ratings": { "simplicity": 2, "effectiveness": 5 },
+    "ratings": { "simplicity": "2", "effectiveness": "5" },
     "time": "N/A",
-    "ms": 0,
+    "ms": "0",
     "participants": [
-      "User Exp.",
+      "User Exp",
       "Design",
       "Stakeholders",
       "Product Owners",
@@ -2216,15 +2216,15 @@
     "documents": []
   },
   {
-    "id": 42,
+    "id": "42",
     "unique": "eye-tracking",
     "title": "Eye Tracking",
     "description": "An advanced usability testing technique for identifying where on the page your users are looking while interacting with your service.",
     "category": "Evaluate",
-    "ratings": { "simplicity": 1, "effectiveness": 3 },
+    "ratings": { "simplicity": "1", "effectiveness": "3" },
     "time": "",
-    "ms": 0,
-    "participants": ["User Exp.", "Users"],
+    "ms": "0",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": [
         "In later and more advanced usability testing sessions",
@@ -2252,15 +2252,15 @@
     "documents": []
   },
   {
-    "id": 43,
+    "id": "43",
     "unique": "net-promoter-score",
     "title": "Net Promoter Score",
     "description": "Net Promoter Score (NPS) is a widespread proxy metric for measuring how your customers feel about your product or service overall.",
     "category": "Evaluate",
-    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "ratings": { "simplicity": "4", "effectiveness": "3" },
     "time": "",
-    "ms": 0,
-    "participants": ["User Exp.", "Users"],
+    "ms": "0",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": [
         "To measure how our customers feel about our products",
@@ -2307,15 +2307,15 @@
     ]
   },
   {
-    "id": 44,
+    "id": "44",
     "unique": "time-on-task",
     "title": "Time On Task",
     "description": "Understanding how long something takes is straightforward, which is why Time on Task is one of the core usability metrics.",
     "category": "Evaluate",
-    "ratings": { "simplicity": 2, "effectiveness": 4 },
+    "ratings": { "simplicity": "2", "effectiveness": "4" },
     "time": "15 minutes each",
-    "ms": 900000,
-    "participants": ["User Exp.", "Users"],
+    "ms": "900000",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": [
         "When assessing usability of our system",
@@ -2342,15 +2342,15 @@
     "documents": []
   },
   {
-    "id": 45,
+    "id": "45",
     "unique": "ab-testing",
     "title": "A/B Testing",
     "description": "A technique for randomly splitting the traffic to your service and showing each stream a slightly different version to determine which one performs better.",
     "category": "Evaluate",
-    "ratings": { "simplicity": 2, "effectiveness": 3 },
+    "ratings": { "simplicity": "2", "effectiveness": "3" },
     "time": "",
-    "ms": 0,
-    "participants": ["User Exp.", "Users"],
+    "ms": "0",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": [
         "When needing to compare two versions of the same variable",
@@ -2394,20 +2394,20 @@
     "documents": []
   },
   {
-    "id": 46,
+    "id": "46",
     "unique": "user-stories",
     "title": "User Stories",
     "description": "De-facto format of communicating requirements within agile teams.",
     "category": "Explore",
-    "ratings": { "simplicity": 4, "effectiveness": 2 },
+    "ratings": { "simplicity": "4", "effectiveness": "2" },
     "time": "2-4 hours",
-    "ms": 10800000,
+    "ms": "10800000",
     "participants": [
-      "User Exp.",
+      "User Exp",
       "Product Owners",
       "Stakeholders",
       "Development",
-      "Project Management"
+      "Project Managers"
     ],
     "basics": {
       "whens": [
@@ -2427,18 +2427,20 @@
     },
     "keywords": ["Strategy"],
     "instructions": [],
-    "documents": [{ "title": "User Story Worksheet", "url": "user-story-worksheet.pdf" }]
+    "documents": [
+      { "title": "User Story Worksheet", "url": "user-story-worksheet.pdf" }
+    ]
   },
   {
-    "id": 47,
+    "id": "47",
     "unique": "style-guide",
     "title": "Style Guide and Design System",
     "description": "Detailed descriptions of UI elements for alignment and consistency between product teams.",
     "category": "Design",
-    "ratings": { "simplicity": 2, "effectiveness": 4 },
+    "ratings": { "simplicity": "2", "effectiveness": "4" },
     "time": "3-5 days",
-    "ms": 345600000,
-    "participants": ["User Exp.", "Design", "Development"],
+    "ms": "345600000",
+    "participants": ["User Exp", "Design", "Development"],
     "basics": {
       "whens": [
         "When several design teams are working in parallel",
@@ -2460,15 +2462,15 @@
     "documents": [{ "title": "Style Guide", "url": "file.pdf" }]
   },
   {
-    "id": 48,
+    "id": "48",
     "unique": "user-interface-design",
     "title": "User Interface Design",
     "description": "Use a tool like Sketch or Photoshop to create high quality “final” visual User Interface (UI) designs of your solution.",
     "category": "Design",
-    "ratings": { "simplicity": 1, "effectiveness": 5 },
+    "ratings": { "simplicity": "1", "effectiveness": "5" },
     "time": "1-30 days",
-    "ms": 1296000000,
-    "participants": ["User Exp.", "Design", "Product Owners"],
+    "ms": "1296000000",
+    "participants": ["User Exp", "Design", "Product Owners"],
     "basics": {
       "whens": [
         "To bring your designs to their “final” form",
@@ -2514,15 +2516,15 @@
     "documents": []
   },
   {
-    "id": 49,
+    "id": "49",
     "unique": "responsive-design",
     "title": "Responsive Design",
     "description": "In the age of device proliferation, it is imperative to consider the use-cases and the quality of experience on various devices. Responsive Design is the most common approach.",
     "category": "Design",
-    "ratings": { "simplicity": 2, "effectiveness": 5 },
+    "ratings": { "simplicity": "2", "effectiveness": "5" },
     "time": "N/A",
-    "ms": 0,
-    "participants": ["User Exp.", "Design"],
+    "ms": "0",
+    "participants": ["User Exp", "Design"],
     "basics": {
       "whens": [
         "For Usability Testing of the “final” concept to determine how the content should look like on various devices"
@@ -2544,15 +2546,15 @@
     "documents": []
   },
   {
-    "id": 50,
+    "id": "50",
     "unique": "system-usability-scale",
     "title": "System Usability Scale",
     "description": "Industry standard for quickly and effectively measuring if a system is usable in a general sense.",
     "category": "Evaluate",
-    "ratings": { "simplicity": 4, "effectiveness": 3 },
+    "ratings": { "simplicity": "4", "effectiveness": "3" },
     "time": "15 minutes",
-    "ms": 900000,
-    "participants": ["User Exp.", "Users"],
+    "ms": "900000",
+    "participants": ["User Exp", "Users"],
     "basics": {
       "whens": [
         "For measuring and quantifying usability of your system",
@@ -2585,8 +2587,14 @@
       }
     ],
     "documents": [
-      { "title": "System Usability Scale Test Template", "url": "system-usability-scale-test.pdf" },
-      { "title": "System Usability Scale Score Analyzer", "url": "system-usability-scale-score-analyzer.pdf" }
+      {
+        "title": "System Usability Scale Test Template",
+        "url": "system-usability-scale-test.pdf"
+      },
+      {
+        "title": "System Usability Scale Score Analyzer",
+        "url": "system-usability-scale-score-analyzer.pdf"
+      }
     ]
   }
 ]

@@ -1,6 +1,6 @@
-import React from "react";
-import { Accordion } from "./Accordion";
-import { Rating } from "./Rating";
+import React from 'react';
+import { Accordion } from './Accordion';
+import { Rating } from './Rating';
 
 class MethodCard extends React.Component {
   render() {
@@ -75,11 +75,11 @@ class MethodCard extends React.Component {
                     </tr>
                     <tr>
                       <th scope="row">Participants</th>
-                      <td className="text-right">{participants.join(", ")}</td>
+                      <td className="text-right">{participants.join(', ')}</td>
                     </tr>
                     <tr>
                       <th scope="row">Keywords</th>
-                      <td className="text-right">{keywords.join(", ")}</td>
+                      <td className="text-right">{keywords.join(', ')}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -90,53 +90,61 @@ class MethodCard extends React.Component {
                 <br />
                 <div className="accordion">
                   <Accordion title="Basics" unique={`${unique}-basic`}>
-                    <div className="card-method-basics-whens">
-                      <h5>When to use:</h5>
-                      <ul>
-                        {basics.whens.map((w, index) => (
-                          <li key={index}>{w}</li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div className="card-method-basics-helps">
-                      <h5>Helps to answer:</h5>
-                      <ul>
-                        {basics.helps.map((h, index) => (
-                          <li key={index}>{h}</li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div className="card-method-basics-tips">
-                      <h5>Tips:</h5>
-                      <ul>
-                        {basics.tips.map((t, index) => (
-                          <li key={index}>{t}</li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div className="card-method-basics-resources">
-                      <h5>Resources:</h5>
-                      <ul>
-                        {basics.resources.map((r, index) => (
-                          <li key={index}>{r}</li>
-                        ))}
-                        {documents.map((d, index) => (
-                          <li key={index}>
-                            <a
-                              href={
-                                d.url == "file.pdf"
-                                  ? null
-                                  : `/documents/${d.url}`
-                              }
-                              target="_blank"
-                              rel="noreferrer noopener"
-                            >
-                              {d.title}
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+                    {basics.whens.length > 0 ? (
+                      <div className="card-method-basics-whens">
+                        <h5>When to use:</h5>
+                        <ul>
+                          {basics.whens.map((w, index) => (
+                            <li key={index}>{w}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    ) : null}
+                    {basics.helps.length > 0 ? (
+                      <div className="card-method-basics-helps">
+                        <h5>Helps to answer:</h5>
+                        <ul>
+                          {basics.helps.map((h, index) => (
+                            <li key={index}>{h}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    ) : null}
+                    {basics.tips.length > 0 ? (
+                      <div className="card-method-basics-tips">
+                        <h5>Tips:</h5>
+                        <ul>
+                          {basics.tips.map((t, index) => (
+                            <li key={index}>{t}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    ) : null}
+                    {basics.resources.length > 0 ? (
+                      <div className="card-method-basics-resources">
+                        <h5>Resources:</h5>
+                        <ul>
+                          {basics.resources.map((r, index) => (
+                            <li key={index}>{r}</li>
+                          ))}
+                          {documents.map((d, index) => (
+                            <li key={index}>
+                              <a
+                                href={
+                                  d.url === 'file.pdf'
+                                    ? null
+                                    : `/documents/${d.url}`
+                                }
+                                target="_blank"
+                                rel="noreferrer noopener"
+                              >
+                                {d.title}
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ) : null}
                   </Accordion>
                   {instructions.length > 0 ? (
                     <Accordion title="Instructions" unique={`${unique}-ins`}>

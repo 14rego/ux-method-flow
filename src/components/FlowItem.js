@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
 class FlowItem extends React.Component {
   render() {
     const { itemObj } = this.props;
     return (
       <div className="row">
-        {itemObj.Type != "Suggestion" ? (
+        {itemObj.Type !== 'Suggestion' ? (
           <div className="col-12">
             <p className="h4 card-title">{itemObj.Que}</p>
           </div>

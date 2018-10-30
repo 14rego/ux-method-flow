@@ -1,0 +1,90 @@
+[
+  {
+    "type": "category",
+    "value": "Imagine"
+  },
+  {
+    "type": "category",
+    "value": "Explore"
+  },
+  {
+    "type": "category",
+    "value": "Design"
+  },
+  {
+    "type": "category",
+    "value": "Evaluate"
+  },
+  {
+    "type": "keyword",
+    "value": "Brainstorming"
+  },
+  {
+    "type": "keyword",
+    "value": "Concept"
+  },
+  {
+    "type": "keyword",
+    "value": "Design"
+  },
+  {
+    "type": "keyword",
+    "value": "Framework"
+  },
+  {
+    "type": "keyword",
+    "value": "Environment"
+  },
+  {
+    "type": "keyword",
+    "value": "Qualitative"
+  },
+  {
+    "type": "keyword",
+    "value": "Quantitative"
+  },
+  {
+    "type": "keyword",
+    "value": "Research"
+  },
+  {
+    "type": "keyword",
+    "value": "Strategy"
+  },
+  {
+    "type": "keyword",
+    "value": "Workshop"
+  },
+  {
+    "type": "role",
+    "value": "User-Exp"
+  },
+  {
+    "type": "role",
+    "value": "Design"
+  },
+  {
+    "type": "role",
+    "value": "Stakeholders"
+  },
+  {
+    "type": "role",
+    "value": "Product-Owners"
+  },
+  {
+    "type": "role",
+    "value": "Experts"
+  },
+  {
+    "type": "role",
+    "value": "Leadership"
+  },
+  {
+    "type": "role",
+    "value": "Users"
+  },
+  {
+    "type": "role",
+    "value": "Project-Managers"
+  }
+]

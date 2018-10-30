@@ -1,41 +1,42 @@
 {
   "name": "ux-method-flow",
   "version": "1.0.0",
-  "description": "An flow to teach and guide you through UX methods",
-  "main": "src/App.js",
-  "scripts": {
-    "test": "",
-    "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "dev": "parcel src/index.html"
-  },
+  "description": "A flow to teach and guide you through UX methods",
+  "author": "Regan Bourland <regan.leah@gmail.com>",
+  "license": "Apache-2.0",
+  "homepage": "https://bitbucket.org/14rego/ux-method-flow/src/master/README.md",
   "repository": {
     "type": "git",
     "url": "https://bitbucket.org/14rego/ux-method-flow"
   },
-  "author": "Regan Bourland <regan.leah@gmail.com>",
-  "license": "Apache-2.0",
   "bugs": {
     "url": "https://bitbucket.org/14rego/ux-method-flow/issues"
   },
-  "homepage": "https://bitbucket.org/14rego/ux-method-flow/src/master/README.md",
+  "keywords": [
+    "gatsby",
+    "user experience",
+    "UX Methods"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.6",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "eslint": "^5.3.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.10.0",
-    "parcel-bundler": "^1.9.7",
     "prettier": "^1.14.2"
   },
   "dependencies": {
-    "@reach/router": "^1.1.1",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "gatsby": "^2.0.34",
+    "gatsby-cli": "^2.4.4",
+    "gatsby-plugin-manifest": "^2.0.7",
+    "gatsby-plugin-offline": "^2.0.10",
+    "gatsby-plugin-react-helmet": "^3.0.1",
+    "gatsby-source-filesystem": "^2.0.6",
+    "gatsby-transformer-json": "^2.1.5",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-helmet": "^5.2.0",
+    "reactstrap": "^6.5.0"
   }
 }

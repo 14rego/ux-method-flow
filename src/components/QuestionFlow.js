@@ -1,9 +1,9 @@
-import React from "react";
-import QuestionList from "./questions.json";
-import FlowItem from "./FlowItem";
-import FlowOption from "./FlowOption";
-import MethodCardList from "./MethodCardList";
-import { Card } from "./Card";
+import React from 'react';
+import QuestionList from '../data/questions/questions.json';
+import FlowItem from './FlowItem';
+import FlowOption from './FlowOption';
+import MethodCardList from './MethodCardList';
+import { Card } from './Card';
 
 class QuestionFlow extends React.Component {
   constructor(props) {
@@ -12,7 +12,7 @@ class QuestionFlow extends React.Component {
       qs: QuestionList,
       currentQuestion: 0,
       selections: [],
-      selectionString: "",
+      selectionString: '',
       suggestions: []
     };
   }
@@ -23,7 +23,7 @@ class QuestionFlow extends React.Component {
     this.setState({
       currentQuestion: 0,
       selections: [],
-      selectionString: "",
+      selectionString: '',
       suggestions: []
     });
   };
@@ -44,7 +44,7 @@ class QuestionFlow extends React.Component {
   setSuggestions = suggest => {
     let suggestionList = [];
     if (suggest) {
-      suggestionList = suggest.split(",");
+      suggestionList = suggest.split(',');
     }
     this.setState({ suggestions: suggestionList });
   };
@@ -54,7 +54,7 @@ class QuestionFlow extends React.Component {
     this.setState({ selections: selectionArr });
   };
   buildSelectionString = () => {
-    let selectionStr = "";
+    let selectionStr = '';
     this.state.selections.forEach(function(sel) {
       selectionStr += sel.substring(0, 1);
     });
@@ -63,7 +63,7 @@ class QuestionFlow extends React.Component {
   filterByID = arr => {
     let id = arr.ID,
       str = this.state.selectionString.substring(0, arr.Level);
-    return id == str || arr.Level == 0;
+    return id === str || arr.Level === 0;
   };
   render() {
     return (
@@ -82,7 +82,7 @@ class QuestionFlow extends React.Component {
             </p>
           </div>
           <div className="col-sm-2">
-            {" "}
+            {' '}
             <p className="text-right">
               <button
                 className="btn btn-outline-danger pull-right"
@@ -97,7 +97,8 @@ class QuestionFlow extends React.Component {
         {this.state.qs
           .filter(pq => pq.Level < this.state.currentQuestion)
           .filter(
-            pq => pq.Val == this.state.selections[pq.Level - 1] || pq.Level == 0
+            pq =>
+              pq.Val === this.state.selections[pq.Level - 1] || pq.Level === 0
           )
           .filter(this.filterByID)
           .map(pq => {
@@ -114,11 +115,11 @@ class QuestionFlow extends React.Component {
           })}
         {/* Current question: proper level && Val == last selected && child of last question */}
         {this.state.qs
-          .filter(qlist => qlist.Level == this.state.currentQuestion)
+          .filter(qlist => qlist.Level === this.state.currentQuestion)
           .filter(
             qlist =>
-              qlist.Val == this.state.selections[qlist.Level - 1] ||
-              this.state.currentQuestion == 0
+              qlist.Val === this.state.selections[qlist.Level - 1] ||
+              this.state.currentQuestion === 0
           )
           .filter(this.filterByID)
           .map(qlist => {
@@ -126,12 +127,13 @@ class QuestionFlow extends React.Component {
               <div key={qlist.ID}>
                 <Card>
                   <FlowItem itemObj={qlist} />
-                  {qlist.Type != "Suggestion" ? (
+                  {qlist.Type !== 'Suggestion' ? (
                     <div className="row">
                       {this.state.qs
-                        .filter(olist => olist.ID.indexOf(qlist.ID) == 0)
+                        .filter(olist => olist.ID.indexOf(qlist.ID) === 0)
                         .filter(
-                          olist => olist.Level == this.state.currentQuestion + 1
+                          olist =>
+                            olist.Level === this.state.currentQuestion + 1
                         )
                         .map(olist => {
                           return (
@@ -147,13 +149,13 @@ class QuestionFlow extends React.Component {
                     </div>
                   ) : null}
                 </Card>
-                {qlist.Type == "Suggestion" ? (
+                {qlist.Type === 'Suggestion' ? (
                   <MethodCardList fSuggest={this.state.suggestions} />
                 ) : null}
               </div>
             );
           })}
-        {this.state.currentQuestion == 0 ? (
+        {this.state.currentQuestion === 0 ? (
           <MethodCardList fSuggest={this.state.suggestions} />
         ) : null}
       </div>

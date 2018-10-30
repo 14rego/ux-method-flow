@@ -1,6 +1,6 @@
-import React from "react";
-import MethodCard from "./MethodCard";
-import MethodList from "./methods.json";
+import React from 'react';
+import MethodCard from './MethodCard';
+import MethodList from '../data/methods/methods.json';
 
 class MethodCardList extends React.Component {
   constructor(props) {
@@ -33,20 +33,20 @@ class MethodCardList extends React.Component {
   filterCards = () => {
     this.setState({ theseCards: MethodList });
     let filtered = this.state.theseCards;
-    if (this.state.fEffective != undefined) {
+    if (this.state.fEffective !== undefined) {
       filtered = this.state.theseCards.filter(card => {
         return card.ratings.effectiveness >= this.state.fEffective;
       });
-    } else if (this.state.fKey != undefined) {
+    } else if (this.state.fKey !== undefined) {
       filtered = this.state.theseCards.filter(card => {
         return card.keywords.indexOf(this.state.fKey) >= 0;
       });
-    } else if (this.state.fRole != undefined) {
+    } else if (this.state.fRole !== undefined) {
       filtered = this.state.theseCards.filter(card => {
-        let replaced = this.state.fRole.replace("-", " ");
+        let replaced = this.state.fRole.replace('-', ' ');
         return card.participants.indexOf(replaced) >= 0;
       });
-    } else if (this.state.fSearch != undefined) {
+    } else if (this.state.fSearch !== undefined) {
       filtered = this.state.theseCards.filter(card => {
         let flag = false,
           title = card.title.toLowerCase(),
@@ -59,16 +59,16 @@ class MethodCardList extends React.Component {
         }
         return flag;
       });
-    } else if (this.state.fSimple != undefined) {
+    } else if (this.state.fSimple !== undefined) {
       filtered = this.state.theseCards.filter(card => {
         return card.ratings.simplicity <= this.state.fSimple;
       });
-    } else if (this.state.fCat != undefined) {
+    } else if (this.state.fCat !== undefined) {
       filtered = this.state.theseCards.filter(card => {
         return card.category === this.state.fCat;
       });
     } else if (
-      this.state.fSuggest != undefined &&
+      this.state.fSuggest !== undefined &&
       this.state.fSuggest.length > 1
     ) {
       filtered = [];
@@ -77,7 +77,7 @@ class MethodCardList extends React.Component {
           filtered.push(this.state.theseCards[index]);
         }
       });
-    } else if (this.state.fUnique != undefined) {
+    } else if (this.state.fUnique !== undefined) {
       filtered = this.state.theseCards.filter(card => {
         return card.unique === this.state.fUnique;
       });
@@ -89,7 +89,7 @@ class MethodCardList extends React.Component {
     return (
       <div className="method-list">
         <br />
-        {this.state.theseCards.length == 1 ? null : (
+        {this.state.theseCards.length === 1 ? null : (
           <h1>{this.state.theseCards.length} Methods</h1>
         )}
 
